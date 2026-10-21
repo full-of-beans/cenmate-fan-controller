@@ -1,0 +1,20 @@
+Category,Reference,Manufacturer,MPN,Qty installed,Recommended buy,Package/notes,Status
+MCU,U1,Seeed Studio,102010550,1,1,XIAO RP2350 module no headers,Selected
+DC/DC,U2,TRACO Power,TSR 0.5-2450,1,1,12V to 5V 500mA THT,Selected
+Power diode,D1,STMicroelectronics,STPS1L40ZF,1,2,SOD-123F 40V 1A Schottky USB isolation not verified,Provisional
+Power monitor,U3,Texas Instruments,INA228AIDGSR,1,2,VSSOP-10 I2C 3.3V stock/source TBD,Selected sourcing pending
+Current shunt,RSH1,Bourns,CSS2H-3920R-L200F,1,2,0.2 milliohm 3920 SMD HDD branch only,Selected
+Analog mux,U4,onsemi,MC74HC4051ADR2G,1,2,SOIC-16 alternative to TI CD74HC4051M96 verify pinout,Proposed substitute
+NTC,TH1-TH6,Murata,NCU18XH103F60RB,6,8,10k SMD on separate sensor strip verify curve,Selected
+NPN,Q1-Q2,onsemi,2N3904BU,2,4,TO-92 through hole fan PWM sinks,Selected
+Resistor 1k,Rbase1-Rbase2,Yageo,RC0805FR-071KL,2,10,0805 1 percent transistor base,Selected
+Resistor 100k,Rpd1-Rpd2,Yageo,RC0805FR-07100KL,2,10,0805 1 percent base pulldown,Selected
+Resistor 10k,Rtach1-Rtach2 Rntc,Yageo,RC0805FR-0710KL,3,10,0805 1 percent tach pullups and NTC divider,Selected
+Resistor 4.7k,Rsda Rscl,Yageo,RC0805FR-074K7L,2,10,0805 1 percent I2C pullups,Selected
+Resistor 100 ohm,Rin+ Rin-,Yageo,RC0805FR-07100RL,2,10,0805 1 percent INA228 input RC filter,Selected
+Capacitor 100nF,Cina Cmux Cfilter,Samsung Electro-Mechanics,CL21B104KACNFNC,3,10,0805 X7R 25V 2 decoupling 1 INA filter,Selected
+Fan header,Jfan1-Jfan2,Molex,0470531000,2,3,4 pin keyed PWM fan THT verify physical fit,Selected
+Thermistor cable header,Jntc,JST,B7B-XH-A(LF)(SN),1,1,7 pin XH 2.50mm vs generic kit 2.54mm,Provisional
+12V input / output connectors,TBD,TBD,TBD,TBD,TBD,10A+ rated interconnects verify branch architecture,Unresolved
+Fan fuse / holder,TBD,TBD,TBD,TBD,TBD,Select after inrush and wiring review,Unresolved
+Sensor strip wire and insulation,TBD,TBD,TBD,TBD,TBD,7 conductors plus strain relief and insulation,Unresolved
