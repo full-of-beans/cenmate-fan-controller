@@ -15,6 +15,8 @@ Resistor 100 ohm,Rin+ Rin-,Yageo,RC0805FR-07100RL,2,10,0805 1 percent INA228 inp
 Capacitor 100nF,Cina Cmux Cfilter,Samsung Electro-Mechanics,CL21B104KACNFNC,3,10,0805 X7R 25V 2 decoupling 1 INA filter,Selected
 Fan header,Jfan1-Jfan2,Molex,0470531000,2,3,4 pin keyed PWM fan THT verify physical fit,Selected
 Thermistor cable header,Jntc,JST,B7B-XH-A(LF)(SN),1,1,7 pin XH 2.50mm vs generic kit 2.54mm,Provisional
-12V input / output connectors,TBD,TBD,TBD,TBD,TBD,10A+ rated interconnects verify branch architecture,Unresolved
+HDD 12V and GND output connector,J1,TBD,TBD,1,1,Polarized locking 2-pin PCB connector rated for combined six-HDD startup and continuous current,Selection pending
+HDD output mating connector and terminals,External harness,TBD,TBD,1,1,Matching 2-pin plug and crimp terminals plus suitable wire gauge to SATA backplane,Selection pending
+Switched 12V solder-wire PCB termination,TP1,TBD,TBD,1,1,High-current solderable wire pad or plated hole with strain relief from manual switch; no input connector,Selection pending
 Fan fuse / holder,TBD,TBD,TBD,TBD,TBD,Select after inrush and wiring review,Unresolved
 Sensor strip wire and insulation,TBD,TBD,TBD,TBD,TBD,7 conductors plus strain relief and insulation,Unresolved
