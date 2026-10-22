@@ -9,23 +9,33 @@ Status: **design baseline, not fabrication approval**. This records discussion d
 - Rear panel supports 2 x ARCTIC P8 Max 80 mm fans; 71.5 mm fan mounting hole spacing. Verify CAD before final PCB placement.
 
 ## Power and measurement (fixed intent)
-Existing enclosure **switched 12 V DC feed and common ground**, intercepted between the rear-panel manual power switch and HDD backplane:
+**Power architecture requires redesign following 2026-10-22 switch-circuit testing.** The previous assumption that the rocker provides a switched high-current 12 V feed is not supported. The following is a *functional target only*, not a verified wiring diagram:
 ```
-12 V input --+-- [0.2 milliohm series shunt] -- HDD backplane +12 V
-             +-- fused fan +12 V branch -------- 2 x fans
-             +-- TRACO 12 V -> 5 V ------------ XIAO controller
-GND -------------------------------------------- shared return
+Verified high-current 12 V source (location TBD)
+  +-- [0.2 milliohm series shunt] -- HDD backplane +12 V
+  +-- fused fan +12 V branch ----- 2 x fans
+  +-- TRACO 12 V -> 5 V ---------- XIAO controller
+GND ------------------------------ shared return
+Rocker switch -------------------- low-current control interface (details TBD)
 ```
+### 2026-10-22 backplane switch test — observed evidence
+- Original rear rocker has **two electrical terminals**, wired through a two-conductor harness to the backplane's two-pin header marked `Switch`; backplane has a separate `DC12V` power input.
+- **No HDDs connected.** Fans connected to the backplane run when the rocker is manually switched on.
+- With the rocker off, bridging its two terminals using an Extech EX330 in the **10 A DC current range** also caused the fans to start and run, verifying the meter was completing the switch circuit.
+- With fans running, the 10 A range displayed **`0.00 A`** (instrument resolution 0.01 A). This is consistent with a very low-current control/enable input, **not** proof of exactly zero current or a measured current below a particular milliamp value. Startup peak was not quantified.
+- PCB visual inspection also suggests fine signal traces near the `Switch` header rather than an obvious high-current switch path. This is supporting, not conclusive, evidence.
+- **Design conclusion:** Treat the rocker as a **presumed low-current control/enable switch**, not a source of high-current `12V_IN`. Its voltage, polarity, current, signaling semantics, and relation to the backplane power switching circuitry remain to be verified. Do not route HDD/fan supply current through the switch harness on the basis of the previous design.
+- **Next investigation:** Identify a suitable 12 V interception point near the barrel input/backplane power path and establish whether the backplane internally switches HDD power; then redesign switch integration, shunt insertion, fan supply and common ground accordingly. No rewiring has been approved.
 - INA228 measures **only HDD backplane 12 V branch**; excludes both fans and TRACO/controller consumption.
 - **Shunt must be in series** with positive HDD 12 V feed, not merely parallel tapped. INA228 Kelvin-sense across shunt, monitor VBUS on load side per datasheet. Confirm actual 12 V wiring, polarity, connector ratings, supply and ground return.
 - 10 A continuous current-path design target; Bourns CSS2H-3920R-L200F 0.2 mΩ, 3920 SMD, 2-terminal. At 10 A, ~2 mV and 20 mW. Verify copper thickness/width, heat, protection, and termination; a tiny 30 mm board may constrain this.
 ### Physical power wiring and service connections (accepted integration plan)
-- **Incoming `12V_IN`:** One switched +12 V wire from the existing manual power switch (mounted in the custom rear panel) soldered directly to a dedicated, suitably sized controller PCB wire termination. No detachable input connector. Provide mechanical strain relief; a small generic SMD test point is not an approved high-current wire termination.
-- **Outgoing HDD connection:** One **detachable, polarized 2-pin connector** on the controller PCB: pin 1 = `12V_HDD` (after RSH1), pin 2 = `GND`. Two wires from the mating plug terminate at the original SATA backplane PCB. Connector and return wiring must be rated for the full combined HDD current, including startup/inrush; generic `Conn_01x02` is schematic-only.
+- **Incoming `12V_IN`: REJECTED PREVIOUS ASSUMPTION.** The manual rocker must **not** be treated as a high-current switched +12 V source. The formerly proposed direct-solder switched-power wire termination (`SWITCHED_12V_IN` / J2 in the provisional KiCad schematic) requires redesign. Identify and verify a separate 12 V feed and its safe mechanical termination before wiring.
+- **Outgoing HDD connection (provisional, depends on revised interception point):** One **detachable, polarized 2-pin connector** on the controller PCB: pin 1 = `12V_HDD` (after RSH1), pin 2 = `GND`. Two wires from the mating plug terminate at the original SATA backplane PCB. Connector and return wiring must be rated for the full combined HDD current, including startup/inrush; generic `Conn_01x02` is schematic-only.
 - **Ground topology:** Shared electrical ground via the backplane return connection, not chassis as the sole return. Keep the high-current HDD return path and sensitive INA228 sense routing appropriately separated on the PCB. Confirm where the supply ground and backplane ground actually join; the controller ground must have a valid return to the power source.
-- **Branching:** TRACO/controller and fused fan supply take `12V_IN` upstream of RSH1. Only HDD +12 V passes through the shunt. The controller must not unintentionally bridge around the shunt.
+- **Branching (functional intent; wiring TBD):** TRACO/controller and fused fan supply take a separately verified `12V_IN` upstream of RSH1. Only HDD +12 V passes through the shunt. The controller must not unintentionally bridge around the shunt.
 - **USB-only bench testing:** USB-C should power XIAO and low-voltage peripherals only; HDDs and 12 V fans remain unpowered. The Schottky external-5-V arrangement is the working design baseline, but simultaneous USB/external supply behavior remains a pre-fabrication verification item.
-- **Pending selection and validation:** Exact switch output conductor and supply topology; wire gauges, solder-hole/pad geometry, strain relief, two-pin connector/plug/crimps, polarity/keying, current/temperature ratings, serviceability, and continuity of backplane ground return. Do not cut or rewire the enclosure until these are confirmed.
+- **Pending selection and validation:** Actual barrel-input/backplane supply topology, switch control signaling, safe power interception point; wire gauges, solder-hole/pad geometry, strain relief, two-pin connector/plug/crimps, polarity/keying, current/temperature ratings, serviceability, and continuity of backplane ground return. Do not cut or rewire the enclosure until these are confirmed.
 
 - Fan branch fused independently (fuse value/type TBD after fan startup/inrush verification); **never feed fans from USB 5 V**.
 - TRACO TSR 0.5-2450 12 V -> 5 V, 500 mA; STPS1L40ZF Schottky on its 5 V output was proposed, but **USB VBUS backfeed/isolation is not yet validated** against XIAO RP2350 schematic. Do not finalize power topology before this check.
@@ -40,8 +50,8 @@ GND -------------------------------------------- shared return
 
 ## Still to resolve before PCB layout/fabrication
 1. Exact XIAO RP2350 GPIO/pin mapping and schematic symbol/footprint; USB port placement and access.
-2. Actual HDD 12 V supply wiring and whether series shunt can be safely inserted on main PCB.
-3. Fan-header pinout and physical mating; 2-pin HDD output connector and mating harness, direct-solder 12 V input termination, fuse/holder, wiring and grounding.
+2. **Blocking:** Determine actual barrel-input/backplane 12 V supply wiring, the internal HDD power-enable path, and whether the series shunt can safely be inserted on the main PCB. The rocker is not an accepted 12 V power source.
+3. Fan-header pinout and physical mating; 2-pin HDD output connector and mating harness, **new verified 12 V input termination**, low-current rocker integration, fuse/holder, wiring and grounding.
 4. External-power/USB power-path isolation and backfeed risk.
 5. Availability and exact verified footprint of INA228 and HC4051 substitute; do not substitute lower-accuracy INA237 without review.
 6. NTC strip thickness, thermistor pads/clearance, sensor spacing, cable attachment and safe mechanical retention.
