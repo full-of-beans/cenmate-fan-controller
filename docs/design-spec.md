@@ -9,7 +9,7 @@ Status: **design baseline, not fabrication approval**. This records discussion d
 - Rear panel supports 2 x ARCTIC P8 Max 80 mm fans; 71.5 mm fan mounting hole spacing. Verify CAD before final PCB placement.
 
 ## Power and measurement (fixed intent)
-Existing enclosure **12 V DC input and ground**, tapped before the HDD data backplane consumes power:
+Existing enclosure **switched 12 V DC feed and common ground**, intercepted between the rear-panel manual power switch and HDD backplane:
 ```
 12 V input --+-- [0.2 milliohm series shunt] -- HDD backplane +12 V
              +-- fused fan +12 V branch -------- 2 x fans
@@ -19,6 +19,14 @@ GND -------------------------------------------- shared return
 - INA228 measures **only HDD backplane 12 V branch**; excludes both fans and TRACO/controller consumption.
 - **Shunt must be in series** with positive HDD 12 V feed, not merely parallel tapped. INA228 Kelvin-sense across shunt, monitor VBUS on load side per datasheet. Confirm actual 12 V wiring, polarity, connector ratings, supply and ground return.
 - 10 A continuous current-path design target; Bourns CSS2H-3920R-L200F 0.2 mΩ, 3920 SMD, 2-terminal. At 10 A, ~2 mV and 20 mW. Verify copper thickness/width, heat, protection, and termination; a tiny 30 mm board may constrain this.
+### Physical power wiring and service connections (accepted integration plan)
+- **Incoming `12V_IN`:** One switched +12 V wire from the existing manual power switch (mounted in the custom rear panel) soldered directly to a dedicated, suitably sized controller PCB wire termination. No detachable input connector. Provide mechanical strain relief; a small generic SMD test point is not an approved high-current wire termination.
+- **Outgoing HDD connection:** One **detachable, polarized 2-pin connector** on the controller PCB: pin 1 = `12V_HDD` (after RSH1), pin 2 = `GND`. Two wires from the mating plug terminate at the original SATA backplane PCB. Connector and return wiring must be rated for the full combined HDD current, including startup/inrush; generic `Conn_01x02` is schematic-only.
+- **Ground topology:** Shared electrical ground via the backplane return connection, not chassis as the sole return. Keep the high-current HDD return path and sensitive INA228 sense routing appropriately separated on the PCB. Confirm where the supply ground and backplane ground actually join; the controller ground must have a valid return to the power source.
+- **Branching:** TRACO/controller and fused fan supply take `12V_IN` upstream of RSH1. Only HDD +12 V passes through the shunt. The controller must not unintentionally bridge around the shunt.
+- **USB-only bench testing:** USB-C should power XIAO and low-voltage peripherals only; HDDs and 12 V fans remain unpowered. The Schottky external-5-V arrangement is the working design baseline, but simultaneous USB/external supply behavior remains a pre-fabrication verification item.
+- **Pending selection and validation:** Exact switch output conductor and supply topology; wire gauges, solder-hole/pad geometry, strain relief, two-pin connector/plug/crimps, polarity/keying, current/temperature ratings, serviceability, and continuity of backplane ground return. Do not cut or rewire the enclosure until these are confirmed.
+
 - Fan branch fused independently (fuse value/type TBD after fan startup/inrush verification); **never feed fans from USB 5 V**.
 - TRACO TSR 0.5-2450 12 V -> 5 V, 500 mA; STPS1L40ZF Schottky on its 5 V output was proposed, but **USB VBUS backfeed/isolation is not yet validated** against XIAO RP2350 schematic. Do not finalize power topology before this check.
 
@@ -33,7 +41,7 @@ GND -------------------------------------------- shared return
 ## Still to resolve before PCB layout/fabrication
 1. Exact XIAO RP2350 GPIO/pin mapping and schematic symbol/footprint; USB port placement and access.
 2. Actual HDD 12 V supply wiring and whether series shunt can be safely inserted on main PCB.
-3. Fan-header pinout and physical mating; high-current supply connectors, fuse/holder, wiring and grounding.
+3. Fan-header pinout and physical mating; 2-pin HDD output connector and mating harness, direct-solder 12 V input termination, fuse/holder, wiring and grounding.
 4. External-power/USB power-path isolation and backfeed risk.
 5. Availability and exact verified footprint of INA228 and HC4051 substitute; do not substitute lower-accuracy INA237 without review.
 6. NTC strip thickness, thermistor pads/clearance, sensor spacing, cable attachment and safe mechanical retention.
