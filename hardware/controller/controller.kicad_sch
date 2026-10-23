@@ -7752,7 +7752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_SD-47053-001_H10p00_MOL"
+		(property "Footprint" "Molex_470531000:CONN_SD-47053-001_H10p00_MOL"
 			(at 87.63 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7842,7 +7842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_SD-47053-001_H10p00_MOL"
+		(property "Footprint" "Molex_470531000:CONN_SD-47053-001_H10p00_MOL"
 			(at 36.83 146.05 0)
 			(hide yes)
 			(show_name no)
