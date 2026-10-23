@@ -6,7 +6,7 @@
     (property "Value" "470531000" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "CONN_SD-47053-001_H10p00_MOL" (id 2) (at 0 0 0)
+    (property "Footprint" "Molex_470531000:CONN_SD-47053-001_H10p00_MOL" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/470531000?display=pdf" (id 3) (at 0 0 0)
