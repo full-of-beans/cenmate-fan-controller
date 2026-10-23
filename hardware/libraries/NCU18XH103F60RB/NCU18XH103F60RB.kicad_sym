@@ -7,7 +7,7 @@
     (property "Value" "NCU18XH103F60RB" (id 1) (at -7.62996875 -6.102640625 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "NCU18XH103F60RB:THRMC1608X95N" (id 2) (at 0 0 0)
+    (property "Footprint" "Murata_NCU18XH103F60RB:THRMC1608X95N" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (symbol "NCU18XH103F60RB_0_0"
