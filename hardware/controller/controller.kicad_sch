@@ -8790,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NCU18XH103F60RB:THRMC1608X95N"
+		(property "Footprint" "Murata_NCU18XH103F60RB:THRMC1608X95N"
 			(at 184.15 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9364,7 +9364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NCU18XH103F60RB:THRMC1608X95N"
+		(property "Footprint" "Murata_NCU18XH103F60RB:THRMC1608X95N"
 			(at 184.15 97.79 0)
 			(hide yes)
 			(show_name no)
