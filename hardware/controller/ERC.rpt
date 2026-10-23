@@ -1,17 +1,9 @@
-ERC report (2026-10-23T10:42:28, Encoding UTF8)
+ERC report (2026-10-23T11:51:45, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(6200 mils, 1850 mils): Symbol RSH1 Pin 2 [Unspecified, Line]
-    @(6550 mils, 1850 mils): Symbol R3 Pin 1 [Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(6200 mils, 2350 mils): Symbol RSH1 Pin 1 [Unspecified, Line]
-    @(6550 mils, 2350 mils): Symbol R4 Pin 1 [Passive, Line]
 
- ** ERC messages: 2  Errors 0  Warnings 2
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
