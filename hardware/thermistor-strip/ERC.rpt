@@ -1,12 +1,9 @@
-ERC report (2026-10-24T18:42:11, Encoding UTF8)
+ERC report (2026-10-24T18:43:26, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_link_issues]: The current configuration does not include the footprint library ''
-    ; warning
-    @(3800 mils, 4200 mils): Symbol J1 [FH19C-7S-0.5SH10]
 
- ** ERC messages: 1  Errors 0  Warnings 1
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
