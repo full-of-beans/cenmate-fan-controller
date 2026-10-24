@@ -5,4 +5,5 @@
 	(lib (name "CSS2H_3920R_L200F") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CSS2H_3920R_L200F/2026-10-22_23-45-23.kicad_sym") (options "") (descr ""))
 	(lib (name "Molex_470531000") (type "KiCad") (uri "${KIPRJMOD}/../libraries/470531000/2026-10-23_00-05-04.kicad_sym") (options "") (descr ""))
 	(lib (name "Murata_NCU18XH103F60RB") (type "KiCad") (uri "${KIPRJMOD}/../libraries/NCU18XH103F60RB/NCU18XH103F60RB.kicad_sym") (options "") (descr ""))
+	(lib (name "Hirose_2026-10-24_22-08-50") (type "KiCad") (uri "${KIPRJMOD}/../libraries/FH19C_7S_0_5SH/2026-10-24_22-08-50.kicad_sym") (options "") (descr ""))
 )
