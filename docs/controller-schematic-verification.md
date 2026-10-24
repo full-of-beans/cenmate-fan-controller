@@ -219,3 +219,36 @@ Accessed 2026-10-23. Manufacturer-authored PDFs hosted by distributors are ident
 6. After authorized owner hardware edits: inspect changed nets, rerun KiCad 10 ERC with present checks enabled, save report, commit, and update this document's affected rows/reviewed revision. Complete F6/F8/G2 before fabrication; satisfy the layout and bench requirements in their respective phases.
 
 **Controller freeze:** blocked by A2/C3 and P1 OPEN decisions A5/A6/C4/F2. **Strip schematic:** may begin under the documented seven-wire contract; sensor land pattern/excitation and mechanical bay mapping remain its release gates. **PCB fabrication:** not approved; no layout exists. No schematic, project, library, ERC or PCB files were modified by this documentation review, and neither PR is merged.
+
+## Deferred design plan — low-profile FFC thermistor-strip interface (2026-10-24)
+
+**Status: selected direction for later KiCad implementation, not a verified mating set, released BOM, or fabrication approval.** Owner is away from the workstation. This is documentation only; the existing controller J5 JST XH footprint/netlist and the thermistor-strip KiCad files have **not** been changed. The seven-net electrical contract in the preceding section remains authoritative.
+
+### Intended physical and assembly architecture
+
+- Use a **horizontal-entry, flip-lock FFC/FPC connector on the drive-facing side of the remote thermistor strip**, preferably the **Hirose FH19C-7S-0.5SH(10)** as the first candidate. Seven positions, 0.5 mm pitch; nominal connector height about 0.9 mm above the mounting PCB. Check Hirose's exact ordering suffix, contact orientation, recommended land pattern, and dimensional drawing before footprint assignment.
+- Prefer a **matching FFC termination on the controller PCB**, using a factory-finished seven-conductor FFC. The goal is **no hand stripping, individual wire crimping, or wire-to-strip soldering**. The SMT connectors themselves must still be soldered; their retention fittings offer mechanical solder anchors, **not locating pegs or a substitute for cable strain relief**.
+- Thermistor sensing portion remains nominally **160 × 8 × 0.6 mm**, with six bay-aligned NTCs. The **base may be widened** to accommodate connector pads, routing, and a removable 3D-printed bracket/strain relief; final overall outline and sensor-center positions require measurements. Keep the thin board supported during assembly and avoid flexing it at ceramic sensors.
+- In front view from the **drive side** of the SATA backplane, the sensor strip is **vertical**. Place the connector toward its **lower end**; choose its orientation to let the FFC leave toward the **left**, then route around the **bottom or side perimeter** of the backplane, potentially via openings in the plastic cage, into the rear controller plenum. This **perimeter routing is preferred to feeding the cable through an airflow aperture**, but is not yet physically validated.
+- HDDs can be removed to access the connector latch during installation. Thus **latch operating clearance is not required with HDDs installed**; the **closed connector, seated cable, cable exit and bend still must clear the installed HDD/tray/cage**. Verify no sharp-edge abrasion, pinching, contact with moving trays, or interference when the rear shell is reassembled.
+- The previous approximately **2 mm assembled-height target** remains a **target**, not a measured local clearance. Illustrative stack: 0.6 mm PCB + about 0.9 mm connector + insulating film = about 1.6 mm **before tolerances, adhesive if any, mechanical stand-off, or cable bend envelope**. A larger base alone does not solve height; locate the connector where the installed-drive clearance is sufficient.
+- Use an electrically rated dielectric barrier between the strip and SATA backplane; solder mask alone is not the barrier. Bracket should provide strain relief **independent of the FFC latch**, with no adhesive required if practical.
+
+### Procurement candidates and gates
+
+| Item | Candidate | Status / required verification |
+|---|---|---|
+| Strip-side FFC connector | Hirose **FH19C-7S-0.5SH(10)**; DigiKey **H125825CT-ND** (candidate listing) | **Preferred candidate, not frozen.** Confirm manufacturer's current drawing, exact cable thickness (nominally 0.20 mm), contact side, pad footprint, hold-down fittings, hand-solder access, and available stock. |
+| Controller-side FFC connector | Same Hirose part **if** the chosen FFC contact-side orientation and installed board orientation mate correctly | Not yet selected. Do **not** silently substitute a 0.30 mm-cable connector into a 0.20 mm system. |
+| FFC cable | Factory-terminated, 7-conductor, 0.5 mm pitch; length to be measured around enclosure perimeter | **No cable MPN approved.** Verify 0.20 mm mating thickness, stiffener geometry, same-side/opposite-side exposed contacts (Type A/B), cable width, permissible static bend radius, temperature rating, and connector-specific insertion dimensions. A cable matching pitch and pin count alone is not sufficient. |
+| Controller J5 | Present JST **B7B-XH-A(LF)(SN)**, seven pins | **Existing implementation remains in KiCad.** Replacing it with FFC requires a future owner-approved schematic/footprint change and pin-order verification. |
+
+### Checklist for return to KiCad
+
+1. Measure installed-drive clearance at proposed connector base and cable exit; check cable path around bottom/side with shell assembled, and measure **required cable length** with a bend/service margin.
+2. Obtain manufacturer connector and cable drawings; select a **verified mating pair** and contact orientation before ordering. Confirm the FFC's conductor order at both ends, especially when mating identical bottom-contact connectors on differently oriented PCBs.
+3. Decide final strip base width, connector rotation, PCB copper side, bracket/strain relief and insulation; review the manufacturer-recommended **NTC land pattern** (E4) independently.
+4. On owner's workstation, update the **strip schematic/PCB** and **controller J5 interface** deliberately; preserve six individual NTC channels and common GND. Verify the new physical pin-number mapping with continuity, not assumptions from a top-view drawing.
+5. Run KiCad 10 ERC/DRC and physical clearance checks, then prototype fit and test before fabrication approval.
+
+**Do not interpret this plan as resolving the controller's existing A2/C3 electrical FAIL findings, E3/E4 review gates, or any PCB-release blocker.**
