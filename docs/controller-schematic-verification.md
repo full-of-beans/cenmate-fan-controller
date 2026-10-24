@@ -252,3 +252,31 @@ Accessed 2026-10-23. Manufacturer-authored PDFs hosted by distributors are ident
 5. Run KiCad 10 ERC/DRC and physical clearance checks, then prototype fit and test before fabrication approval.
 
 **Do not interpret this plan as resolving the controller's existing A2/C3 electrical FAIL findings, E3/E4 review gates, or any PCB-release blocker.**
+
+
+## Proposed architecture revision — two plenum NTCs and carrier USB-C dual-source power (2026-10-24)
+
+**Status: owner-directed planning update; documentation only.** Supersedes the *forward plan* for the six-NTC strip and FFC in the preceding deferred section. Historical schematic verification, pin mapping, and audit classifications above describe the **unchanged current KiCad files**, not this proposed design. Keep PR #3 open/unmerged. Do not edit hardware until the owner performs/approves KiCad changes.
+
+### Scope and retained architecture
+
+- **Retain** Seeed XIAO **RP2350** (not a Raspberry Pi computer), two independently PWM-controlled/tach-monitored ARCTIC P8 Max fans, INA228 high-side monitor and Bourns shunt in series with the enclosure's **main 12 V backplane positive feed**, and the 12 V input/output interception. Fan and controller supply branches stay upstream of the shunt. The enclosure power-path current-rating, protection, physical harness and startup gates remain open.
+- **Retain only onboard TH1 and TH2**, intended for distinct rear-plenum/airflow positions; remove the six remote NTCs, remote strip, seven-position connector and HC4051 analog multiplexer in a future owner-approved schematic change. Each local NTC needs its **own divider/pull-up and ADC-capable XIAO pin**, with manufacturer curve, placement, thermal error and ADC pin conflicts verified. The existing common mux pull-up R11 is not a two-channel solution.
+- Optional **NAS SMART telemetry** over USB can report six HDD temperatures to support calibration and control against the hottest drive; it is not guaranteed to be available, especially with drives in standby. Current sensing measures aggregate backplane 12 V load, **not** temperature or individual-drive load. Standalone conservative fan operation must remain possible without USB or SMART data. Do not wake sleeping HDDs solely for control telemetry.
+
+### USB-C physical interface and power topology — proposal, not validated wiring
+
+- Keep the XIAO's **onboard USB-C receptacle**. Add a **USB-C receptacle to the controller carrier PCB** as the user-accessible host/NAS port. Use a short factory-made **USB 2.0 data-capable USB-C male pigtail** plugged into the XIAO; its other end exposes conductors for soldering/strain relief on the carrier. Avoid microsoldering RP2350 D+/D− traces or module connector pins.
+- The internal pigtail carries **D+, D−, GND, and a selected/isolated 5 V VBUS feed** to the XIAO's USB-C plug. Carrier USB-C D+/D− pass through to the internal pigtail as a short, controlled/paired data path; GND is common. The external carrier receptacle must have appropriate **USB-C sink Rd termination on its own CC1 and CC2 pins** (typically separate 5.1 kΩ pull-downs), plus suitable ESD/shield treatment. **CC1/CC2 are separate from the four soldered conductors**; the XIAO's existing CC resistors terminate its *own* onboard receptacle and do not replace carrier-receptacle CC termination across a four-wire pigtail.
+- Carrier USB VBUS and TRACO 5 V must be **reverse-isolated and power-selected** before feeding the internal pigtail's VBUS. This avoids external TRACO power backfeeding the NAS host, while allowing USB-only, enclosure-only, and simultaneous operation **if validated**. Do not join raw host VBUS to external 5 V; do not assume existing D1 solves host backfeed. Schottky OR-ing is only a candidate pending voltage-drop, USB attach/VBUS behavior, startup, fault, leakage, and 5 V/3.3 V budgets. Prefer a qualified ideal-diode/power-mux solution if warranted. A power-path design must not inadvertently energize the enclosure 12 V load from USB.
+- **Important open USB-C feasibility gate:** A cut generic USB-C cable is not automatically a compliant, known-pinout four-wire pigtail. USB-C plug CC/VCONN implementation, USB2 pair continuity, shield/ground, connector orientation, source/sink detection, VBUS sensing and USB enumeration with external-only power must be validated against the actual cable, XIAO hardware, and host. Ensure the internal male plug/cable arrangement does not create an unintended second active USB host connection. No final schematic, exact connector/cable MPN, power-mux MPN or approved wiring is claimed.
+
+### Failure behavior and verification
+
+- Aim for fans to receive 12 V independently of MCU power and for the **open/high-impedance PWM state to request full speed**, contingent on bench verification with actual P8 Max fans. A firmware crash stuck driving PWM low is **not** covered by the unpowered default; assess hardware watchdog/driver-disable and tach fault responses. A passive default of exactly 50% is not established.
+- Bench test four supply cases: USB only; TRACO only; both; neither. Measure reverse VBUS current/voltage at host, power sequencing and XIAO operation. Verify serial enumeration/telemetry with NAS and safe operation when USB detaches while enclosure remains powered. Check USB2 signal integrity/continuity, CC behavior and strain relief.
+- Reconcile input connector rating against actual all-drive startup/continuous current, fuse/transient/reverse-polarity protection, shunt Kelvin layout and fan startup. Neither this revision nor previous audit approves fabrication.
+
+### Documentation disposition
+
+The earlier **Deferred design plan — low-profile FFC thermistor-strip interface** is now **superseded and retained only as design history**. Its candidate connector/cable BOM and return-to-KiCad checklist are **not active implementation instructions**. Earlier review matrix rows E1/E2/F7 and eight-channel GPIO contract remain factual for the *existing* schematic only. Future KiCad work must replace those nets deliberately, rerun ERC and update the verification matrix to the new hardware revision.
