@@ -1,40 +1,9 @@
-ERC report (2026-10-24T18:27:47, Encoding UTF8)
+ERC report (2026-10-24T18:31:24, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_link_issues]: The current configuration does not include the footprint library ''
-    ; warning
-    @(8400 mils, 4900 mils): Symbol J6 [FH19C-7S-0.5SH10]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 4900 mils): Symbol J6 Pin 1 [1, Unspecified, Line]
-    @(8200 mils, 4900 mils): Symbol U4 Pin 15 [A2, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 5000 mils): Symbol J6 Pin 2 [2, Unspecified, Line]
-    @(8200 mils, 5000 mils): Symbol U4 Pin 12 [A3, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 5100 mils): Symbol J6 Pin 3 [3, Unspecified, Line]
-    @(8200 mils, 5100 mils): Symbol U4 Pin 1 [A4, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 5200 mils): Symbol J6 Pin 4 [4, Unspecified, Line]
-    @(8200 mils, 5200 mils): Symbol U4 Pin 5 [A5, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 5300 mils): Symbol J6 Pin 5 [5, Unspecified, Line]
-    @(8200 mils, 5300 mils): Symbol U4 Pin 2 [A6, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Passive are connected
-    ; warning
-    @(8400 mils, 5400 mils): Symbol J6 Pin 6 [6, Unspecified, Line]
-    @(8200 mils, 5400 mils): Symbol U4 Pin 4 [A7, Passive, Line]
-[pin_to_pin]: Pins of type Unspecified and Power input are connected
-    ; warning
-    @(8400 mils, 5500 mils): Symbol J6 Pin 7 [7, Unspecified, Line]
-    @(8400 mils, 5500 mils): Symbol #PWR022 Pin 1 [Power input, Line]
 
- ** ERC messages: 8  Errors 0  Warnings 8
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - SPICE model issue
