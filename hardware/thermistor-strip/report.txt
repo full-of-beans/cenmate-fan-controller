@@ -1,0 +1,89 @@
+Info: Processing symbol 'J1:Hirose_FH19C_7S_0_5SH:CONN7_FH19C_7S_HIR'.
+Info: Processing symbol 'RT3:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Info: Processing symbol 'RT2:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Info: Processing symbol 'RT4:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Info: Processing symbol 'RT1:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Info: Processing symbol 'RT5:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Info: Processing symbol 'RT6:Murata_NCU18XH103F60RB:THRMC1608X95N'.
+Changed J1 value from CONN7_FH19C_7S_HIR to FH19C-7S-0.5SH10.
+Updated J1 symbol association from  to /394031a6-56cc-4c25-8fd1-873da84856f4.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'thermistor-strip.kicad_sch'.
+Updated J1 footprint filters to 'CONN7_FH19C_7S_HIR'.
+Add net Net-(J1-Pad4).
+Connected J1 pin 4 to Net-(J1-Pad4).
+Add net Net-(J1-Pad3).
+Connected J1 pin 3 to Net-(J1-Pad3).
+Add net Net-(J1-Pad5).
+Connected J1 pin 5 to Net-(J1-Pad5).
+Add net GND.
+Connected J1 pin 7 to GND.
+Add net Net-(J1-Pad2).
+Connected J1 pin 2 to Net-(J1-Pad2).
+Add net Net-(J1-Pad6).
+Connected J1 pin 6 to Net-(J1-Pad6).
+Add net Net-(J1-Pad1).
+Connected J1 pin 1 to Net-(J1-Pad1).
+Updated J1 unit metadata.
+Added RT1 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT1.
+Changed RT1 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT1 symbol association from  to /ddea5f55-3b61-4532-9f18-41c873b56f54.
+Updated RT1 sheetname to '/'.
+Updated RT1 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT1 pin 2 to GND.
+Connected RT1 pin 1 to Net-(J1-Pad1).
+Updated RT1 unit metadata.
+Added RT2 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT2.
+Changed RT2 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT2 symbol association from  to /52fe7e14-bb6d-4182-9dee-64a7cb5e5113.
+Updated RT2 sheetname to '/'.
+Updated RT2 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT2 pin 2 to GND.
+Connected RT2 pin 1 to Net-(J1-Pad2).
+Updated RT2 unit metadata.
+Added RT3 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT3.
+Changed RT3 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT3 symbol association from  to /012cbd79-4645-485f-a092-d65bc51b5223.
+Updated RT3 sheetname to '/'.
+Updated RT3 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT3 pin 2 to GND.
+Connected RT3 pin 1 to Net-(J1-Pad3).
+Updated RT3 unit metadata.
+Added RT4 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT4.
+Changed RT4 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT4 symbol association from  to /a2ad26ea-f5c6-4e30-bf25-b184c923f180.
+Updated RT4 sheetname to '/'.
+Updated RT4 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT4 pin 2 to GND.
+Connected RT4 pin 1 to Net-(J1-Pad4).
+Updated RT4 unit metadata.
+Added J1 (footprint 'Hirose_FH19C_7S_0_5SH:CONN7_FH19C_7S_HIR').
+Added RT5 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT5.
+Changed RT5 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT5 symbol association from  to /7a21ba5b-8ab4-4a32-bbbc-a1ed501df912.
+Updated RT5 sheetname to '/'.
+Updated RT5 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT5 pin 2 to GND.
+Connected RT5 pin 1 to Net-(J1-Pad5).
+Updated RT5 unit metadata.
+Changed REF** reference designator to J1.
+Added RT6 (footprint 'Murata_NCU18XH103F60RB:THRMC1608X95N').
+Changed REF** reference designator to RT6.
+Changed RT6 value from THRMC1608X95N to NCU18XH103F60RB.
+Updated RT6 symbol association from  to /e870141c-b09c-4b8c-9742-3b18de6f684e.
+Updated RT6 sheetname to '/'.
+Updated RT6 sheetfile to 'thermistor-strip.kicad_sch'.
+Connected RT6 pin 2 to GND.
+Connected RT6 pin 1 to Net-(J1-Pad6).
+Updated RT6 unit metadata.
+Warning: No net found for component J1 pad 8 (no pin 8 in symbol).
+Warning: No net found for component J1 pad 9 (no pin 9 in symbol).
+
+
+Info: Total warnings: 2, errors: 0.
