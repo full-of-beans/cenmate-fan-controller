@@ -1,0 +1,120 @@
+** Drc report for thermistor-strip.kicad_pcb **
+** Created on 2026-10-25T12:42:52 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 15 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 142.0003 mm): Pad 2 [Net-(J1-Pad2)] of J1 on F.Cu
+    @(57.0898 mm, 142.5004 mm): Pad 1 [GND] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 141.5001 mm): Pad 3 [Net-(J1-Pad3)] of J1 on F.Cu
+    @(57.0898 mm, 142.0003 mm): Pad 2 [Net-(J1-Pad2)] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 141.0000 mm): Pad 4 [Net-(J1-Pad4)] of J1 on F.Cu
+    @(57.0898 mm, 140.4999 mm): Pad 5 [Net-(J1-Pad5)] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 141.0000 mm): Pad 4 [Net-(J1-Pad4)] of J1 on F.Cu
+    @(57.0898 mm, 141.5001 mm): Pad 3 [Net-(J1-Pad3)] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 140.4999 mm): Pad 5 [Net-(J1-Pad5)] of J1 on F.Cu
+    @(57.0898 mm, 139.9997 mm): Pad 6 [Net-(J1-Pad6)] of J1 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1445 mm)
+    Local override; error
+    @(57.0898 mm, 139.4996 mm): Pad 7 [Net-(J1-Pad7)] of J1 on F.Cu
+    @(57.0898 mm, 139.9997 mm): Pad 6 [Net-(J1-Pad6)] of J1 on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(116.3700 mm, 146.7600 mm): Reference field of RT4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(86.5700 mm, 146.7600 mm): Reference field of RT5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(56.7700 mm, 146.7600 mm): Reference field of RT6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146.1700 mm, 146.7600 mm): Reference field of RT3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(175.9700 mm, 146.7600 mm): Reference field of RT2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(205.7700 mm, 146.7600 mm): Reference field of RT1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(57.0898 mm, 141.0000 mm): Reference field of J1
+    @(57.0898 mm, 140.4999 mm): Pad 5 [Net-(J1-Pad5)] of J1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(57.0898 mm, 141.0000 mm): Reference field of J1
+    @(57.0898 mm, 141.0000 mm): Pad 4 [Net-(J1-Pad4)] of J1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(57.0898 mm, 141.0000 mm): Reference field of J1
+    @(57.0898 mm, 141.5001 mm): Pad 3 [Net-(J1-Pad3)] of J1 on F.Cu
+
+** Found 12 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 141.0000 mm): Pad 4 [Net-(J1-Pad4)] of J1 on F.Cu
+    @(115.3000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad4)] of RT4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 141.5001 mm): Pad 3 [Net-(J1-Pad3)] of J1 on F.Cu
+    @(85.5000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad3)] of RT5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 140.4999 mm): Pad 5 [Net-(J1-Pad5)] of J1 on F.Cu
+    @(145.1000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad5)] of RT3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 142.5004 mm): Pad 1 [GND] of J1 on F.Cu
+    @(55.7000 mm, 147.7350 mm): Pad 2 [GND] of RT6 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 142.5004 mm): Pad 1 [GND] of J1 on F.Cu
+    @(85.5000 mm, 147.7350 mm): Pad 2 [GND] of RT5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(85.5000 mm, 147.7350 mm): Pad 2 [GND] of RT5 on F.Cu
+    @(115.3000 mm, 147.7350 mm): Pad 2 [GND] of RT4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.3000 mm, 147.7350 mm): Pad 2 [GND] of RT4 on F.Cu
+    @(145.1000 mm, 147.7350 mm): Pad 2 [GND] of RT3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.1000 mm, 147.7350 mm): Pad 2 [GND] of RT3 on F.Cu
+    @(174.9000 mm, 147.7350 mm): Pad 2 [GND] of RT2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.9000 mm, 147.7350 mm): Pad 2 [GND] of RT2 on F.Cu
+    @(204.7000 mm, 147.7350 mm): Pad 2 [GND] of RT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(55.7000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad2)] of RT6 on F.Cu
+    @(57.0898 mm, 142.0003 mm): Pad 2 [Net-(J1-Pad2)] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 139.9997 mm): Pad 6 [Net-(J1-Pad6)] of J1 on F.Cu
+    @(174.9000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad6)] of RT2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(57.0898 mm, 139.4996 mm): Pad 7 [Net-(J1-Pad7)] of J1 on F.Cu
+    @(204.7000 mm, 146.2650 mm): Pad 1 [Net-(J1-Pad7)] of RT1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
