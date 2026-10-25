@@ -1641,6 +1641,22 @@
 		(uuid "16072f81-8323-487a-8e46-2d52e11baccd")
 	)
 	(segment
+		(start 175.635 148)
+		(end 175.635 149)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "207ce142-4a27-4f35-becc-e8ad13816e6e")
+	)
+	(segment
+		(start 145.835 148)
+		(end 145.835 149)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "60651a5b-603a-4bc9-b17b-95c3ceb849c3")
+	)
+	(segment
 		(start 205.4 149)
 		(end 146 149)
 		(width 0.2)
