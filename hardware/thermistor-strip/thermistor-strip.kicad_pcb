@@ -50,6 +50,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 50 150)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -87,13 +88,1283 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "48c45c1b-1820-4071-a3d3-45cb9b70254a")
+		(at 204.7 147 -90)
+		(property "Reference" "RT1"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "98664585-f099-4d39-829d-191347921dd7")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "585eff47-ef41-458f-bef3-6f0a19f13c06")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7efc820c-7400-4622-9d23-7dffb72f2692")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9a4495a-ddcf-455d-83bc-6f968a2623d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/ddea5f55-3b61-4532-9f18-41c873b56f54")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c06b759a-840d-4d29-8e3d-eca2b996e1c5")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7cf23c6-64ad-4c1a-9900-8986cc84ebac")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "758bf39f-0296-46c6-8e81-3274c4062930")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5bf84c3d-55d5-4d91-bd8e-61e8435eac38")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c24bfb0-a11c-4160-b473-2b35b3661e49")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0c77a2c-d625-4671-a78d-7595c0380820")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9888ddf-a7bf-461b-88d8-8efc70bb06c5")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39745fe8-ba02-4089-8530-e3bf13a321e3")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad2)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d7ee95c1-90d4-491a-8ebf-a9efb8eaaef6")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7660f38c-f97a-4641-b421-a2059c81f7f3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "8e447b9b-7694-4e1b-b512-7fd837502fdb")
+		(at 174.9 147 -90)
+		(property "Reference" "RT2"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "2411ae71-a300-4e07-94b8-7204c7301340")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "5320842b-5570-4834-a535-4d33ee92e374")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc68fad-cdc0-43b1-a6ae-805315877ea9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4731cdf0-bed2-4190-8736-215ad01d3bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/52fe7e14-bb6d-4182-9dee-64a7cb5e5113")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e7d26702-04e1-49f7-a933-d26e7b373b6f")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c45551c3-f06b-40f6-b8f0-2cf187a4dff2")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "995f3628-026c-4157-9681-326689ddafc7")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "72f0878b-c99e-42fe-917b-dc5c71c3ae86")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd22b835-a571-4baf-9424-6e3d7f0c16ce")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "30c20949-4ba6-438d-8ad4-736f8fc7278d")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bd52b538-5c57-4f85-99a9-c73acdb5bb10")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e8b0899-ae82-49c0-a711-88e377fbb2fb")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad3)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "43b29e58-6919-4988-bfd1-27f5dc9fe048")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "37f26cab-f0c9-40b4-b044-e4caf2389343")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "aab497f0-9d63-4d0c-bcc4-46d10b66222d")
+		(at 145.1 147 -90)
+		(property "Reference" "RT3"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "af1b6775-2678-42f6-80d0-057b510f22c9")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "97973ae2-9c54-4234-b359-93811a52a819")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cd508a5-585b-4707-9486-c5ccbb369fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40bf25f0-c5b1-4879-a37d-023d96a7cec6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/012cbd79-4645-485f-a092-d65bc51b5223")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9310c35-ecc0-4e86-986e-64fd507086ac")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "00d439b6-0a8a-4b6c-9e1a-71d655e54140")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "15264c87-9564-4db4-a84c-7d2d08315946")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee2a9519-9d15-487a-9927-68328d9404ce")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3f7ec77-8d3f-4888-83e7-905ff11be73a")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cde09246-86d3-453d-a338-53e5268a7139")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15089aa3-663b-416d-9044-a72276cbf4db")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae752099-c3f5-4e6d-8332-4ceb97089e30")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad4)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d12a6db7-1dce-4c52-b6cc-33d339021373")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "4a389a42-ca1d-45da-a613-7017f797e921")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "bb47ca5c-73ee-4638-9eaa-c4a052a96f7f")
+		(at 115.3 147 -90)
+		(property "Reference" "RT4"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "93cf2264-e89f-4f41-acc6-c13c218c4d44")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "2583375e-dcdd-4596-8177-e8b13db4fb9a")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a784bde-71d6-4d77-875a-f8802c907ee8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36d7ed39-3a5d-407d-946a-dd838a73c36f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/a2ad26ea-f5c6-4e30-bf25-b184c923f180")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88bc419c-662e-4fce-bf83-45078e259ad4")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "472a52da-8368-405d-9f8d-c4def9e48074")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1127599f-630b-4d61-a728-270a3755c204")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "42bb9563-edf7-446e-a125-5db906bd0670")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "650089df-bdc4-4548-bf05-285158611719")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9dc10895-eef9-457c-afd1-4396983c5ad2")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "77b11755-aa3f-4f33-811c-43ccf6200d2b")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c407996-6a8e-4442-ab1b-0c775ad89872")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad5)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ecb96687-b2bf-4e4c-a7ed-34cc68637288")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "24cd9994-4078-41d0-b5a1-be5a53b1293d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "bddd07c5-8094-4180-a837-148ab2e4b749")
+		(at 85.5 147 -90)
+		(property "Reference" "RT5"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "ef87f775-e3b5-4828-8971-84b8e9308b81")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "99590f12-c009-4d67-9446-d3f695ec38e6")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e70681-422d-48ef-bc63-fbdf0ac9699e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37cd7db9-3f28-4e17-b651-2c4c832d62ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/7a21ba5b-8ab4-4a32-bbbc-a1ed501df912")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6d56eca1-ebc3-4aad-856e-3f1394804219")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9bd561aa-98a8-4e19-9204-cdce03d6e812")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f297091b-7e85-4d98-9bf3-82fa8d2a4556")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "63e27026-5fc9-4761-8184-401eb069af4e")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c6be19b6-fcdc-44a4-aca8-3cba8e065490")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "108cdbf1-e4d0-49ea-9d52-8346184597bf")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c177fdf-ee03-4d0d-8338-06325959ad95")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7636885-35e2-431e-86db-920e8ad40ce0")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad6)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "eb5ad57b-7fac-4fa8-88ec-28da8e23c79c")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "13e73673-574f-4d9e-bff5-d5f86dc942d8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+		(layer "F.Cu")
+		(uuid "d3cccafa-26a4-4111-a32c-178d7eed6dff")
+		(at 55.7 147 -90)
+		(property "Reference" "RT6"
+			(at -0.24 -1.07 270)
+			(layer "F.SilkS")
+			(uuid "1c36d527-a972-4fb0-b949-361f858e5e06")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "NCU18XH103F60RB"
+			(at 1.76 1.07 270)
+			(layer "F.Fab")
+			(uuid "44590936-84f8-4b63-b89f-d67c08766bb0")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95fe90dd-2137-4082-80e2-f2f63414e939")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe0eca0c-71e6-41f3-850d-5f3c4073bdd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/e870141c-b09c-4b8c-9742-3b18de6f684e")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.485 0.735)
+			(end 1.485 0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b75d75aa-8beb-499e-a1f6-da68913a8102")
+		)
+		(fp_line
+			(start -1.485 0.735)
+			(end -1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cde19b7f-a418-497d-9685-8363f6081b3a")
+		)
+		(fp_line
+			(start 1.485 0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7002941-7dbb-49aa-8607-9acf42a6adc7")
+		)
+		(fp_line
+			(start -1.485 -0.735)
+			(end 1.485 -0.735)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd41923a-041d-493d-800e-ea117454513c")
+		)
+		(fp_line
+			(start -0.88 0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "401e39f3-ea9a-4bd9-b8d4-0e2dd50e8c95")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end -0.88 0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86ecb8f3-ec66-415e-9d28-6106348d273d")
+		)
+		(fp_line
+			(start 0.88 0.48)
+			(end 0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e4b6b84c-27e6-4ef9-b51d-94ac3b404c29")
+		)
+		(fp_line
+			(start 0.88 -0.48)
+			(end -0.88 -0.48)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8ebffea-7a07-4a7a-a71b-c18f98856a29")
+		)
+		(pad "1" smd rect
+			(at -0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad7)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7e77eac0-36a9-45e4-873a-fdc108330d7a")
+		)
+		(pad "2" smd rect
+			(at 0.735 0 270)
+			(size 1 0.97)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6b17a043-e432-4cf4-8334-a447639ba2f8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Hirose_FH19C_7S_0_5SH:CONN7_FH19C_7S_HIR"
+		(layer "F.Cu")
+		(uuid "de30592c-0043-4f5b-a811-0bf747b1fefc")
+		(at 52.5 142 -90)
+		(tags "FH19C-7S-0.5SH10 ")
+		(property "Reference" "J1"
+			(at 0 -1.5898 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "dca37e3e-0136-40dc-a961-b6296c191ad4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FH19C-7S-0.5SH10"
+			(at 0 -1.5898 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "77ed1465-6f35-4484-ac84-06bea9d96be9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "FH19C-7S-0.5SH10"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca73665d-2acc-4bb6-9e44-6c99671f6c07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c837ea6-7abe-43a8-902c-ce61573f6a24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "CONN7_FH19C_7S_HIR")
+		(path "/394031a6-56cc-4c25-8fd1-873da84856f4")
+		(sheetname "/")
+		(sheetfile "thermistor-strip.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.003163 1.447801)
+			(end 2.003163 1.447801)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a58d01b5-5d61-41ab-82ed-3df6b3681d6f")
+		)
+		(fp_line
+			(start 2.9464 0.22601)
+			(end 2.9464 -1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa2f5cb9-d5a1-40bc-9c0a-920e94eb436f")
+		)
+		(fp_line
+			(start -2.9464 -1.4478)
+			(end -2.9464 0.22601)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75ff5a9d-e8b2-426b-b4ed-2861a6b77917")
+		)
+		(fp_line
+			(start -2.010918 -1.4478)
+			(end -2.9464 -1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f29e138-de34-4cd3-9bbb-cd97c5a72411")
+		)
+		(fp_line
+			(start 2.9464 -1.4478)
+			(end 2.010918 -1.4478)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edf05d1e-4b0d-40ee-b8c3-1c54b41e5a1b")
+		)
+		(fp_circle
+			(center 3.5814 -1.5898)
+			(end 3.9624 -1.5898)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "375e4866-d37b-4cdd-bebd-8d9a77cf43bd")
+		)
+		(fp_circle
+			(center 3.5814 -1.5898)
+			(end 3.9624 -1.5898)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "9734a300-d17a-4c1c-8c82-f8b6a023c096")
+		)
+		(fp_line
+			(start -3.0734 1.574801)
+			(end 3.0734 1.574801)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d71966c9-bf45-430c-b65e-1b3ed3de04da")
+		)
+		(fp_line
+			(start 3.0734 1.574801)
+			(end 3.0734 -2.2629)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db5553db-bf3e-4dc8-8115-dbcd9a08cfae")
+		)
+		(fp_line
+			(start -3.0734 -2.2629)
+			(end -3.0734 1.574801)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4cc29f87-ea00-4d26-b8c8-57c6a74abcd8")
+		)
+		(fp_line
+			(start 3.0734 -2.2629)
+			(end -3.0734 -2.2629)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ba05335-5d1f-47b6-a193-44c9f0bc4b8c")
+		)
+		(fp_line
+			(start -2.8194 1.320801)
+			(end 2.8194 1.320801)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be919916-6636-48e9-b227-c7d242761887")
+		)
+		(fp_line
+			(start 2.8194 1.320801)
+			(end 2.8194 -1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb97d5f1-5423-426f-8a27-2a9439769bdb")
+		)
+		(fp_line
+			(start -2.8194 -1.3208)
+			(end -2.8194 1.320801)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e091691-fac7-457b-bbb1-52aee6d22bcd")
+		)
+		(fp_line
+			(start 2.8194 -1.3208)
+			(end -2.8194 -1.3208)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f9b7d45b-eea5-4350-bc28-e7b85be3f9f2")
+		)
+		(fp_circle
+			(center 1.500378 -3.4948)
+			(end 1.881378 -3.4948)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "0b51d913-4a5a-44c6-a4e2-1882879ed761")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.5898 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d486d711-13ad-4ef6-8bb6-8184d41d5dfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 1.500378 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "e4d3ddde-d0a5-4bca-8535-25fa67799a9c")
+		)
+		(pad "2" smd rect
+			(at 1.000252 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad2)")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "c633f3ae-bf14-48dc-8d93-98c71f5afbfc")
+		)
+		(pad "3" smd rect
+			(at 0.500126 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad3)")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "130eb9f5-4e2f-47af-a333-9abc75e0667f")
+		)
+		(pad "4" smd rect
+			(at 0 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad4)")
+			(pinfunction "4_4")
+			(pintype "passive")
+			(uuid "085615d3-f520-48d7-a00e-eea56fd5c37e")
+		)
+		(pad "5" smd rect
+			(at -0.500126 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad5)")
+			(pinfunction "5_5")
+			(pintype "passive")
+			(uuid "30fad794-0d4d-4ead-b18d-084ad038998c")
+		)
+		(pad "6" smd rect
+			(at -1.000252 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad6)")
+			(pinfunction "6_6")
+			(pintype "passive")
+			(uuid "da904128-ab4d-40c1-8a8c-8c08b21e340f")
+		)
+		(pad "7" smd rect
+			(at -1.500378 -1.5898 270)
+			(size 0.3556 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(J1-Pad7)")
+			(pinfunction "7_7")
+			(pintype "passive")
+			(uuid "9d9ed442-a3fd-49b4-85c7-012d0007c27e")
+		)
+		(pad "8" smd rect
+			(at -2.5 0.872199 270)
+			(size 0.4064 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "47061d6c-0bd2-425d-8565-3fbcf6b12672")
+		)
+		(pad "9" smd rect
+			(at 2.5 0.872199 270)
+			(size 0.4064 0.8382)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "d7fec271-f708-4dd4-8e00-8dac38f0cfa3")
+		)
+		(embedded_fonts no)
+	)
 	(gr_line
 		(start 50 138)
 		(end 50 150)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "01beab86-803f-4dd0-b85d-2ec4fa91d760")
 	)
@@ -102,8 +1373,9 @@
 		(end 208 150)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "f2012f91-6843-4202-af93-0dbbae2d9886")
 	)
