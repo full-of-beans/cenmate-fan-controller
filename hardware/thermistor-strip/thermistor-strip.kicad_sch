@@ -1429,7 +1429,7 @@
 		)
 	)
 	(junction
-		(at 87.63 95.25)
+		(at 86.36 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2e7ab1-e5e0-4dc3-8613-324e60e5950b")
@@ -1486,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 87.63 95.25)
+			(xy 83.82 121.92) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1596,16 +1596,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 83.82 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddea2453-39b6-4dea-a6ae-08a04a065afa")
-	)
-	(wire
-		(pts
 			(xy 95.25 106.68) (xy 95.25 44.45)
 		)
 		(stroke
@@ -1697,8 +1687,8 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 87.63 95.25 0)
-		(mirror y)
+		(at 93.98 121.92 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1709,7 +1699,7 @@
 		(fields_autoplaced yes)
 		(uuid "0395d310-e422-4faa-b73a-e41860758585")
 		(property "Reference" "#FLG01"
-			(at 87.63 93.345 0)
+			(at 93.98 123.825 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1720,7 +1710,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 87.63 90.17 0)
+			(at 93.98 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1730,7 +1720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 95.25 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +1731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 95.25 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1752,7 +1742,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 95.25 0)
+			(at 93.98 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1776,8 +1766,7 @@
 	)
 	(symbol
 		(lib_id "Hirose_FH19C_7S_0_5SH:FH19C-7S-0.5SH10")
-		(at 83.82 104.14 0)
-		(mirror y)
+		(at 83.82 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1788,7 +1777,7 @@
 		(fields_autoplaced yes)
 		(uuid "394031a6-56cc-4c25-8fd1-873da84856f4")
 		(property "Reference" "J1"
-			(at 69.85 110.4899 0)
+			(at 69.85 115.5701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1799,7 +1788,7 @@
 			)
 		)
 		(property "Value" "FH19C-7S-0.5SH10"
-			(at 69.85 113.0299 0)
+			(at 69.85 113.0301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1810,7 +1799,7 @@
 			)
 		)
 		(property "Footprint" "Hirose_FH19C_7S_0_5SH:CONN7_FH19C_7S_HIR"
-			(at 83.82 104.14 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +1811,7 @@
 			)
 		)
 		(property "Datasheet" "FH19C-7S-0.5SH10"
-			(at 83.82 104.14 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 104.14 0)
+			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +2498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 95.25 0)
+		(at 86.36 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2520,7 +2509,7 @@
 		(fields_autoplaced yes)
 		(uuid "d58be007-0cee-473a-9c29-e96e911ecf6c")
 		(property "Reference" "#PWR01"
-			(at 87.63 101.6 0)
+			(at 86.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2531,7 +2520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 100.33 0)
+			(at 86.36 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2541,7 +2530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 95.25 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 95.25 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 95.25 0)
+			(at 86.36 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
