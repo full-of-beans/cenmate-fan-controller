@@ -6,4 +6,5 @@
 	(lib (name "Molex_470531000") (type "KiCad") (uri "${KIPRJMOD}/../libraries/470531000/2026-10-23_00-05-04.kicad_sym") (options "") (descr ""))
 	(lib (name "Murata_NCU18XH103F60RB") (type "KiCad") (uri "${KIPRJMOD}/../libraries/NCU18XH103F60RB/NCU18XH103F60RB.kicad_sym") (options "") (descr ""))
 	(lib (name "Hirose_2026-10-24_22-08-50") (type "KiCad") (uri "${KIPRJMOD}/../libraries/FH19C_7S_0_5SH/2026-10-24_22-08-50.kicad_sym") (options "") (descr ""))
+	(lib (name "CRF2512-FZ-R001ELF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CRF2512_FZ_R001ELF/CRF2512-FZ-R001ELF.kicad_sym") (options "") (descr ""))
 )
