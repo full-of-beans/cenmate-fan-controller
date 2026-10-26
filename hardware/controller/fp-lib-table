@@ -6,5 +6,5 @@
 	(lib (name "Molex_470531000") (type "KiCad") (uri "${KIPRJMOD}/../libraries/470531000/footprints.pretty") (options "") (descr ""))
 	(lib (name "Murata_NCU18XH103F60RB") (type "KiCad") (uri "${KIPRJMOD}/../libraries/NCU18XH103F60RB/NCU18XH103F60RB.pretty") (options "") (descr ""))
 	(lib (name "Hirose_FH19C_7S_0_5SH") (type "KiCad") (uri "${KIPRJMOD}/../libraries/FH19C_7S_0_5SH/footprints.pretty") (options "") (descr ""))
-	(lib (name "CRF2512-FZ-R001ELF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CRF2512_FZ_R001ELF/footprint.pretty") (options "") (descr ""))
+	(lib (name "CRF2512_FZ_R001ELF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CRF2512_FZ_R001ELF/footprint.pretty") (options "") (descr ""))
 )
