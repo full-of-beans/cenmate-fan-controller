@@ -754,10 +754,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CSS2H_3920R_L200F:CSS2H-3920R-L200F"
-			(body_styles demorgan)
+		(symbol "CRF2512-FZ-R001ELF:CRF2512-FZ-R001ELF"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -765,26 +764,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 5.715 3.81 0)
+				(at -7.6244 2.5415 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "CSS2H-3920R-L200F"
-				(at 6.35 -3.81 0)
+			(property "Value" "CRF2512-FZ-R001ELF"
+				(at -7.63 -5.0866 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "RES_3920R_L200x_BRN"
+			(property "Footprint" "CRF2512-FZ-R001ELF:RESC6432X80N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -792,11 +793,11 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "CSS2H-3920R-L200F"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -804,7 +805,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
@@ -819,45 +819,13 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CSS2H-3920R-L200F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "RES_3920R_L200x_BRN RES_3920R_L200x_BRN-M RES_3920R_L200x_BRN-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CSS2H-3920R-L200F_1_1"
+			(symbol "CRF2512-FZ-R001ELF_0_0"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
+						(xy -5.08 0) (xy -4.445 1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -866,10 +834,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
+						(xy -4.445 1.905) (xy -3.175 -1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -878,10 +846,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
+						(xy -3.175 -1.905) (xy -1.905 1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -890,10 +858,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
+						(xy -1.905 1.905) (xy -0.635 -1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -902,10 +870,10 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
+						(xy -0.635 -1.905) (xy 0.635 1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -914,10 +882,10 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
+						(xy 0.635 1.905) (xy 1.905 -1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -926,10 +894,34 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
+						(xy 1.905 -1.905) (xy 3.175 1.905)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -937,159 +929,37 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
+					(at -10.16 0 0)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
+					(at 10.16 0 180)
+					(length 5.08)
 					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CSS2H-3920R-L200F_1_2"
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5517,22 +5387,22 @@
 		(uuid "4fa6870c-0397-42e0-90c2-90ca75c5f092")
 	)
 	(junction
+		(at 162.56 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "530a6b8e-a67f-4c62-b59b-99a75d9d74ae")
+	)
+	(junction
+		(at 142.24 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe79cc6-cd06-4492-a583-e5031d48e995")
+	)
+	(junction
 		(at 198.12 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66a857c6-302f-4b00-8409-6c0f534f5570")
-	)
-	(junction
-		(at 162.56 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8042a567-c595-40ae-a9e6-7da8f5bef342")
-	)
-	(junction
-		(at 163.83 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e0a2a31-83aa-4418-a97e-ff045a32c691")
 	)
 	(junction
 		(at 229.87 54.61)
@@ -5547,7 +5417,7 @@
 		(uuid "94eaf7c0-72eb-45f3-bc19-433bffd7e02c")
 	)
 	(junction
-		(at 176.53 52.07)
+		(at 176.53 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fa3a9e-e4e1-40b6-a798-480dccba6ab4")
@@ -5657,16 +5527,6 @@
 	(no_connect
 		(at 208.28 62.23)
 		(uuid "f99753a0-d46f-4543-a5a7-7f12454554ad")
-	)
-	(wire
-		(pts
-			(xy 157.48 59.69) (xy 166.37 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b8b390-24ae-49f6-9328-9dac11ca8791")
 	)
 	(wire
 		(pts
@@ -5790,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 59.69) (xy 163.83 63.5)
+			(xy 162.56 59.69) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5870,16 +5730,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 176.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41e29409-73f3-4471-bb78-3c0bdeefdf48")
-	)
-	(wire
-		(pts
 			(xy 58.42 170.18) (xy 58.42 172.72)
 		)
 		(stroke
@@ -5930,7 +5780,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 187.96 52.07)
+			(xy 187.96 57.15) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5970,7 +5820,27 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 52.07) (xy 187.96 52.07)
+			(xy 139.7 59.69) (xy 142.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c57e6da-4801-4a75-b561-c577005338ca")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfe8721-d3dc-4b42-8343-907e5a8d22e4")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 187.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6070,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 43.18) (xy 162.56 46.99)
+			(xy 142.24 63.5) (xy 142.24 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6087,16 +5957,6 @@
 			(type default)
 		)
 		(uuid "88f8a814-419c-4f57-b4a8-3896e65e7af7")
-	)
-	(wire
-		(pts
-			(xy 157.48 46.99) (xy 166.37 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0dd5b7-175e-4b76-bdf3-c840854ad6b8")
 	)
 	(wire
 		(pts
@@ -6280,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 173.99 46.99)
+			(xy 176.53 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6347,6 +6207,16 @@
 			(type default)
 		)
 		(uuid "cc53fd62-83e1-4264-be05-d5f85ffe6041")
+	)
+	(wire
+		(pts
+			(xy 162.56 59.69) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1724199-3b73-4bed-a906-0dff75484d82")
 	)
 	(wire
 		(pts
@@ -6470,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 50.8) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90c5edc-52cb-4828-a09e-bf00e0d39922")
+	)
+	(wire
+		(pts
 			(xy 64.77 133.35) (xy 58.42 133.35)
 		)
 		(stroke
@@ -6530,6 +6410,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8aab184-d6d0-49c1-be0e-e7b33d3b688a")
+	)
+	(wire
+		(pts
 			(xy 208.28 127) (xy 213.36 127)
 		)
 		(stroke
@@ -6569,7 +6459,7 @@
 		(uuid "1012b737-cfa4-4ac5-911f-05fab82b6725")
 	)
 	(label "12V_HDD"
-		(at 163.83 63.5 0)
+		(at 162.56 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6679,12 +6569,12 @@
 		(uuid "55dee24f-090e-4835-8c55-1ee71863eec0")
 	)
 	(label "12V_IN"
-		(at 162.56 43.18 0)
+		(at 142.24 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify bottom)
+			(justify top)
 		)
 		(uuid "5d104fba-01d4-4472-ab86-52877b2dd7d3")
 	)
@@ -6917,7 +6807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 46.99 90)
+		(at 170.18 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6928,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "0175fa90-ba83-4347-a798-9fa7c0bdd1bc")
 		(property "Reference" "R3"
-			(at 168.9099 44.45 0)
+			(at 168.9099 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6939,7 +6829,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 171.4499 44.45 0)
+			(at 171.4499 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6950,7 +6840,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 170.18 48.768 90)
+			(at 170.18 52.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +6851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 46.99 0)
+			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,7 +6862,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 46.99 0)
+			(at 170.18 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10188,6 +10078,87 @@
 		)
 	)
 	(symbol
+		(lib_id "CRF2512-FZ-R001ELF:CRF2512-FZ-R001ELF")
+		(at 152.4 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1aa5d5e-2cca-4367-8745-d86692f24011")
+		(property "Reference" "RSH1"
+			(at 152.4 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRF2512-FZ-R001ELF"
+			(at 152.4 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRF2512-FZ-R001ELF:RESC6432X80N"
+			(at 152.4 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1f1fd91-be75-4a6f-b2d1-88e57f0bef15")
+		)
+		(pin "1"
+			(uuid "f98b3f89-1fa6-4f59-b861-26f116c8ee1f")
+		)
+		(instances
+			(project "controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "RSH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 179.07 0)
 		(unit 1)
@@ -10444,88 +10415,6 @@
 			(project "controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CSS2H_3920R_L200F:CSS2H-3920R-L200F")
-		(at 157.48 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae3448d4-1af0-4f04-b1f7-93048d866497")
-		(property "Reference" "RSH1"
-			(at 151.13 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "0.2m"
-			(at 153.67 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CSS2H_3920R_L200F:RES_3920R_L200x_BRN"
-			(at 157.48 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "CSS2H-3920R-L200F"
-			(at 157.48 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9a99f61-2412-4aae-bc6f-c282845b163a")
-		)
-		(pin "1"
-			(uuid "73a91ce8-2e5f-461d-8606-14a950b0a0ff")
-		)
-		(instances
-			(project "controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "RSH1")
 					(unit 1)
 				)
 			)
