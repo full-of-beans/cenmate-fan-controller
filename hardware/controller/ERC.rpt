@@ -1,12 +1,9 @@
-ERC report (2026-10-26T13:23:24, Encoding UTF8)
+ERC report (2026-10-26T13:27:32, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_link_issues]: The current configuration does not include the footprint library 'CRF2512-FZ-R001ELF'
-    ; warning
-    @(6000 mils, 2350 mils): Symbol RSH1 [CRF2512-FZ-R001ELF]
 
- ** ERC messages: 1  Errors 0  Warnings 1
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - SPICE model issue
