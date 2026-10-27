@@ -10856,7 +10856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_S7B-ZR-SM4A-TF_1x07-1MP_P1.50mm_Horizontal"
+		(property "Footprint" "JST_ZH_S7B-ZR:JST_ZH_B7B-ZR_1x07_P1.50mm_Horizontal"
 			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
