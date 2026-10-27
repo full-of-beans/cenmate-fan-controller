@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -206,7 +212,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.25,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +244,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -555,19 +571,19 @@
     "netclass_patterns": [
       {
         "netclass": "Low Current Power",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Low Current Power",
         "pattern": "+5V"
       },
       {
         "netclass": "HDD Power",
-        "pattern": "/12V*"
+        "pattern": "12V_IN"
       },
       {
         "netclass": "Low Current Power",
-        "pattern": "Net-(D1-A)"
+        "pattern": "5V_DIODE_IN"
+      },
+      {
+        "netclass": "HDD Power",
+        "pattern": "12V_HDD"
       }
     ]
   },
@@ -712,7 +728,7 @@
         "uuid": "2efa048c-d6c1-446c-ae8e-880d974401eb"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-26,C1-3,D1,J1,J3-6,Q1-2,R1-12,RT1-2,TP1,U1-2,U4",
+    "used_designators": "#FLG1-4,#PWR1-26,C1-3,D1,J1,J3-6,NT1-2,Q1-2,R1-12,RT1-2,TP1,U1-2,U4",
     "variants": []
   },
   "sheets": [
