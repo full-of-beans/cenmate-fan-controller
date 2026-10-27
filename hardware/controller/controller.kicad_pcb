@@ -134,7 +134,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
-			(at 0 2 270)
+			(at -3.3 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "2d4a361a-efbd-4a3c-bc59-e4c333cea435")
 			(effects
@@ -424,7 +424,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 2 90)
+			(at -0.0625 -1.75 90)
 			(layer "F.SilkS")
 			(uuid "3a7691dd-1c5f-4536-a773-3ffba75f7f6d")
 			(effects
@@ -435,7 +435,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.65 90)
+			(at -0.1125 1.25 90)
 			(layer "F.Fab")
 			(uuid "1c4d9b14-2239-4287-9e84-c9db1d0945b6")
 			(effects
@@ -582,7 +582,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 1.5 270)
+			(at -0.125 1.65 270)
 			(layer "F.SilkS")
 			(uuid "3c2fe55b-c2f9-481c-912c-a5abf5bafe60")
 			(effects
@@ -740,7 +740,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at -0.115 1.5 270)
+			(at -0.0875 1.625 270)
 			(layer "F.SilkS")
 			(uuid "d3f8654d-90fa-42a7-9caf-d41a31e39251")
 			(effects
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.65 270)
+			(at 0.1875 1.8 270)
 			(layer "F.Fab")
 			(uuid "416c3136-fdb8-48aa-a52e-c31ec22c5932")
 			(effects
@@ -898,7 +898,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 1.5 270)
+			(at -0.08125 1.65419 270)
 			(layer "F.SilkS")
 			(uuid "4d69dbea-85c1-43cf-af52-ed64857b3c0a")
 			(effects
@@ -1214,7 +1214,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0.0875 1.5 270)
+			(at 0.00625 1.65419 270)
 			(layer "F.SilkS")
 			(uuid "c04b8094-2d7d-4b64-91c8-2f8f9721dbea")
 			(effects
@@ -1370,12 +1370,12 @@
 		(uuid "290dc849-a5fd-41a1-9572-356b08b96c5f")
 		(at 77.85 139.85 -90)
 		(property "Reference" "TH8"
-			(at -0.24 -1.07 270)
+			(at -2.3 0.05 0)
 			(layer "F.SilkS")
 			(uuid "89b8dc16-4022-49be-b73f-ca278d9caed3")
 			(effects
 				(font
-					(size 0.393701 0.393701)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1531,7 +1531,7 @@
 		(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf)")
 		(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
 		(property "Reference" "U4"
-			(at 0 -5.9 90)
+			(at -0.075 6.195 90)
 			(layer "F.SilkS")
 			(uuid "2c3ec1d0-8f82-48f3-bea9-555c3cb8f145")
 			(effects
@@ -1995,7 +1995,7 @@
 		(descr "JST ZH S7B-ZR 7-pin side-entry THT; JST eZH.pdf PCB layout p2; STEP origin corrected, visual alignment to verify")
 		(tags "JST ZH S7B-ZR side entry horizontal through hole")
 		(property "Reference" "J5"
-			(at 4.5 -5.5 0)
+			(at 11.575 -1.925 90)
 			(layer "F.SilkS")
 			(uuid "56b35ffb-7fe3-41e7-89ba-63ddf07d6116")
 			(effects
@@ -2270,12 +2270,12 @@
 		(uuid "333c8994-ef2e-497b-8667-e8ac51fd36a2")
 		(at 77.85 58.15 90)
 		(property "Reference" "TH7"
-			(at -0.24 -1.07 90)
+			(at 2.225 0.1 0)
 			(layer "F.SilkS")
 			(uuid "8adcd8d6-eba4-46dc-9f96-cd175e461d91")
 			(effects
 				(font
-					(size 0.393701 0.393701)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2433,6 +2433,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "72f2f58e-46cd-4f40-9b09-84dbe72306e9")
 			(effects
 				(font
@@ -2540,7 +2541,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 90)
+			(at 1.27 2.99581 90)
 			(layer "F.SilkS")
 			(uuid "cd89fc5d-9006-49c9-a1ef-788d17ac110f")
 			(effects
@@ -2792,10 +2793,10 @@
 		(at 75 97.88 90)
 		(tags "470531000 ")
 		(property "Reference" "J3"
-			(at -3.81 0 90)
+			(at -3.52 -4.425 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3ce7fb07-df76-4df1-9e96-5c8a67d28dff")
+			(uuid "1cced465-125a-4e92-b4c9-81b4eb3aefb5")
 			(effects
 				(font
 					(size 1 1)
@@ -2807,7 +2808,7 @@
 			(at -3.81 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b6920257-a210-4d88-823d-b753c394d7d4")
+			(uuid "ec7d4bfc-19f3-4755-80e6-5c9a90cec5f3")
 			(effects
 				(font
 					(size 1 1)
@@ -2819,7 +2820,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8f683a3-7e7c-497a-ae9a-18f1c012e1e9")
+			(uuid "3093493e-416a-40b3-acc3-5d42c1335d74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2831,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdf5559e-cb04-4ddb-9ea9-32adc73b1503")
+			(uuid "d1c25b84-1b7e-4469-b64c-05e2e582a2d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,14 +3083,14 @@
 		(uuid "43dc0da8-3e12-4816-9c07-215f9a1a4e32")
 		(at 65.5 60 90)
 		(property "Reference" "U2"
-			(at 11.25 0.05 0)
+			(at -1.025 -11.175 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d5bc778a-3106-4c0c-b794-8828f431146f")
 			(effects
 				(font
-					(size 0.635 0.635)
-					(thickness 0.1016)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3718,6 +3719,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "df85bd5b-a4b9-4301-b0f2-185aa0a79d79")
 			(effects
 				(font
@@ -3827,6 +3829,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "085d3e66-4878-4473-803c-658d90419984")
 			(effects
 				(font
@@ -3934,7 +3937,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 270)
+			(at -0.025 -1.75 270)
 			(layer "F.SilkS")
 			(uuid "471ebac9-346a-4f1e-8c06-9e2a7c693c2c")
 			(effects
@@ -4092,7 +4095,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.68 90)
+			(at 0.15 1.825 90)
 			(layer "F.SilkS")
 			(uuid "ed514c08-c0ad-45b3-8b44-eecce82ec8cc")
 			(effects
@@ -4250,7 +4253,7 @@
 		(descr "Terminal Block Phoenix MKDS-3-2-5.08, 2 pins, pitch 5.08mm, size 10.2x11.2mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/2138224.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-3-2-5.08 pitch 5.08mm size 10.2x11.2mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J2"
-			(at 2.54 -7.02 0)
+			(at -4.1 -0.3675 90)
 			(layer "F.SilkS")
 			(uuid "b9e1358d-aac3-4ca9-85ea-1ac008882fc7")
 			(effects
@@ -4616,7 +4619,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0.0875 1.5 180)
+			(at -2.7125 0.1 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9cbdfd3c-d92d-44d5-a419-cb72e8439319")
@@ -4773,12 +4776,12 @@
 		(uuid "978911e2-0bae-49b2-9aec-25f9522758b4")
 		(at 60.3025 114.505)
 		(property "Reference" "RSH1"
-			(at -2.66 -2.3 0)
+			(at -5.1025 -0.18 90)
 			(layer "F.SilkS")
 			(uuid "4e07825d-6ee8-4953-871f-5e26f9df9edd")
 			(effects
 				(font
-					(size 0.393701 0.393701)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4956,6 +4959,7 @@
 		(property "Reference" "REF**"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5922ea7-9a13-40f5-916b-b567818da5a2")
 			(effects
 				(font
@@ -5063,7 +5067,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 90)
+			(at 1.095 3.065 90)
 			(layer "F.SilkS")
 			(uuid "eb1899b3-976c-45a5-8bef-8782a3034d2c")
 			(effects
@@ -5253,7 +5257,7 @@
 			(uuid "9bd6b7a0-067f-4091-b40e-243cd0daa08f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 90)
+			(at 1.245 1.265 90)
 			(layer "F.Fab")
 			(uuid "054b99ac-16a2-40c0-91e2-4ec511e5331e")
 			(effects
@@ -5316,7 +5320,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0.0875 1.5 90)
+			(at 0.0625 1.925 90)
 			(layer "F.SilkS")
 			(uuid "09f127e8-d4e7-4675-b9d5-62df5295fef6")
 			(effects
@@ -5473,7 +5477,7 @@
 		(at 75 122 90)
 		(tags "470531000 ")
 		(property "Reference" "J4"
-			(at -3.81 0 90)
+			(at -3.675 -4.35 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6385eeaa-23a0-4dc8-bee8-b2d4dcfda40a")
@@ -5765,7 +5769,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.68 0)
+			(at 0.025 -1.775 0)
 			(layer "F.SilkS")
 			(uuid "fe7a556e-6749-4a39-850a-5537603a4632")
 			(effects
@@ -6140,7 +6144,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.65 270)
+			(at 0 1.875 270)
 			(layer "F.SilkS")
 			(uuid "6b654428-2859-4df0-bca2-08731e1778e8")
 			(effects
@@ -6298,7 +6302,7 @@
 		(descr "TSSOP, 10 Pin (https://www.ti.com/lit/ml/mpds035c/mpds035c.pdf, https://www.ti.com/lit/ds/symlink/ads1115.pdf#page=50, https://www.nxp.com/docs/en/package-information/SOT552-1.pdf)")
 		(tags "TSSOP SO Texas_DGS0010A Texas_VSSOP-10 NXP_SOT552-1 MSOP-10_3x3mm_P0.5mm VSSOP-10_3x3mm_P0.5mm")
 		(property "Reference" "U3"
-			(at 0 -2.45 90)
+			(at 0.1 -2.775 90)
 			(layer "F.SilkS")
 			(uuid "b3dc4e4a-f3bf-4410-8fd2-19618ef83e6e")
 			(effects
@@ -6700,7 +6704,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 2.88 270)
+			(at 0 1.805 0)
 			(layer "F.SilkS")
 			(uuid "be663116-dbe0-4273-948e-0afff63992c0")
 			(effects

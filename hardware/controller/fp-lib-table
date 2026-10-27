@@ -9,4 +9,5 @@
 	(lib (name "CRF2512_FZ_R001ELF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CRF2512_FZ_R001ELF/footprint.pretty") (options "") (descr ""))
 	(lib (name "JST_S7B-ZR") (type "KiCad") (uri "${KIPRJMOD}/../libraries/JST_S7B-ZR/JST_S7B-ZR.pretty") (options "") (descr ""))
 	(lib (name "JST_ZH_S7B-ZR") (type "KiCad") (uri "${KIPRJMOD}/../libraries/JST_S7B-ZR/JST_ZH_S7B-ZR.pretty") (options "") (descr ""))
+	(lib (name "XIAO_RP2350") (type "KiCad") (uri "C:/Users/igles/Projects/cenmate-fan-controller/hardware/libraries/New_XIAO_Series_Footprints/XIAO_RP2350.pretty") (options "") (descr ""))
 )

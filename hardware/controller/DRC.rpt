@@ -1,20 +1,8 @@
 ** Drc report for controller.kicad_pcb **
-** Created on 2026-10-27T17:40:56 **
+** Created on 2026-10-27T18:00:27 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 46 DRC violations **
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(80.5000 mm, 149.0000 mm): Segment on Edge.Cuts
-    @(65.4250 mm, 149.2500 mm): Reference field of J5
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(53.2000 mm, 48.5500 mm): Reference field of REF**
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(65.5500 mm, 48.7500 mm): Reference field of U2
+** Found 28 DRC violations **
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
@@ -23,85 +11,38 @@
     Rule: board setup constraints silk; warning
     @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
     @(69.9980 mm, 47.9060 mm): Segment of U2 on F.Silkscreen
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(77.8000 mm, 48.5500 mm): Reference field of REF**
-[lib_footprint_mismatch]: Footprint 'XIAO-RP2350-SMD' does not match copy in library 'Seeed_Studio_XIAO_Series'
+[lib_footprint_issues]: The footprint library 'Murata_NCU18XH103F60RB' is not enabled in the current configuration
+    Local override; warning
+    @(77.8500 mm, 139.8500 mm): Footprint TH8
+[lib_footprint_issues]: The footprint library 'JST_ZH_S7B-ZR' is not enabled in the current configuration
+    Local override; warning
+    @(69.9250 mm, 143.7500 mm): Footprint J5
+[lib_footprint_issues]: The footprint library 'Murata_NCU18XH103F60RB' is not enabled in the current configuration
+    Local override; warning
+    @(77.8500 mm, 58.1500 mm): Footprint TH7
+[lib_footprint_issues]: The footprint library 'Molex_470531000' is not enabled in the current configuration
+    Local override; warning
+    @(75.0000 mm, 97.8800 mm): Footprint J3
+[lib_footprint_issues]: The footprint library 'Seeed_Studio_XIAO_Series' is not enabled in the current configuration
     Local override; warning
     @(65.5000 mm, 60.0000 mm): Footprint U2
-[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
-    Rule: board setup constraints silk text height; warning
-    @(78.9200 mm, 139.6100 mm): Reference field of TH8
-[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
-    Rule: board setup constraints silk text height; warning
-    @(76.7800 mm, 58.3900 mm): Reference field of TH7
-[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
-    Rule: board setup constraints silk text height; warning
-    @(65.5500 mm, 48.7500 mm): Reference field of U2
-[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
-    Rule: board setup constraints silk text height; warning
-    @(57.6425 mm, 112.2050 mm): Reference field of RSH1
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(57.3000 mm, 139.5375 mm): Reference field of R11
-    @(57.4450 mm, 139.1750 mm): Polygon of U4 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(57.3000 mm, 139.5375 mm): Reference field of R11
-    @(57.3950 mm, 138.6350 mm): Segment of U4 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(57.3000 mm, 139.5375 mm): Reference field of R11
-    @(57.4500 mm, 138.6350 mm): Segment of U4 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(59.6625 mm, 116.2050 mm): Segment of RSH1 on F.Silkscreen
-    @(60.4650 mm, 116.1975 mm): Reference field of J2
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(64.6000 mm, 89.1000 mm): Reference field of D1
-    @(64.7050 mm, 86.6400 mm): Segment of U1 on F.Silkscreen
-[silk_over_copper]: Silkscreen clipped by solder mask
+[lib_footprint_issues]: The footprint library 'CRF2512_FZ_R001ELF' is not enabled in the current configuration
     Local override; warning
-    @(75.0000 mm, 125.8100 mm): Reference field of J4
-    @(75.0000 mm, 127.0800 mm): PTH pad 3 [/FAN2_TACH] of J4
-[silk_over_copper]: Silkscreen clipped by solder mask
+    @(60.3025 mm, 114.5050 mm): Footprint RSH1
+[lib_footprint_issues]: The footprint library 'Molex_470531000' is not enabled in the current configuration
     Local override; warning
-    @(75.0000 mm, 125.8100 mm): Reference field of J4
-    @(75.0000 mm, 124.5400 mm): PTH pad 2 [/12V_IN] of J4
-[silk_over_copper]: Silkscreen clipped by solder mask
+    @(75.0000 mm, 122.0000 mm): Footprint J4
+[lib_footprint_issues]: The footprint library '54-00286' is not enabled in the current configuration
     Local override; warning
-    @(57.3000 mm, 139.5375 mm): Reference field of R11
-    @(58.0100 mm, 139.0500 mm): Pad 1 [/TH1] of U4 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(72.3000 mm, 116.0000 mm): Reference field of Q2
-    @(71.8000 mm, 115.8500 mm): Pad 2 [Net-(Q2-B)] of R8 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(62.4200 mm, 72.4500 mm): Reference field of C1
-    @(61.3750 mm, 71.9000 mm): Pad 2 [+3.3V] of R1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(60.5500 mm, 73.4000 mm): Reference field of R1
-    @(61.0000 mm, 74.3500 mm): Pad 1 [GND] of U3 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(60.5500 mm, 73.4000 mm): Reference field of R1
-    @(60.5000 mm, 74.3500 mm): Pad 2 [GND] of U3 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(60.8500 mm, 83.0500 mm): Reference field of R3
-    @(60.0000 mm, 82.4000 mm): Pad 1 [Net-(U3-Vin+)] of C2 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(58.5150 mm, 51.3600 mm): Arc of U2 on F.Silkscreen
-    @(57.4175 mm, 52.3800 mm): Pad 1 [unconnected-(U2-D0-Pad1)] of U2 on F.Cu
+    @(60.3025 mm, 105.7050 mm): Footprint J1
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(72.4850 mm, 51.3640 mm): Arc of U2 on F.Silkscreen
     @(73.5825 mm, 52.3800 mm): Pad 14 [+5V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(58.5150 mm, 51.3600 mm): Arc of U2 on F.Silkscreen
+    @(57.4175 mm, 52.3800 mm): Pad 1 [unconnected-(U2-D0-Pad1)] of U2 on F.Cu
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
@@ -166,22 +107,6 @@
     Local override; warning
     @(58.5150 mm, 68.5090 mm): Arc of U2 on F.Silkscreen
     @(57.4175 mm, 67.6200 mm): Pad 7 [/NTC_SEL0] of U2 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(60.5500 mm, 73.4000 mm): Reference field of R1
-    @(60.0000 mm, 74.3500 mm): Pad 3 [unconnected-(U3-~{Alert}-Pad3)] of U3 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(75.0000 mm, 101.6900 mm): Reference field of J3
-    @(75.0000 mm, 102.9600 mm): PTH pad 3 [/FAN1_TACH] of J3
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(75.0000 mm, 101.6900 mm): Reference field of J3
-    @(75.0000 mm, 100.4200 mm): PTH pad 2 [/12V_IN] of J3
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(72.3192 mm, 91.6350 mm): Reference field of Q1
-    @(71.8542 mm, 91.4562 mm): Pad 2 [Net-(Q1-B)] of R5 on F.Cu
 
 ** Found 0 unconnected pads **
 
