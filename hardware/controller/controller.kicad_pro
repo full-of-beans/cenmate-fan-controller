@@ -216,7 +216,10 @@
         0.0,
         0.2,
         0.25,
-        0.5
+        0.5,
+        1.0,
+        1.5,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -542,7 +545,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 5.0,
+        "track_width": 3.0,
         "tuning_profile": "",
         "via_diameter": 1.2,
         "via_drill": 0.6
@@ -575,7 +578,7 @@
       },
       {
         "netclass": "HDD Power",
-        "pattern": "12V_IN"
+        "pattern": "/12V_IN"
       },
       {
         "netclass": "Low Current Power",
@@ -583,7 +586,7 @@
       },
       {
         "netclass": "HDD Power",
-        "pattern": "12V_HDD"
+        "pattern": "/12V_HDD"
       }
     ]
   },
