@@ -2248,7 +2248,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libraries/JST_S7B-ZR/S7B-ZR.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -7.5 3.7 -3.3)
 			)
 			(scale
 				(xyz 1 1 1)
