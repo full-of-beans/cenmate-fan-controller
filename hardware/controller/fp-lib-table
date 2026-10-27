@@ -7,6 +7,6 @@
 	(lib (name "Murata_NCU18XH103F60RB") (type "KiCad") (uri "${KIPRJMOD}/../libraries/NCU18XH103F60RB/NCU18XH103F60RB.pretty") (options "") (descr ""))
 	(lib (name "Hirose_FH19C_7S_0_5SH") (type "KiCad") (uri "${KIPRJMOD}/../libraries/FH19C_7S_0_5SH/footprints.pretty") (options "") (descr ""))
 	(lib (name "CRF2512_FZ_R001ELF") (type "KiCad") (uri "${KIPRJMOD}/../libraries/CRF2512_FZ_R001ELF/footprint.pretty") (options "") (descr ""))
-	(lib (name "JST_S7B-ZR") (type "KiCad") (uri "C:/Users/igles/Projects/cenmate-fan-controller/hardware/libraries/JST_S7B-ZR/JST_S7B-ZR.pretty") (options "") (descr ""))
-	(lib (name "JST_ZH_S7B-ZR") (type "KiCad") (uri "C:/Users/igles/Projects/cenmate-fan-controller/hardware/libraries/JST_S7B-ZR/JST_ZH_S7B-ZR.pretty") (options "") (descr ""))
+	(lib (name "JST_S7B-ZR") (type "KiCad") (uri "${KIPRJMOD}/../libraries/JST_S7B-ZR/JST_S7B-ZR.pretty") (options "") (descr ""))
+	(lib (name "JST_ZH_S7B-ZR") (type "KiCad") (uri "${KIPRJMOD}/../libraries/JST_S7B-ZR/JST_ZH_S7B-ZR.pretty") (options "") (descr ""))
 )
