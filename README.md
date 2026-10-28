@@ -24,20 +24,22 @@ PR #3 establishes the initial Seeed Studio XIAO RP2350 schematic, including the 
 
 ```text
 hardware/
-  controller/         Main controller KiCad project
-  thermistor-strip/   Six-sensor strip KiCad project (not yet implemented)
-  libraries/          Project-specific KiCad symbols/footprints if needed
-firmware/             RP2350 firmware (future)
-docs/                 Schematic verification and design evidence
-mechanical/           Mechanical references and STEP exports (future)
+  fan-controller.kicad_pro   Controller KiCad project
+  fan-controller.kicad_sch   Schematic
+  fan-controller.kicad_pcb   PCB layout
+  fan-controller.kicad_dru   Custom DRC rules
+  libraries/                 Project-local FanController libraries and models
+firmware/                   RP2350 firmware (future)
+docs/                       Design verification and history
+mechanical/                 Mechanical design (future)
 ```
 
 ## Getting started in KiCad
 
 1. Clone the repository locally.
-2. Open `hardware/controller/controller.kicad_pro` in KiCad 10 to work on the existing controller project.
-3. The `hardware/thermistor-strip/` project is a placeholder for the six remote sensors; refer to the verification report's seven-wire interface contract before implementing it.
-4. Follow the verification report and obtain owner approval before hardware changes; do not recreate either project over its existing files.
+2. Open `hardware/fan-controller.kicad_pro` in KiCad 10 to work on the existing controller project.
+3. The separate thermistor-strip project was retired; the controller schematic still contains its original multiplexer/remote-sensor circuitry pending an independent electrical redesign.
+4. Custom symbols and footprints use project-local `FanController` libraries. Confirm the electrical design before fabrication.
 
 KiCad is a **local desktop editor**; GitHub stores and versions the files, rather than opening them as an editable online project.
 

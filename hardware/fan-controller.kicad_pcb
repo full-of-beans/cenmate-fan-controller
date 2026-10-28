@@ -1364,7 +1364,7 @@
 			)
 		)
 	)
-	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+	(footprint "FanController:THRMC1608X95N"
 		(layer "F.Cu")
 		(uuid "290dc849-a5fd-41a1-9572-356b08b96c5f")
 		(at 77.85 139.85 -90)
@@ -1987,7 +1987,7 @@
 			)
 		)
 	)
-	(footprint "JST_ZH_S7B-ZR:JST_ZH_B7B-ZR_1x07_P1.50mm_Horizontal"
+	(footprint "FanController:JST_ZH_B7B-ZR_1x07_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "321d672b-37dd-4518-b17f-0adf7988594d")
 		(at 69.925 143.75 180)
@@ -2252,7 +2252,7 @@
 			(uuid "00f1bbcd-3b20-41b8-a8fa-35a22455dee4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../libraries/JST_S7B-ZR/S7B-ZR.STEP"
+		(model "${KIPRJMOD}/libraries/3dmodels/S7B-ZR.STEP"
 			(offset
 				(xyz -7.5 3.7 -3.3)
 			)
@@ -2264,7 +2264,7 @@
 			)
 		)
 	)
-	(footprint "Murata_NCU18XH103F60RB:THRMC1608X95N"
+	(footprint "FanController:THRMC1608X95N"
 		(layer "F.Cu")
 		(uuid "333c8994-ef2e-497b-8667-e8ac51fd36a2")
 		(at 77.85 58.15 90)
@@ -2786,7 +2786,7 @@
 			)
 		)
 	)
-	(footprint "Molex_470531000:CONN_SD-47053-001_H10p00_MOL"
+	(footprint "FanController:CONN_SD-47053-001_H10p00_MOL"
 		(layer "F.Cu")
 		(uuid "42939d4c-ffbd-45b8-b743-31d8e46bdee1")
 		(at 75 97.88 90)
@@ -3077,7 +3077,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "XIAO_RP2350:XIAO-RP2350-no-underside"
+	(footprint "FanController:XIAO-RP2350-no-underside"
 		(layer "F.Cu")
 		(uuid "43dc0da8-3e12-4816-9c07-215f9a1a4e32")
 		(at 65.5 60 90)
@@ -3482,11 +3482,7 @@
 			(uuid "fd7971d2-49bb-441f-80ab-abfb80112c6e")
 		)
 		(embedded_fonts no)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.096 0.381)
-			)
+		
 			(scale
 				(xyz 1 1 1)
 			)
@@ -3494,10 +3490,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
-			(offset
-				(xyz 0 0 0)
-			)
+		
 			(scale
 				(xyz 1 1 1)
 			)
@@ -3505,11 +3498,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
+		
 			(scale
 				(xyz 1 1 1)
 			)
@@ -3517,11 +3506,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-			(hide yes)
-			(offset
-				(xyz -1.7018 -6.096 0)
-			)
+		
 			(scale
 				(xyz 1 1 1)
 			)
@@ -3529,11 +3514,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-			(hide yes)
-			(offset
-				(xyz -1.778 -6.1722 0)
-			)
+		
 			(scale
 				(xyz 1 1 1)
 			)
@@ -4761,7 +4742,7 @@
 			)
 		)
 	)
-	(footprint "CRF2512_FZ_R001ELF:RESC6432X80N"
+	(footprint "FanController:RESC6432X80N"
 		(layer "F.Cu")
 		(uuid "978911e2-0bae-49b2-9aec-25f9522758b4")
 		(at 60.3025 114.505)
@@ -5461,7 +5442,7 @@
 			)
 		)
 	)
-	(footprint "Molex_470531000:CONN_SD-47053-001_H10p00_MOL"
+	(footprint "FanController:CONN_SD-47053-001_H10p00_MOL"
 		(layer "F.Cu")
 		(uuid "b5556a45-c447-4167-8d56-dcc1a94d7279")
 		(at 75 122 90)
@@ -6845,7 +6826,7 @@
 			)
 		)
 	)
-	(footprint "54-00286:TENSILITY_54-00286"
+	(footprint "FanController:TENSILITY_54-00286"
 		(layer "B.Cu")
 		(uuid "708ae581-1215-4795-9fb9-51dd3a468399")
 		(at 60.3025 105.705 180)

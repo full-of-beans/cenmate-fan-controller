@@ -361,11 +361,7 @@
 		(uuid "06435b4c-6200-48e9-85e5-7554dd2256ba")
 	)
 	(embedded_fonts no)
-	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-nRF52840 v15.step"
-		(hide yes)
-		(offset
-			(xyz -1.778 -6.096 0.381)
-		)
+	
 		(scale
 			(xyz 1 1 1)
 		)
@@ -373,10 +369,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeeduino XIAO SAMD21 v4.step"
-		(offset
-			(xyz 0 0 0)
-		)
+	
 		(scale
 			(xyz 1 1 1)
 		)
@@ -384,11 +377,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO RP2040 v26.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
+	
 		(scale
 			(xyz 1 1 1)
 		)
@@ -396,11 +385,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/Seeed Studio XIAO-ESP32-C3.step"
-		(hide yes)
-		(offset
-			(xyz -1.7018 -6.096 0)
-		)
+	
 		(scale
 			(xyz 1 1 1)
 		)
@@ -408,11 +393,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${AMZPATH}/3dmodels/AMz3D.3dshapes/XIAO-ESP32S3 v2.step"
-		(hide yes)
-		(offset
-			(xyz -1.778 -6.1722 0)
-		)
+	
 		(scale
 			(xyz 1 1 1)
 		)

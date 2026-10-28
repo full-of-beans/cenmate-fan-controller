@@ -727,7 +727,7 @@
     "top_level_sheets": [
       {
         "filename": "controller.kicad_sch",
-        "name": "controller",
+        "name": "fan-controller",
         "uuid": "2efa048c-d6c1-446c-ae8e-880d974401eb"
       }
     ],
@@ -737,7 +737,7 @@
   "sheets": [
     [
       "2efa048c-d6c1-446c-ae8e-880d974401eb",
-      "controller"
+      "fan-controller"
     ]
   ],
   "text_variables": {},
