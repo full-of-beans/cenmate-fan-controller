@@ -20,4 +20,10 @@
   (fp_line (start -3.908 -1.958) (end 3.908 -1.958) (layer F.CrtYd) (width 0.05))
   (fp_line (start -3.908 1.958) (end -3.908 -1.958) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.908 1.958) (end 3.908 -1.958) (layer F.CrtYd) (width 0.05))
+
+  (model "${KIPRJMOD}/libraries/3dmodels/RESC6432X80N.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

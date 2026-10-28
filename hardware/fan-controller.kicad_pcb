@@ -1522,6 +1522,12 @@
 			(uuid "839dde4d-46ee-4ba5-a9d8-19aee0969245")
 		)
 		(embedded_fonts no)
+	
+		(model "${KIPRJMOD}/libraries/3dmodels/THRMC1608X95N.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -2252,7 +2258,7 @@
 			(uuid "00f1bbcd-3b20-41b8-a8fa-35a22455dee4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libraries/3dmodels/S7B-ZR.STEP"
+		(model "${KIPRJMOD}/libraries/3dmodels/JST_ZH_B7B-ZR_1x07_P1.50mm_Horizontal.step"
 			(offset
 				(xyz -7.5 3.7 -3.3)
 			)
@@ -2422,6 +2428,12 @@
 			(uuid "eb8ac9fd-33e6-4be7-a020-e30027a18419")
 		)
 		(embedded_fonts no)
+	
+		(model "${KIPRJMOD}/libraries/3dmodels/THRMC1608X95N.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
@@ -3483,45 +3495,10 @@
 		)
 		(embedded_fonts no)
 		
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 90)
-			)
-		)
 		
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -4920,6 +4897,12 @@
 			(uuid "4ad6bb43-8e40-4b20-a3f4-dc690656f320")
 		)
 		(embedded_fonts no)
+	
+		(model "${KIPRJMOD}/libraries/3dmodels/RESC6432X80N.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
@@ -7145,6 +7128,12 @@
 			(uuid "cc0331c9-58c4-46e5-879d-16177812159a")
 		)
 		(embedded_fonts no)
+	
+		(model "${KIPRJMOD}/libraries/3dmodels/TENSILITY_54-00286.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
 	(gr_line
 		(start 50.5 49)

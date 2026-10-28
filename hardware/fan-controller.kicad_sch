@@ -2958,7 +2958,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FanController:XIAO-RP2350-SMD"
+		(symbol "FanController:XIAO-RP2350-no-underside"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2986,7 +2986,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "FanController:XIAO-RP2350-SMD"
+			(property "Footprint" "FanController:XIAO-RP2350-no-underside"
 				(at 0.508 10.414 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8281,7 +8281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "FanController:XIAO-RP2350-SMD")
+		(lib_id "FanController:XIAO-RP2350-no-underside")
 		(at 88.9 93.98 0)
 		(unit 1)
 		(body_style 1)

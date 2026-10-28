@@ -567,7 +567,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "FanController:XIAO-RP2350-SMD"
+		(property "Footprint" "FanController:XIAO-RP2350-no-underside"
 			(at 0.508 10.414 0)
 			(show_name no)
 			(do_not_autoplace no)
