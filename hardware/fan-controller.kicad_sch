@@ -4205,19 +4205,7 @@
 					)
 				)
 			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
@@ -4234,6 +4222,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -4295,6 +4297,12 @@
 		(uuid "94eaf7c0-72eb-45f3-bc19-433bffd7e02c")
 	)
 	(junction
+		(at 191.77 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99dfc905-3e1e-402d-8068-8e164e0a4b80")
+	)
+	(junction
 		(at 176.53 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4323,6 +4331,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb2b343b-ee0d-45b0-9e6d-880e32e727c8")
+	)
+	(junction
+		(at 190.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6987ea6-3626-467e-a372-102d1ff34f22")
 	)
 	(no_connect
 		(at 85.09 63.5)
@@ -4474,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 190.5 104.14)
+			(xy 190.5 99.06) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4524,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 134.62) (xy 191.77 139.7)
+			(xy 191.77 134.62) (xy 191.77 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4714,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 135.89) (xy 198.12 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a183e6-3596-463f-b0b1-f0dc446baed9")
+	)
+	(wire
+		(pts
 			(xy 222.25 135.89) (xy 222.25 147.32)
 		)
 		(stroke
@@ -4854,16 +4878,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 196.85 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2fab03d-6f0b-49c5-ac40-d1d5fbe5af65")
-	)
-	(wire
-		(pts
 			(xy 58.42 90.17) (xy 64.77 90.17)
 		)
 		(stroke
@@ -4891,6 +4905,16 @@
 			(type default)
 		)
 		(uuid "a5a4c08b-3b40-4ba8-b98c-51c1e2dddac0")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cdd202-a810-4a82-a973-36a2ba7bc343")
 	)
 	(wire
 		(pts
@@ -4954,13 +4978,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 198.12 135.89)
+			(xy 184.15 100.33) (xy 190.5 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4d1cba-e068-4407-9a61-1d6be42db27e")
+		(uuid "bb920469-2d3b-4aea-a39b-afe8bfa83320")
 	)
 	(wire
 		(pts
@@ -5084,6 +5108,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 135.89) (xy 191.77 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1e9707-639b-4a3a-a35e-6e9031419274")
+	)
+	(wire
+		(pts
 			(xy 58.42 184.15) (xy 58.42 182.88)
 		)
 		(stroke
@@ -5201,6 +5235,26 @@
 			(type default)
 		)
 		(uuid "f15d9080-abfd-4576-a15b-203d93f5b07d")
+	)
+	(wire
+		(pts
+			(xy 185.42 135.89) (xy 191.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e6dbcf-502f-4993-8306-f7b0c34d5835")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54aad4d-1b99-4002-9bbc-50f9fd3c8edb")
 	)
 	(wire
 		(pts
@@ -6007,7 +6061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d1b7fa0-e37b-4c4d-a208-4d0e0848bd50")
-		(property "Reference" "TH8"
+		(property "Reference" "TH2"
 			(at 207.264 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +6124,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "TH8")
+					(reference "TH2")
 					(unit 1)
 				)
 			)
@@ -8108,7 +8162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f4ed10c-127d-4386-ad20-a33dfee79136")
-		(property "Reference" "TH7"
+		(property "Reference" "TH1"
 			(at 205.994 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,7 +8225,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "TH7")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
