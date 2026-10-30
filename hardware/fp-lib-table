@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "FanController") (type "KiCad") (uri "${KIPRJMOD}/libraries/FanController.pretty") (options "") (descr ""))
+)

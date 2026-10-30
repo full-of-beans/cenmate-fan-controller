@@ -1,0 +1,7 @@
+(version 1)
+(rule "INA228 U3 fine-pitch routing"
+    (constraint clearance (min 0.20mm))
+    (constraint track_width (min 0.20mm) (max 0.25mm))
+    (condition "A.Reference == 'U3' || B.Reference == 'U3'"))
+
+
