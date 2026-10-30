@@ -20,7 +20,5 @@ dist/
 
 **/.history/
 
-# KiCad restore backups and regenerated reports
+# KiCad restore backups
 **/_restore_backup_*/
-**/DRC.rpt
-**/ERC.rpt
