@@ -1,0 +1,33 @@
+ERC report (2026-10-30T13:53:43, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol '54-00286' doesn't match copy in library 'FanController'
+    ; warning
+    @(1250 mils, 950 mils): Symbol J1 [54-00286]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(1950 mils, 850 mils): Symbol #FLG01 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(1950 mils, 950 mils): Symbol #FLG02 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol '470531000' doesn't match copy in library 'FanController'
+    ; warning
+    @(2600 mils, 5550 mils): Symbol J3 [470531000]
+[lib_symbol_mismatch]: Symbol 'XIAO-RP2350-no-underside' doesn't match copy in library 'FanController'
+    ; warning
+    @(3500 mils, 3700 mils): Symbol U2 [XIAO-RP2350-no-underside]
+[lib_symbol_mismatch]: Symbol '470531000' doesn't match copy in library 'FanController'
+    ; warning
+    @(4600 mils, 5600 mils): Symbol J4 [470531000]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(4800 mils, 1300 mils): Symbol #FLG03 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(7450 mils, 1300 mils): Symbol #FLG04 [PWR_FLAG]
+
+ ** ERC messages: 8  Errors 0  Warnings 8
+
+ ** Ignored checks:
+    - SPICE model issue
