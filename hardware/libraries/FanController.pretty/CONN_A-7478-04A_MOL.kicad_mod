@@ -30,4 +30,9 @@
   (pad "2" thru_hole circle (at 2.54 0) (size 1.5748 1.5748) (drill 1.0668) (layers *.Cu *.Mask))
   (pad "3" thru_hole circle (at 5.08 0) (size 1.5748 1.5748) (drill 1.0668) (layers *.Cu *.Mask))
   (pad "4" thru_hole circle (at 7.62 0) (size 1.5748 1.5748) (drill 1.0668) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/libraries/3dmodels/022053041.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
