@@ -1,0 +1,116 @@
+** Drc report for fan-controller.kicad_pcb **
+** Created on 2026-10-31T10:42:29 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 25 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(80.5000 mm, 49.0000 mm): Segment on Edge.Cuts
+    @(79.3500 mm, 133.8875 mm): Reference field of R12
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
+    @(61.0020 mm, 49.4470 mm): Segment of U2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
+    @(69.9980 mm, 47.9060 mm): Segment of U2 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'XIAO-RP2350-no-underside' does not match copy in library 'FanController'
+    Local override; warning
+    @(65.5000 mm, 60.0000 mm): Footprint U2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.5250 mm, 61.2750 mm): Reference field of U2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(64.7750 mm, 84.1750 mm): Reference field of D1
+    @(64.8750 mm, 84.7125 mm): Segment of S1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(64.7750 mm, 84.1750 mm): Reference field of D1
+    @(64.8750 mm, 75.9125 mm): Segment of S1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(55.8900 mm, 77.2637 mm): Segment of C1 on F.Silkscreen
+    @(55.4000 mm, 78.0750 mm): Reference field of C1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(79.1500 mm, 137.8000 mm): Reference field of TH2
+    @(79.4500 mm, 137.3500 mm): Pad 2 [/TH2_ADC] of R12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 52.3800 mm): Pad 1 [/TH1_ADC] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 54.9200 mm): Pad 2 [/TH2_ADC] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 57.4600 mm): Pad 3 [unconnected-(U2-D2-Pad3)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 60.0000 mm): Pad 4 [unconnected-(U2-D3-Pad4)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 62.5400 mm): Pad 5 [/I2C_SDA] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 65.0800 mm): Pad 6 [/I2C_SCL] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(57.4175 mm, 67.6200 mm): Pad 7 [unconnected-(U2-D6-Pad7)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 67.6200 mm): Pad 8 [/FAN1_TACH] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 65.0800 mm): Pad 9 [/FAN1_PWM] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 62.5400 mm): Pad 10 [/FAN2_TACH] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 60.0000 mm): Pad 11 [/FAN2_PWM] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 57.4600 mm): Pad 12 [+3.3V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 54.9200 mm): Pad 13 [GND] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(74.3900 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
+    @(73.5825 mm, 52.3800 mm): Pad 14 [+5V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(57.7500 mm, 72.0000 mm): Reference field of R1
+    @(56.6000 mm, 72.7875 mm): Pad 1 [/I2C_SCL] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(55.4000 mm, 78.0750 mm): Reference field of C1
+    @(56.6250 mm, 78.4750 mm): Pad 2 [GND] of C1 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
