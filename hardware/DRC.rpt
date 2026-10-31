@@ -1,58 +1,12 @@
 ** Drc report for fan-controller.kicad_pcb **
-** Created on 2026-10-31T08:36:25 **
+** Created on 2026-10-31T10:42:29 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 39 DRC violations **
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1173 mm)
-    Rule: netclass 'Default'; error
-    @(76.3681 mm, 100.3550 mm): Track [Net-(Q1-C)] on F.Cu, length 2.9198 mm
-    @(79.0500 mm, 66.7250 mm): Track [/FAN2_TACH] on F.Cu, length 42.7500 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1173 mm)
-    Rule: netclass 'Default'; error
-    @(78.4327 mm, 86.2127 mm): Track [Net-(Q1-C)] on F.Cu, length 1.2837 mm
-    @(79.0500 mm, 66.7250 mm): Track [/FAN2_TACH] on F.Cu, length 42.7500 mm
-[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1173 mm)
-    Rule: netclass 'Default'; error
-    @(78.4327 mm, 98.2904 mm): Track [Net-(Q1-C)] on F.Cu, length 12.0777 mm
-    @(79.0500 mm, 66.7250 mm): Track [/FAN2_TACH] on F.Cu, length 42.7500 mm
-[courtyards_overlap]: Courtyards overlap
-    Rule: board setup constraints courtyard; error
-    @(64.7250 mm, 86.8750 mm): Footprint D1
-    @(66.8250 mm, 80.3125 mm): Footprint S1
-[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
-    Rule: board setup constraints edge; error
-    @(80.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(79.4500 mm, 137.3500 mm): Pad 2 [/TH2_ADC] of R12 on F.Cu
-[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3500 mm)
-    Rule: board setup constraints edge; error
-    @(80.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(79.4500 mm, 135.5250 mm): Pad 1 [+3.3V] of R12 on F.Cu
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(68.8450 mm, 87.3800 mm): Track [+3.3V] on F.Cu, length 0.0283 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(51.7600 mm, 97.9650 mm): Track [GND] on B.Cu, length 0.0141 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(57.5100 mm, 128.2175 mm): Track [/12V_HDD] on F.Cu, length 0.0636 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(79.2300 mm, 97.8800 mm): Track [GND] on B.Cu, length 0.0283 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(51.8100 mm, 93.0100 mm): Track [GND] on B.Cu, length 0.0849 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(66.9250 mm, 147.7250 mm): Track [GND] on B.Cu, length 0.0354 mm
+** Found 25 DRC violations **
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(80.5000 mm, 49.0000 mm): Segment on Edge.Cuts
     @(79.3500 mm, 133.8875 mm): Reference field of R12
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
-    @(65.5500 mm, 48.7500 mm): Reference field of U2
 [silk_edge_clearance]: Silkscreen clipped by board edge
     Rule: board setup constraints silk; warning
     @(50.5000 mm, 49.0000 mm): Segment on Edge.Cuts
@@ -66,23 +20,23 @@
     @(65.5000 mm, 60.0000 mm): Footprint U2
 [text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)
     Rule: board setup constraints silk text height; warning
-    @(65.5500 mm, 48.7500 mm): Reference field of U2
+    @(54.5250 mm, 61.2750 mm): Reference field of U2
 [silk_overlap]: Silkscreen clearance
     Rule: board setup constraints silk; warning
-    @(65.7250 mm, 84.6650 mm): Segment of D1 on F.Silkscreen
+    @(64.7750 mm, 84.1750 mm): Reference field of D1
     @(64.8750 mm, 84.7125 mm): Segment of S1 on F.Silkscreen
 [silk_overlap]: Silkscreen clearance
     Rule: board setup constraints silk; warning
-    @(65.7250 mm, 84.6650 mm): Segment of D1 on F.Silkscreen
-    @(64.8750 mm, 84.7125 mm): Segment of S1 on F.Silkscreen
-[silk_overlap]: Silkscreen clearance
-    Rule: board setup constraints silk; warning
-    @(65.7250 mm, 84.6650 mm): Segment of D1 on F.Silkscreen
+    @(64.7750 mm, 84.1750 mm): Reference field of D1
     @(64.8750 mm, 75.9125 mm): Segment of S1 on F.Silkscreen
 [silk_overlap]: Silkscreen clearance
     Rule: board setup constraints silk; warning
     @(55.8900 mm, 77.2637 mm): Segment of C1 on F.Silkscreen
     @(55.4000 mm, 78.0750 mm): Reference field of C1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(79.1500 mm, 137.8000 mm): Reference field of TH2
+    @(79.4500 mm, 137.3500 mm): Pad 2 [/TH2_ADC] of R12 on F.Cu
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(56.6100 mm, 68.5090 mm): Segment of U2 on F.Silkscreen
@@ -141,10 +95,6 @@
     @(73.5825 mm, 52.3800 mm): Pad 14 [+5V] of U2 on F.Cu
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
-    @(79.1500 mm, 137.8000 mm): Reference field of TH2
-    @(79.4500 mm, 137.3500 mm): Pad 2 [/TH2_ADC] of R12 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
     @(57.7500 mm, 72.0000 mm): Reference field of R1
     @(56.6000 mm, 72.7875 mm): Pad 1 [/I2C_SCL] of R2 on F.Cu
 [silk_over_copper]: Silkscreen clipped by solder mask
@@ -152,15 +102,7 @@
     @(55.4000 mm, 78.0750 mm): Reference field of C1
     @(56.6250 mm, 78.4750 mm): Pad 2 [GND] of C1 on F.Cu
 
-** Found 2 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(79.0000 mm, 62.4750 mm): Pad 1 [+3.3V] of R11 on F.Cu
-    @(73.5825 mm, 57.4600 mm): Track [+3.3V] on F.Cu, length 0.7133 mm
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(75.8600 mm, 116.0000 mm): PTH pad 2 [Net-(Q2-B)] of Q2
-    @(71.7750 mm, 117.4000 mm): Track [Net-(Q2-B)] on F.Cu, length 2.1250 mm
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
