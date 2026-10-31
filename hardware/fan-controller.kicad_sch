@@ -825,8 +825,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FanController:470531000"
-			(body_styles demorgan)
+		(symbol "FanController:22053041"
 			(pin_names
 				(offset 0.254)
 			)
@@ -845,7 +844,7 @@
 					)
 				)
 			)
-			(property "Value" "470531000"
+			(property "Value" "22053041"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -855,7 +854,7 @@
 					)
 				)
 			)
-			(property "Footprint" "FanController:CONN_SD-47053-001_H10p00_MOL"
+			(property "Footprint" "FanController:CONN_A-7478-04A_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -867,7 +866,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/470531000?display=pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22053041?display=pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -900,7 +899,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "470531000"
+			(property "ki_keywords" "22053041"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -911,7 +910,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SD-47053-001_H10p00_MOL"
+			(property "ki_fp_filters" "CONN_A-7478-04A_MOL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -922,7 +921,7 @@
 					)
 				)
 			)
-			(symbol "470531000_1_1"
+			(symbol "22053041_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -10.16)
@@ -1115,7 +1114,7 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
 					(name "1"
@@ -1133,7 +1132,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
@@ -1151,7 +1150,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
@@ -1169,273 +1168,7 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "470531000_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
@@ -6051,6 +5784,96 @@
 		)
 	)
 	(symbol
+		(lib_id "FanController:22053041")
+		(at 66.04 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18268009-511e-45d5-808f-d25eaede069a")
+		(property "Reference" "J3"
+			(at 80.01 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22053041"
+			(at 80.01 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FanController:CONN_A-7478-04A_MOL"
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22053041?display=pdf"
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4149eada-13cc-4fbf-ae8a-d52305e53546")
+		)
+		(pin "3"
+			(uuid "06b31f78-8143-4f33-a74f-7f1d90a00d84")
+		)
+		(pin "2"
+			(uuid "9fb7975d-ee5d-4be8-9bc3-5e1d2971bc4e")
+		)
+		(pin "1"
+			(uuid "2da286c3-2c37-4161-8c02-2771156df204")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FanController:NCU18XH103F60RB")
 		(at 208.28 135.89 0)
 		(unit 1)
@@ -7106,186 +6929,6 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FanController:470531000")
-		(at 116.84 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5afefa34-8df6-4e1e-92f6-32e6262ab353")
-		(property "Reference" "J4"
-			(at 130.81 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470531000"
-			(at 130.81 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FanController:CONN_SD-47053-001_H10p00_MOL"
-			(at 116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/470531000?display=pdf"
-			(at 116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d9bce04d-5b7b-44b9-a571-afde9126bebf")
-		)
-		(pin "1"
-			(uuid "1efd107f-dcce-4365-8cd2-4be48469b05a")
-		)
-		(pin "2"
-			(uuid "0c0197e8-65ba-4535-8a6d-4dd1f9eab400")
-		)
-		(pin "3"
-			(uuid "de3faf90-4660-4e9e-b441-4b2dd50704a5")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FanController:470531000")
-		(at 66.04 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ece3792-ee9e-4c8a-ab99-4fc303f5acbd")
-		(property "Reference" "J3"
-			(at 80.01 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470531000"
-			(at 80.01 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FanController:CONN_SD-47053-001_H10p00_MOL"
-			(at 66.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/470531000?display=pdf"
-			(at 66.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "e706a207-744d-41c0-a804-035c0866b371")
-		)
-		(pin "1"
-			(uuid "cd9377ce-e127-4983-bf76-7f782a6db172")
-		)
-		(pin "2"
-			(uuid "9ec93d34-82d8-4527-9860-a6f3b1c0347e")
-		)
-		(pin "3"
-			(uuid "17a2ab9b-573d-4c73-b9a1-203c2b71ceda")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9608,6 +9251,96 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FanController:22053041")
+		(at 116.84 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9b87842-6347-43cb-94f6-fe4dfba67a5b")
+		(property "Reference" "J4"
+			(at 130.81 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22053041"
+			(at 130.81 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FanController:CONN_A-7478-04A_MOL"
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22053041?display=pdf"
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5c1c72cd-dd58-4413-867d-a6f112d4e5e8")
+		)
+		(pin "3"
+			(uuid "e7608a53-6b50-4c0c-814f-7fbb7f31d754")
+		)
+		(pin "2"
+			(uuid "a76d7eeb-c101-4a98-9e1f-f7fb5bace3df")
+		)
+		(pin "1"
+			(uuid "7e95e085-67bd-4283-9118-db5129c5f782")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "J4")
 					(unit 1)
 				)
 			)
