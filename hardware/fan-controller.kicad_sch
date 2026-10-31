@@ -9647,7 +9647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "FanController:PHOENIX_5442206"
 			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9658,7 +9658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/phoenix-contact/5442206/4390264"
 			(at 29.21 40.64 0)
 			(hide yes)
 			(show_name no)
