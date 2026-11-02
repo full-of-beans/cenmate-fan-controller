@@ -211,159 +211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_DCDC:TSR0.5-2450"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.112 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TSR0.5-2450"
-				(at 1.27 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
-				(at 0 -6.096 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.tracopower.com/products/tsr0.5.pdf"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Traco non-isolated pol dcdc converter single"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TSR0.5*24xx*24xxx**THT*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TSR0.5-2450_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TSR0.5-2450_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -502,172 +349,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2002,38 +1683,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FanController:SLW-883935-2A-D"
+		(symbol "FanController:TPS22810DBVR"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at -2.54 5.08 0)
+			(property "Reference" "U"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "SLW-883935-2A-D"
-				(at -2.54 -5.08 0)
+			(property "Value" "TPS22810DBVR"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "FanController:SW_SLW-883935-2A-D"
+			(property "Footprint" "FanController:TPS22810DBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2041,11 +1720,11 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tps22810"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2053,6 +1732,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 				)
 			)
@@ -2067,7 +1747,17 @@
 					)
 				)
 			)
-			(property "PARTREV" "1.01"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPS22810DBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2076,10 +1766,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
+			(property "ki_fp_filters" "TPS22810DBVR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2088,40 +1777,15 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "Same Sky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "SLW-883935-2A-D_0_0"
+			(symbol "TPS22810DBVR_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
+						(xy -15.24 12.7) (xy -15.24 -12.7)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2130,32 +1794,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 2.794 2.1336)
+						(xy -15.24 -12.7) (xy 15.24 -12.7)
 					)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2164,10 +1806,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.921 2.54)
+						(xy 15.24 12.7) (xy -15.24 12.7)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -2176,66 +1818,120 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 2.921 -2.54)
+						(xy 15.24 -12.7) (xy 15.24 12.7)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "VIN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "EN_UVLO"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3994,16 +3690,16 @@
 		(uuid "2f0d546c-7b6e-45b2-a787-24ae75e25e60")
 	)
 	(junction
+		(at 116.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d87dca-4a93-47d2-aa26-fb2b5028c34e")
+	)
+	(junction
 		(at 176.53 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42282599-03cd-4fa6-8bc3-51a69e999b55")
-	)
-	(junction
-		(at 121.92 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4409fe7c-76b1-4ac2-a99a-2b0a71be48d0")
 	)
 	(junction
 		(at 198.12 33.02)
@@ -4016,6 +3712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fa6870c-0397-42e0-90c2-90ca75c5f092")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd7b055-c675-4ab5-9328-0841da67153f")
 	)
 	(junction
 		(at 229.87 54.61)
@@ -4108,10 +3810,6 @@
 		(uuid "4009d57c-4ef4-4206-988a-08783cdbd569")
 	)
 	(no_connect
-		(at 114.3 38.1)
-		(uuid "56089ab2-5d8f-475c-942d-3e9f3439eb7b")
-	)
-	(no_connect
 		(at 110.49 110.49)
 		(uuid "5afd8e6a-b3e4-411b-9523-5e2bb9f7c20e")
 	)
@@ -4148,6 +3846,14 @@
 		(uuid "cbc1621e-08dc-4343-89d5-87908d590307")
 	)
 	(no_connect
+		(at 71.12 41.91)
+		(uuid "d78af483-4ac8-4b73-9990-5caac832c98e")
+	)
+	(no_connect
+		(at 111.76 31.75)
+		(uuid "ed7a3be3-4a63-4d40-9c2c-6ceef5c728a5")
+	)
+	(no_connect
 		(at 64.77 99.06)
 		(uuid "f0344ead-ecf0-44ad-bdb7-12f4407a79a0")
 	)
@@ -4168,16 +3874,6 @@
 			(type default)
 		)
 		(uuid "0202c2e0-7fd0-4d18-b182-679f4e24bfa1")
-	)
-	(wire
-		(pts
-			(xy 121.92 33.02) (xy 121.92 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b6198e-b9a4-46ce-b440-7a2509599e5c")
 	)
 	(wire
 		(pts
@@ -4251,6 +3947,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 26.67) (xy 120.65 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18171c64-ca27-4be8-af09-292e7999c7b0")
+	)
+	(wire
+		(pts
 			(xy 110.49 74.93) (xy 127 74.93)
 		)
 		(stroke
@@ -4311,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c14766c-f154-42d0-9b30-cca89a919414")
+	)
+	(wire
+		(pts
 			(xy 58.42 170.18) (xy 58.42 172.72)
 		)
 		(stroke
@@ -4338,16 +4054,6 @@
 			(type default)
 		)
 		(uuid "4457b5bb-6fea-431d-b2ae-caef650ea075")
-	)
-	(wire
-		(pts
-			(xy 90.17 35.56) (xy 91.44 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44683783-3577-4248-8516-4ea7b48acc18")
 	)
 	(wire
 		(pts
@@ -4388,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "50bda456-a9a2-44cd-9c34-c0531a8a615b")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589cd65f-3262-44ad-84b3-13c6b44d5693")
 	)
 	(wire
 		(pts
@@ -4468,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "63a183e6-3596-463f-b0b1-f0dc446baed9")
+	)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 71.12 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756c962b-d38c-4ff3-9c0c-2fd9b0ca3699")
 	)
 	(wire
 		(pts
@@ -4721,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5888cd-ff6d-4c58-af2b-8953b4b362d2")
+	)
+	(wire
+		(pts
 			(xy 222.25 147.32) (xy 222.25 149.86)
 		)
 		(stroke
@@ -4901,16 +4637,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6334824-f367-4b2c-9f9a-3ec0192a3f2d")
-	)
-	(wire
-		(pts
 			(xy 146.05 36.83) (xy 166.37 36.83)
 		)
 		(stroke
@@ -4948,16 +4674,6 @@
 			(type default)
 		)
 		(uuid "ec46b2f0-fdff-4d9d-a4af-4ff41244ac63")
-	)
-	(wire
-		(pts
-			(xy 114.3 33.02) (xy 121.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb41cca-38f1-4863-ac80-d3a46ffa27aa")
 	)
 	(wire
 		(pts
@@ -5019,15 +4735,15 @@
 		)
 		(uuid "fa58937f-4aa5-46b6-91c8-f4d014eeb6da")
 	)
-	(label "12V_IN"
-		(at 62.23 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 71.12 31.75)
 		)
-		(uuid "1012b737-cfa4-4ac5-911f-05fab82b6725")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef00470-597c-49ea-ad76-a75494c534b5")
 	)
 	(label "12V_HDD"
 		(at 146.05 59.69 0)
@@ -5038,6 +4754,16 @@
 			(justify left top)
 		)
 		(uuid "1ab208b3-a5c3-4c4f-9233-f12270f9d0fa")
+	)
+	(label "SWITCH_EN"
+		(at 135.89 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "1ac1ccc9-fd29-412b-bec0-8efecacea2a7")
 	)
 	(label "I2C_SCL"
 		(at 58.42 90.17 180)
@@ -5069,7 +4795,7 @@
 		)
 		(uuid "28e389f4-4fbe-452a-aae1-2fb6fa0495a0")
 	)
-	(label "12V_IN"
+	(label "12V_SWITCH"
 		(at 100.33 144.78 0)
 		(effects
 			(font
@@ -5108,6 +4834,16 @@
 			(justify bottom)
 		)
 		(uuid "34d2e602-7113-4c94-8781-824a531b6535")
+	)
+	(label "12V_SWITCH"
+		(at 120.65 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "40348fe1-e183-49e0-b50e-63abd14e0d78")
 	)
 	(label "TH1_ADC"
 		(at 58.42 71.12 180)
@@ -5169,6 +4905,16 @@
 		)
 		(uuid "5d104fba-01d4-4472-ab86-52877b2dd7d3")
 	)
+	(label "SWITCH_EN"
+		(at 64.77 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "67d3f93a-caaf-47d9-803f-dc2ba6df486e")
+	)
 	(label "I2C_SDA"
 		(at 210.82 54.61 0)
 		(effects
@@ -5189,7 +4935,7 @@
 		)
 		(uuid "77cd53f6-89a2-4ece-a8e1-f1e2e3bcdc8d")
 	)
-	(label "12V_IN"
+	(label "12V_SWITCH"
 		(at 49.53 143.51 0)
 		(effects
 			(font
@@ -5228,6 +4974,16 @@
 			(justify left bottom)
 		)
 		(uuid "8ae05603-8262-4803-84ac-7063f4762a3e")
+	)
+	(label "12V_IN"
+		(at 63.5 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "8f2e562a-28ae-402d-abd2-394dbddf258f")
 	)
 	(label "FAN1_PWM"
 		(at 116.84 90.17 0)
@@ -5491,138 +5247,6 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FanController:SLW-883935-2A-D")
-		(at 106.68 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0871d859-3b3b-4125-97f2-4f534c660d6d")
-		(property "Reference" "S1"
-			(at 106.68 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SLW-883935-2A-D"
-			(at 106.68 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "FanController:SW_SLW-883935-2A-D"
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "1.01"
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.1mm"
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Same Sky"
-			(at 106.68 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "82fc1fb0-4bc3-41a0-94d8-86045f8fb55c")
-		)
-		(pin "2"
-			(uuid "9ce24cbb-3f1e-441c-bc21-f36d3ac7c967")
-		)
-		(pin "3"
-			(uuid "de1f1734-10d7-4e7f-b0af-359cdeccaf66")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -6164,7 +5788,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.792 70.104 0)
+			(at 114.554 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6220,8 +5844,8 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 121.92 33.02 0)
-		(mirror x)
+		(at 121.92 71.12 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6231,7 +5855,7 @@
 		(dnp no)
 		(uuid "3064652b-fe61-4d50-92dd-909e2351a9a0")
 		(property "Reference" "#FLG03"
-			(at 121.92 34.925 0)
+			(at 121.92 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +5866,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 124.968 37.846 0)
+			(at 122.428 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6252,7 +5876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 33.02 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6263,7 +5887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 33.02 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +5898,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 121.92 33.02 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,162 +6403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55895c67-8ff3-420f-9ff8-c61bc8cddaa7")
-		(property "Reference" "#PWR09"
-			(at 121.92 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 121.92 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00bc8345-ec00-4799-9dee-c9e331b4ca8a")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58fa9e95-f6eb-4724-bc74-f3d99b296be4")
-		(property "Reference" "#PWR05"
-			(at 80.01 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8ffd2f2-5f5d-410e-9acb-a25121abc67b")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 185.42 0)
 		(unit 1)
@@ -7162,6 +6630,100 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FanController:TPS22810DBVR")
+		(at 91.44 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6867c269-5278-40d7-ba3b-7fd276cac02a")
+		(property "Reference" "U1"
+			(at 91.44 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS22810DBVR"
+			(at 91.44 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "FanController:TPS22810DBVR"
+			(at 91.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22810"
+			(at 91.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "c5097eb9-ee9b-4054-aa21-db4ccafd97d1")
+		)
+		(pin "1"
+			(uuid "39fe0183-bdb5-4bd2-b06f-18e7ce444640")
+		)
+		(pin "3"
+			(uuid "e75ea0fa-d889-47fc-8c46-59d27c12d9a9")
+		)
+		(pin "6"
+			(uuid "532dff3c-26b0-4347-a1b6-9e7cef9cc356")
+		)
+		(pin "5"
+			(uuid "03dd7eb1-89b2-458b-8089-abffa2d583a9")
+		)
+		(pin "2"
+			(uuid "2753093c-113f-4fb0-ac82-4d33f7fb2c0c")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7411,6 +6973,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76170207-01ad-4356-8b75-c137c43a7519")
+		(property "Reference" "#PWR09"
+			(at 114.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 45.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3c66fc9-452d-4345-b37e-9299c58042e0")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FanController:54-00286")
 		(at 31.75 24.13 0)
 		(unit 1)
@@ -7631,86 +7271,6 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 95.25 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79d18308-74c2-4067-abee-66a90b38f01f")
-		(property "Reference" "D1"
-			(at 95.5675 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 95.5675 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 95.25 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stps1l40.pdf"
-			(at 95.25 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "STPS1L40ZF"
-			(at 95.25 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4031b743-c7c9-4ef7-b0cb-c9cac9ce79a7")
-		)
-		(pin "2"
-			(uuid "046e765f-c3a5-4c57-9eae-5a95a62e89bb")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9851,90 +9411,6 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:TSR0.5-2450")
-		(at 80.01 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3041923-0627-49ee-9e0b-7e2c9e1214ab")
-		(property "Reference" "U1"
-			(at 80.01 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TSR0.5-2450"
-			(at 80.01 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
-			(at 80.01 44.196 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tsr0.5.pdf"
-			(at 80.01 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-			(at 80.01 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fafd88e8-372a-41ed-8815-30d13a76c830")
-		)
-		(pin "3"
-			(uuid "15507c4e-3ce5-4fde-b564-d97e0e6f80b3")
-		)
-		(pin "1"
-			(uuid "a7cef1c1-6acf-442e-a77d-6575b4524a15")
-		)
-		(instances
-			(project "fan-controller"
-				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "U1")
 					(unit 1)
 				)
 			)
