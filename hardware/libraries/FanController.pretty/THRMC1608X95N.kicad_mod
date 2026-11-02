@@ -1,27 +1,158 @@
-
-(footprint THRMC1608X95N (layer F.Cu) (tedit 6ADAB3F0)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.24 -1.07 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value THRMC1608X95N (at 1.76 1.07 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.735 0.0) (size 1.0 0.97) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.735 0.0) (size 1.0 0.97) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.88 0.48) (end -0.88 0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.88 -0.48) (end -0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.88 0.48) (end 0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.88 0.48) (end -0.88 -0.48) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.485 0.735) (end 1.485 0.735) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.485 -0.735) (end 1.485 -0.735) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.485 0.735) (end -1.485 -0.735) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.485 0.735) (end 1.485 -0.735) (layer F.CrtYd) (width 0.05))
-
-  (model "${KIPRJMOD}/libraries/3dmodels/THRMC1608X95N.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "THRMC1608X95N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.24 -1.07 0)
+		(layer "F.SilkS")
+		(uuid "518cd7ee-d396-4850-ba9c-96058970e038")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "THRMC1608X95N"
+		(at 1.76 1.07 0)
+		(layer "F.Fab")
+		(uuid "5a8b726d-2f7a-41ec-91af-545d4fc818a5")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad0c2914-5f43-41e1-aa2c-a31d86b2104b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15ec60c-18af-4b1b-b03d-26cb936da35e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.485 -0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f09ba08-dbeb-4516-9081-640304a04dc6")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end -1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e3cb3b06-4be2-40c9-91e7-0d7672b144f4")
+	)
+	(fp_line
+		(start -1.485 0.735)
+		(end 1.485 0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08915231-6253-47ca-b11e-a3bd96a03cb1")
+	)
+	(fp_line
+		(start 1.485 0.735)
+		(end 1.485 -0.735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7dd997e-962c-4fc8-8d67-cdb775145795")
+	)
+	(fp_line
+		(start -0.88 0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71b8aaa0-0771-4c83-b996-d11d0168664c")
+	)
+	(fp_line
+		(start 0.88 -0.48)
+		(end -0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9f2280b-eeb4-4635-918f-3a68f8af1c61")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end -0.88 0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92ff8d26-c016-4d69-90ba-efa290828e75")
+	)
+	(fp_line
+		(start 0.88 0.48)
+		(end 0.88 -0.48)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8946dbfa-9798-40a8-992e-1a70a7e16822")
+	)
+	(pad "1" smd rect
+		(at -0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "52850d2c-f9da-4e86-b2a1-b1b46b2e9ce1")
+	)
+	(pad "2" smd rect
+		(at 0.735 0)
+		(size 1 0.97)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dba01c80-5b59-4268-a50b-93fb71fbdc83")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/THRMC1608X95N.step"
+		(offset
+			(xyz 0 -0.475 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

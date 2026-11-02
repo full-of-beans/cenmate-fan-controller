@@ -1,29 +1,178 @@
-
-(footprint RESC6432X80N (layer F.Cu) (tedit 6ADF792B)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -2.66 -2.3 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value RESC6432X80N (at -0.91 2.3 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -2.31 0.0) (size 2.7 3.42) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 2.31 0.0) (size 2.7 3.42) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 3.3 1.7) (end -3.3 1.7) (layer F.Fab) (width 0.127))
-  (fp_line (start 3.3 -1.7) (end -3.3 -1.7) (layer F.Fab) (width 0.127))
-  (fp_line (start 3.3 1.7) (end 3.3 -1.7) (layer F.Fab) (width 0.127))
-  (fp_line (start -3.3 1.7) (end -3.3 -1.7) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.64 -1.7) (end 0.64 -1.7) (layer F.SilkS) (width 0.127))
-  (fp_line (start -0.64 1.7) (end 0.64 1.7) (layer F.SilkS) (width 0.127))
-  (fp_line (start -3.908 1.958) (end 3.908 1.958) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.908 -1.958) (end 3.908 -1.958) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.908 1.958) (end -3.908 -1.958) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.908 1.958) (end 3.908 -1.958) (layer F.CrtYd) (width 0.05))
-
-  (model "${KIPRJMOD}/libraries/3dmodels/RESC6432X80N.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "RESC6432X80N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.66 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "b95d1f25-bc20-49d2-a325-979683bbbb6c")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "RESC6432X80N"
+		(at -0.91 2.3 0)
+		(layer "F.Fab")
+		(uuid "17bdd37d-bcf6-40b5-ab78-31aa6d53f70a")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccadaa0a-446a-48ac-8f68-171fd57b74e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82635de8-3a24-40ba-8bc5-be6255f90068")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.64 -1.7)
+		(end 0.64 -1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9283d3eb-f13d-4174-9ab0-cff9f595dc47")
+	)
+	(fp_line
+		(start -0.64 1.7)
+		(end 0.64 1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45ee44e8-40e5-4484-a192-ada69c4583fc")
+	)
+	(fp_line
+		(start -3.908 -1.958)
+		(end 3.908 -1.958)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd53382c-0307-46e0-b5c6-9681eccd43dc")
+	)
+	(fp_line
+		(start -3.908 1.958)
+		(end -3.908 -1.958)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a58a60cb-fd69-42c0-ba40-79eee92a83a6")
+	)
+	(fp_line
+		(start -3.908 1.958)
+		(end 3.908 1.958)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2da0053d-3116-4c5a-8164-53731e3e6b56")
+	)
+	(fp_line
+		(start 3.908 1.958)
+		(end 3.908 -1.958)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6e48179-ea54-436b-aa4e-d5271b06f5a8")
+	)
+	(fp_line
+		(start -3.3 1.7)
+		(end -3.3 -1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1fdcf0c-bcd6-4671-bf5f-9dd0a1116a95")
+	)
+	(fp_line
+		(start 3.3 -1.7)
+		(end -3.3 -1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86110c9a-792d-4e10-a770-e194a61a67b0")
+	)
+	(fp_line
+		(start 3.3 1.7)
+		(end -3.3 1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7fb941cc-5b40-4b9c-a7bd-318778c088d7")
+	)
+	(fp_line
+		(start 3.3 1.7)
+		(end 3.3 -1.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2cec68c-fa47-481f-aa52-b88e63063022")
+	)
+	(pad "1" smd rect
+		(at -2.31 0)
+		(size 2.7 3.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d82ca5ba-f514-4a52-b90f-2e8ee348bebc")
+	)
+	(pad "2" smd rect
+		(at 2.31 0)
+		(size 2.7 3.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "8b9ce174-a5a0-4dd3-a8fa-bcdbb0dbea6d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3dmodels/RESC6432X80N.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
