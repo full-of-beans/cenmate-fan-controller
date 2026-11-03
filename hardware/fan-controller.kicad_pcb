@@ -2483,6 +2483,7 @@
 		)
 	)
 	(footprint "FanController:MountingHole_2.2mm_M2_Pad_4mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3b0f070e-44d2-4e33-b65d-08551217c570")
 		(at 53.2 51.7)
@@ -3240,6 +3241,7 @@
 		)
 	)
 	(footprint "FanController:MountingHole_2.2mm_M2_Pad_4mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5225ab57-d0a1-4512-acd8-424bcddddf35")
 		(at 77.8 126.3)
@@ -3350,6 +3352,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "FanController:MountingHole_2.2mm_M2_Pad_4mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "538047a9-dd10-4986-9797-a2011350a840")
 		(at 77.8 51.7)
@@ -4867,6 +4870,7 @@
 		)
 	)
 	(footprint "FanController:MountingHole_2.2mm_M2_Pad_4mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a0d4a8d4-e5de-4c38-8c41-1495d7bf15ba")
 		(at 53 104)
@@ -6658,6 +6662,7 @@
 		)
 	)
 	(footprint "FanController:TENSILITY_54-00286"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "708ae581-1215-4795-9fb9-51dd3a468399")
 		(at 71.3625 80.6)
@@ -7200,6 +7205,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "967bd0c9-b966-42a5-931a-c05d6f6c4c0f")
 	)
@@ -7211,6 +7217,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "0c800cb6-ff45-4db6-87b9-0e689f3757e6")
 	)
@@ -7221,6 +7228,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "855e2919-ebc7-48df-88a5-03a2488df45b")
 	)
