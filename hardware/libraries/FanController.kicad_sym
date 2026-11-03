@@ -1832,6 +1832,9 @@
 
 
   (symbol "22053041" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "0022053041" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "DigiKey_PN" "WM4302-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Reference" "J" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1841,7 +1844,7 @@
     (property "Footprint" "FanController:CONN_A-7478-04A_MOL" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22053041?display=pdf" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.molex.com/pdm_docs/sd/022053041_sd.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "22053041" (id 4) (at 0 0 0)
@@ -2148,6 +2151,9 @@
   )
 
   (symbol "TPS22810DBVR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Manufacturer" "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "MPN" "TPS22810DBVR" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "DigiKey_PN" "296-45297-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
     (property "Reference" "U" (id 0) (at 0 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
