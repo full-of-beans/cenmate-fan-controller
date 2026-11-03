@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Molex 0470531000 USB connector; retained project-library symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -679,7 +679,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.tensility.com/pdffiles/54-00286.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -690,7 +690,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tensility 54-00286 right-angle DC barrel jack, 12 V enclosure power input"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1000,7 +1000,8 @@
 			(embedded_fonts no)
 		)
 (symbol "CRF2512-FZ-R001ELF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf"
+		(property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "Manufacturer" "Bourns" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "MPN" "CRF2512-FZ-R001ELF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1060,7 +1061,8 @@
     )
   )
 (symbol "NCU18XH103F60RB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf"
+		(property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "Manufacturer" "Murata Electronics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "MPN" "NCU18XH103F60RB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "DigiKey_PN" "490-16279-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1178,7 +1180,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Seeed Studio XIAO RP2350 microcontroller module; symbol omits underside pads"
 				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1845,7 +1847,8 @@
     (property "Footprint" "FanController:CONN_A-7478-04A_MOL" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.molex.com/pdm_docs/sd/022053041_sd.pdf" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.molex.com/pdm_docs/sd/022053041_sd.pdf"
+		(property "Description" "Molex 0022053041 four-position fan header connector" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "22053041" (id 4) (at 0 0 0)
@@ -2164,7 +2167,8 @@
     (property "Footprint" "FanController:TPS22810DBVR" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/gpn/tps22810" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/gpn/tps22810"
+		(property "Description" "Texas Instruments TPS22810 12 V-capable single-channel load switch, SOT-23-6" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "TPS22810DBVR" (id 4) (at 0 0 0)
