@@ -641,7 +641,8 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Manufacturer" "Tensility International" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-			(property "MPN" "54-00286" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+			(property "DigiKey_PN" "839-54-00286-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "54-00286" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
