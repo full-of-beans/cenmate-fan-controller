@@ -7324,7 +7324,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.tensility.com/pdffiles/54-00286.pdf"
 			(at 31.75 24.13 0)
 			(hide yes)
 			(show_name no)
