@@ -3744,6 +3744,12 @@
 		(uuid "99fa3a9e-e4e1-40b6-a798-480dccba6ab4")
 	)
 	(junction
+		(at 64.77 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6fadaf0-9c4a-4320-a35a-e04f3f2823d3")
+	)
+	(junction
 		(at 198.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3917,6 +3923,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 31.75) (xy 71.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11749736-9515-410f-b773-584a5e48c60e")
+	)
+	(wire
+		(pts
+			(xy 62.23 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13101ff2-85cf-456b-b05c-e2cabfb7a6bb")
+	)
+	(wire
+		(pts
 			(xy 190.5 99.06) (xy 190.5 100.33)
 		)
 		(stroke
@@ -4024,6 +4050,16 @@
 			(type default)
 		)
 		(uuid "3c14766c-f154-42d0-9b30-cca89a919414")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405e427d-2a1d-48d9-a3ed-892a81acb137")
 	)
 	(wire
 		(pts
@@ -4745,16 +4781,6 @@
 		)
 		(uuid "fa58937f-4aa5-46b6-91c8-f4d014eeb6da")
 	)
-	(wire
-		(pts
-			(xy 64.77 31.75) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fef00470-597c-49ea-ad76-a75494c534b5")
-	)
 	(label "12V_HDD"
 		(at 146.05 59.69 0)
 		(effects
@@ -4916,7 +4942,7 @@
 		(uuid "5d104fba-01d4-4472-ab86-52877b2dd7d3")
 	)
 	(label "SWITCH_EN"
-		(at 64.77 31.75 0)
+		(at 62.23 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5698,7 +5724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "FanController:TO-92_Inline"
 			(at 68.58 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -6104,26 +6130,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bce84a-2888-4305-a712-598cf3aff5bd")
-		(property "Reference" "R5"
-			(at 55.88 165.0999 0)
+		(property "Reference" "R8"
+			(at 60.96 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1K"
-			(at 55.88 167.6399 0)
+			(at 60.96 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -6168,7 +6194,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6739,6 +6765,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 64.77 36.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e81b5e0-7255-48c1-9b68-d03f95d2fbd9")
+		(property "Reference" "R7"
+			(at 67.31 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K"
+			(at 67.31 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 66.548 36.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transistor base pulldown"
+			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93f83213-4365-4cca-974a-f42293052070")
+		)
+		(pin "2"
+			(uuid "6e908bc6-1a60-481d-aa5a-ca2ec4a8b44f")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ec8700d-9682-45cd-b34b-f744805e334a")
+		(property "Reference" "#PWR018"
+			(at 64.77 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92960232-407f-4c30-bba4-1318f5c93132")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FanController:XIAO-RP2350-no-underside")
 		(at 88.9 93.98 0)
 		(unit 1)
@@ -7215,26 +7401,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c31e3c-fc18-4f0c-ac15-e6c8d4a05288")
-		(property "Reference" "R6"
-			(at 55.88 177.7999 0)
+		(property "Reference" "R9"
+			(at 60.96 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 55.88 180.3399 0)
+			(at 60.96 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -7279,7 +7465,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7611,26 +7797,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8837b445-f2a9-4f04-8264-ba50477d397d")
-		(property "Reference" "R7"
-			(at 58.42 148.5899 0)
+		(property "Reference" "R10"
+			(at 63.5 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 58.42 151.1299 0)
+			(at 63.5 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -7675,7 +7861,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8269,28 +8455,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3a08a07-4454-4d13-a573-d68c20b7a2a7")
-		(property "Reference" "R8"
-			(at 106.68 166.3699 0)
+		(property "Reference" "R11"
+			(at 103.378 166.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1K"
-			(at 106.68 168.9099 0)
+			(at 104.394 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -8335,7 +8520,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8431,7 +8616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9624ea4-fae5-4942-9102-1f2506b2c76c")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 193.04 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8495,7 +8680,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc3e06b-d7c1-40b3-a3f4-951a6c7c732d")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 194.31 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +8762,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8594,28 +8779,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bf87b10d-44b8-4473-8222-59b957f604fd")
-		(property "Reference" "R9"
-			(at 106.68 179.0699 0)
+		(property "Reference" "R12"
+			(at 103.632 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100K"
-			(at 106.68 181.6099 0)
+			(at 102.616 181.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -8660,7 +8844,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9085,28 +9269,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da6ee5f2-d00d-4c82-8998-b41ca1e9a799")
-		(property "Reference" "R10"
-			(at 109.22 149.8599 0)
+		(property "Reference" "R13"
+			(at 105.41 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 109.22 152.3999 0)
+			(at 106.172 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -9151,7 +9334,7 @@
 		(instances
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9349,7 +9532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "FanController:TO-92_Inline"
 			(at 119.38 175.895 0)
 			(hide yes)
 			(show_name no)
