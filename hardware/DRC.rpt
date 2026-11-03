@@ -1,33 +1,10 @@
 ** Drc report for fan-controller.kicad_pcb **
-** Created on 2026-11-02T14:58:44 **
+** Created on 2026-11-02T15:53:02 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 5 DRC violations **
-[malformed_courtyard]: Footprint has malformed courtyard (not a closed shape)
-    Local override; error
-    @(60.8500 mm, 98.9750 mm): Footprint U1
-[lib_footprint_issues]: Footprint 'MountingHole_2.2mm_M2_Pad' not found in library 'FanController'
-    Local override; warning
-    @(53.2000 mm, 51.7000 mm): Footprint REF**
-[lib_footprint_issues]: Footprint 'MountingHole_2.2mm_M2_Pad' not found in library 'FanController'
-    Local override; warning
-    @(79.8500 mm, 126.3000 mm): Footprint REF**
-[lib_footprint_issues]: Footprint 'MountingHole_2.2mm_M2_Pad' not found in library 'FanController'
-    Local override; warning
-    @(79.8000 mm, 51.7000 mm): Footprint REF**
-[lib_footprint_issues]: Footprint 'MountingHole_2.2mm_M2_Pad' not found in library 'FanController'
-    Local override; warning
-    @(53.0000 mm, 126.3000 mm): Footprint REF**
+** Found 0 DRC violations **
 
-** Found 2 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(79.2500 mm, 53.0500 mm): Track [GND] on F.Cu, length 1.9799 mm
-    @(74.6825 mm, 56.7200 mm): Pad 13 [GND] of U2 on F.Cu
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(58.1000 mm, 84.0000 mm): Track [+3.3V] on B.Cu, length 7.7782 mm
-    @(59.2000 mm, 83.0000 mm): Track [+3.3V] on F.Cu, length 0.7500 mm
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
