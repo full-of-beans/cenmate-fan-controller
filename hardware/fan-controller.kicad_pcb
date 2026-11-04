@@ -4053,9 +4053,9 @@
 		(descr "Phoenix Contact 5442206 BC-508X10-2 GN, 2-position 5.08 mm pitch horizontal wire-entry terminal; housing size per Phoenix Contact 5442206; housing and pin layout per Phoenix Contact family drawing; STEP alignment pending verification")
 		(tags "Phoenix 5442206 BC-508X10-2 5.08mm")
 		(property "Reference" "J2"
-			(at 0.4075 -5.4525 0)
+			(at 2.51 6.95 0)
 			(layer "F.SilkS")
-			(uuid "53a9eb15-b49d-4790-8b69-b11e1da51c5d")
+			(uuid "03b5c22f-216f-439d-8576-296dc9419b89")
 			(effects
 				(font
 					(size 1 1)
@@ -4066,7 +4066,7 @@
 		(property "Value" "HDD_POWER_OUT"
 			(at 2.54 7.2 0)
 			(layer "F.Fab")
-			(uuid "d34c0f2f-3efa-481d-8238-de4dc62030ff")
+			(uuid "ceb49d7e-344a-4603-9d29-3fa5637a86e0")
 			(effects
 				(font
 					(size 1 1)
@@ -4078,7 +4078,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35a4b28f-7601-466e-91c4-8bba3ab24e46")
+			(uuid "48a28234-0a5d-43ed-b0bf-4c4d9543b3c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58ae0188-32f0-461f-bf8e-2b16c4ba2799")
+			(uuid "7fed3e32-a546-4be6-9f2c-a5e513b0b37f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,6 +7265,30 @@
 		(layer "F.Fab")
 		(uuid "1f7837a9-0583-464b-8457-0a75041d7259")
 	)
+	(gr_text "12V"
+		(at 67.15 93.07 0)
+		(layer "F.SilkS")
+		(uuid "1812029c-ce47-469a-956e-f8af800feffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 72.4 93.07 0)
+		(layer "F.SilkS")
+		(uuid "189cccb8-aef0-4eaa-b15f-62d38900028d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(point
 		(at 50.5 111.6)
 		(size 1)
@@ -7760,6 +7784,14 @@
 		(uuid "22f5eca5-1270-4338-ac1b-dc76dd8dbb53")
 	)
 	(segment
+		(start 78.68 78.8)
+		(end 78.69 78.81)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "37c0ab07-0741-4b17-86b2-9674108642c7")
+	)
+	(segment
 		(start 65.95 127.917795)
 		(end 65.95 115.5375)
 		(width 1)
@@ -7848,6 +7880,14 @@
 		(uuid "a088aab0-7aad-48e7-9268-3fb7be5acd59")
 	)
 	(segment
+		(start 72.6125 78.8)
+		(end 78.68 78.8)
+		(width 3)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "a095212c-6b1b-418a-b230-9561f7768a4f")
+	)
+	(segment
 		(start 77.8 126.3)
 		(end 76.172205 127.927795)
 		(width 1.5)
@@ -7920,6 +7960,14 @@
 		(uuid "e355eef7-76f4-472c-a81a-70f2849634d9")
 	)
 	(segment
+		(start 79.45 78.8)
+		(end 79.45 56.73)
+		(width 1.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "e4818f7f-f7a3-4667-a1d0-43aafe1fef22")
+	)
+	(segment
 		(start 53.6919 114.8381)
 		(end 54.86 113.67)
 		(width 1.5)
@@ -7934,14 +7982,6 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "e9ee59e5-453f-43dd-b15d-6ae378699ca1")
-	)
-	(segment
-		(start 72.9625 79.15)
-		(end 72.6125 79.15)
-		(width 4)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "f08a5584-968f-4cbf-a0e7-63ae08781518")
 	)
 	(segment
 		(start 59.84 114.1)
@@ -7961,7 +8001,7 @@
 	)
 	(segment
 		(start 79.45 108.81)
-		(end 79.45 56.73)
+		(end 79.45 78.8)
 		(width 1.5)
 		(layer "B.Cu")
 		(net "GND")
@@ -8144,6 +8184,14 @@
 		(uuid "12d3202b-5df3-41e7-afca-7cc49f19daeb")
 	)
 	(segment
+		(start 67.8625 87.8525)
+		(end 68.5625 88.5525)
+		(width 4)
+		(layer "B.Cu")
+		(net "/12V_IN")
+		(uuid "13039708-6e62-43be-9f3d-e3d44ee55256")
+	)
+	(segment
 		(start 63.7 87.9)
 		(end 61.8 89.8)
 		(width 1)
@@ -8173,7 +8221,7 @@
 		(width 4)
 		(layer "B.Cu")
 		(net "/12V_IN")
-		(uuid "d2cd3faa-d688-4e9a-a532-ac530bbf7e48")
+		(uuid "db503e96-010b-4caa-8c46-5b51d7be847e")
 	)
 	(segment
 		(start 58.3375 96.0575)

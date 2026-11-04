@@ -5140,9 +5140,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0175fa90-ba83-4347-a798-9fa7c0bdd1bc")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-07100RL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-100CRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R3"
 			(at 168.9099 34.29 0)
 			(show_name no)
@@ -5189,6 +5186,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-100CRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5457,9 +5487,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18268009-511e-45d5-808f-d25eaede069a")
-		(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "0022053041" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "WM4302-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "J3"
 			(at 80.01 143.5099 0)
 			(show_name no)
@@ -5517,6 +5544,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0022053041"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "WM4302-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4149eada-13cc-4fbf-ae8a-d52305e53546")
 		)
@@ -5549,9 +5609,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d1b7fa0-e37b-4c4d-a208-4d0e0848bd50")
-		(property "Manufacturer" "Murata Electronics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "NCU18XH103F60RB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "490-16279-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "TH2"
 			(at 207.264 128.524 0)
 			(show_name no)
@@ -5597,6 +5654,39 @@
 		)
 		(property "Description" ""
 			(at 208.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NCU18XH103F60RB"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-16279-1-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,9 +5801,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25aa7efa-e1fc-4c4d-a7fa-92a95e723eaa")
-		(property "Manufacturer" "onsemi" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "2N3904BU" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "2N3904FS-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "Q1"
 			(at 68.58 171.4499 0)
 			(show_name no)
@@ -5763,6 +5850,39 @@
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 63.5 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N3904BU"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "2N3904FS-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5978,9 +6098,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "374641c8-5d8b-4abb-a34d-a6febe6aa2ba")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-07100RL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-100CRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R4"
 			(at 168.656 57.658 0)
 			(show_name no)
@@ -6036,6 +6153,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07100RL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-100CRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a2dfae2-7dea-4f29-aadc-948e74b2d0c2")
 		)
@@ -6062,9 +6212,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "385a9a2f-9cab-46f8-8afd-fe8487d01224")
-		(property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "CL21B104KACNFNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "1276-2442-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "C2"
 			(at 179.324 46.99 0)
 			(show_name no)
@@ -6120,6 +6267,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KACNFNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-2442-1-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c560e48a-e1f9-435c-807a-892db8dd3980")
 		)
@@ -6148,9 +6328,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bce84a-2888-4305-a712-598cf3aff5bd")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-071KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-1.00KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R8"
 			(at 60.96 165.0999 0)
 			(show_name no)
@@ -6206,6 +6383,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-1.00KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "728043a3-45d8-43a8-afcd-2db78ba0d207")
 		)
@@ -6232,9 +6442,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bc8b845-0c5b-4e15-bc1d-7efcd75b5b36")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-074K7L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-4.70KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R1"
 			(at 222.758 52.832 0)
 			(show_name no)
@@ -6281,6 +6488,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 224.79 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-4.70KCRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6706,9 +6946,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6867c269-5278-40d7-ba3b-7fd276cac02a")
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "TPS22810DBVR" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "296-45297-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "U3"
 			(at 91.44 16.51 0)
 			(show_name no)
@@ -6764,6 +7001,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPS22810DBVR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "296-45297-1-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c5097eb9-ee9b-4054-aa21-db4ccafd97d1")
 		)
@@ -6804,9 +7074,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e81b5e0-7255-48c1-9b68-d03f95d2fbd9")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-100KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R7"
 			(at 67.31 35.5599 0)
 			(show_name no)
@@ -6853,6 +7120,39 @@
 		)
 		(property "Description" "Transistor base pulldown"
 			(at 64.77 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-100KCRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,9 +7266,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f551a7f-6960-454c-b555-c189921ca6ae")
-		(property "Manufacturer" "Seeed Technology Co., Ltd" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "102010550" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "1597-102010550-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "U1"
 			(at 91.0433 115.57 0)
 			(show_name no)
@@ -7015,6 +7312,39 @@
 		)
 		(property "Description" ""
 			(at 88.9 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Seeed Technology Co., Ltd"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "102010550"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1597-102010550-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,9 +7619,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "772b8c27-201a-44a5-ae27-ac6118ddebc5")
-		(property "Manufacturer" "Tensility International" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "839-54-00286-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "54-00286" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "J1"
 			(at 22.86 24.638 0)
 			(show_name no)
@@ -7337,6 +7664,39 @@
 		)
 		(property "Description" ""
 			(at 31.75 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Tensility International"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "839-54-00286-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "54-00286"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7437,9 +7797,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c31e3c-fc18-4f0c-ac15-e6c8d4a05288")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-100KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R9"
 			(at 60.96 177.7999 0)
 			(show_name no)
@@ -7486,6 +7843,39 @@
 		)
 		(property "Description" "Transistor base pulldown"
 			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-100KCRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,9 +7989,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f4ed10c-127d-4386-ad20-a33dfee79136")
-		(property "Manufacturer" "Murata Electronics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "NCU18XH103F60RB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "490-16279-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "TH1"
 			(at 205.994 92.964 0)
 			(show_name no)
@@ -7647,6 +8034,39 @@
 		)
 		(property "Description" ""
 			(at 207.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NCU18XH103F60RB"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "490-16279-1-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,9 +8259,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8837b445-f2a9-4f04-8264-ba50477d397d")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-0710KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-10.0KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R10"
 			(at 63.5 148.5899 0)
 			(show_name no)
@@ -7897,6 +8314,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-10.0KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df5979cc-1eb2-4556-aa1c-211179e577a8")
 		)
@@ -7923,9 +8373,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e6f8b50-e7a4-4405-91e0-d4761fce96df")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-074K7L" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-4.70KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R2"
 			(at 223.266 59.944 0)
 			(show_name no)
@@ -7971,6 +8418,39 @@
 		)
 		(property "Description" "Resistor"
 			(at 224.79 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-4.70KCRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,9 +8642,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1aa5d5e-2cca-4367-8745-d86692f24011")
-		(property "Manufacturer" "Bourns" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "CRF2512-FZ-R001ELF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "RSH1"
 			(at 139.7 49.53 0)
 			(show_name no)
@@ -8210,6 +8687,39 @@
 		)
 		(property "Description" ""
 			(at 146.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CRF2512-FZ-R001ELF"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,9 +8834,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac3eda75-c9d0-47f2-b6b0-1e038233fd32")
-		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "INA228AIDGSR" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "296-INA228AIDGSRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "U2"
 			(at 200.2633 39.37 0)
 			(show_name no)
@@ -8373,6 +8880,39 @@
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
 			(at 198.12 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "INA228AIDGSR"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "296-INA228AIDGSRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8510,9 +9050,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3a08a07-4454-4d13-a573-d68c20b7a2a7")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-071KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-1.00KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R11"
 			(at 103.378 166.116 0)
 			(show_name no)
@@ -8559,6 +9096,39 @@
 		)
 		(property "Description" "PWM transistor base resistor"
 			(at 109.22 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-1.00KCRCT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,9 +9243,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9624ea4-fae5-4942-9102-1f2506b2c76c")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-0733KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-33.0KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R5"
 			(at 193.04 93.9799 0)
 			(show_name no)
@@ -8731,6 +9298,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0733KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-33.0KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2918e642-5efe-4967-8163-c3404d4ec384")
 		)
@@ -8758,9 +9358,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc3e06b-d7c1-40b3-a3f4-951a6c7c732d")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-0733KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-33.0KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R6"
 			(at 194.31 129.5399 0)
 			(show_name no)
@@ -8816,6 +9413,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0733KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-33.0KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "089a6d7a-44d7-4258-b3c9-34ac89f86cf6")
 		)
@@ -8843,9 +9473,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf87b10d-44b8-4473-8222-59b957f604fd")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-07100KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-100KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R12"
 			(at 103.632 179.07 0)
 			(show_name no)
@@ -8901,6 +9528,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-100KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59b87b73-0a2b-4bcc-b727-87f309f2b927")
 		)
@@ -8928,9 +9588,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd7e7bd-c1ed-494c-af3a-e3f770b433b3")
-		(property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "CL21B104KACNFNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "1276-2442-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "C1"
 			(at 241.3 49.5299 0)
 			(show_name no)
@@ -8977,6 +9634,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 237.49 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KACNFNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-2442-1-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,9 +9780,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9b87842-6347-43cb-94f6-fe4dfba67a5b")
-		(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "0022053041" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "WM4302-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "J4"
 			(at 130.81 144.7799 0)
 			(show_name no)
@@ -9150,6 +9837,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Molex"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0022053041"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "WM4302-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "5c1c72cd-dd58-4413-867d-a6f112d4e5e8")
 		)
@@ -9183,9 +9903,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb373945-251f-400d-ab44-0f0e02e8e724")
-		(property "Manufacturer" "Phoenix Contact" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "5442206" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "277-12547-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "J2"
 			(at 27.178 40.386 0)
 			(show_name no)
@@ -9232,6 +9949,39 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 29.21 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "5442206"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "277-12547-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,9 +10095,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da6ee5f2-d00d-4c82-8998-b41ca1e9a799")
-		(property "Manufacturer" "YAGEO" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "RC0805FR-0710KL" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "311-10.0KCRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "R13"
 			(at 105.41 149.606 0)
 			(show_name no)
@@ -9403,6 +10150,39 @@
 				)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "311-10.0KCRCT-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f455f9ac-bc5b-4916-bba4-0a7eb174fb28")
 		)
@@ -9429,9 +10209,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfa2422c-8110-4e0c-9388-e603978aa86f")
-		(property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "CL21B104KACNFNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "1276-2442-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "C4"
 			(at 194.564 142.24 0)
 			(show_name no)
@@ -9478,6 +10255,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 191.77 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KACNFNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-2442-1-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,9 +10401,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f9c384-eb33-4b43-be3b-621a29ef8e83")
-		(property "Manufacturer" "onsemi" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "2N3904BU" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "2N3904FS-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "Q2"
 			(at 119.38 172.7199 0)
 			(show_name no)
@@ -9643,6 +10450,39 @@
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 			(at 114.3 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2N3904BU"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "2N3904FS-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,9 +10621,6 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcb7a324-a7bf-4a8e-83a0-c92c64c43de8")
-		(property "Manufacturer" "Samsung Electro-Mechanics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "MPN" "CL21B104KACNFNC" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "DigiKey_PN" "1276-2442-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 		(property "Reference" "C3"
 			(at 193.294 106.68 0)
 			(show_name no)
@@ -9830,6 +10667,39 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 190.5 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KACNFNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1276-2442-1-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
