@@ -2229,7 +2229,7 @@
         (name "EN_UVLO" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -20.32 -7.62 0) (length 5.08)
+      (pin unspecified line (at -20.32 -7.62 0) (length 5.08)
         (name "CT" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
