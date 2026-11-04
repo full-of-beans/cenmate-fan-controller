@@ -1001,7 +1001,7 @@
 		)
 (symbol "CRF2512-FZ-R001ELF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
 			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf"
-		(property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "Manufacturer" "Bourns" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "MPN" "CRF2512-FZ-R001ELF" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1062,7 +1062,7 @@
   )
 (symbol "NCU18XH103F60RB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
 			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf"
-		(property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+    (property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "Manufacturer" "Murata Electronics" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "MPN" "NCU18XH103F60RB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
 			(property "DigiKey_PN" "490-16279-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
@@ -1848,7 +1848,7 @@
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.molex.com/pdm_docs/sd/022053041_sd.pdf"
-		(property "Description" "Molex 0022053041 four-position fan header connector" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
+    (property "Description" "Molex 0022053041 four-position fan header connector" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "22053041" (id 4) (at 0 0 0)
@@ -2168,7 +2168,7 @@
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/gpn/tps22810"
-		(property "Description" "Texas Instruments TPS22810 12 V-capable single-channel load switch, SOT-23-6" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
+    (property "Description" "Texas Instruments TPS22810 12 V-capable single-channel load switch, SOT-23-6" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "TPS22810DBVR" (id 4) (at 0 0 0)
@@ -2233,7 +2233,7 @@
         (name "QOD" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 20.32 7.62 180) (length 5.08)
+      (pin power_out line (at 20.32 7.62 180) (length 5.08)
         (name "VOUT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
