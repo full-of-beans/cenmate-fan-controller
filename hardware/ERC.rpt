@@ -1,4 +1,4 @@
-ERC report (2026-11-03T19:35:24, Encoding UTF8)
+ERC report (2026-11-05T16:05:28, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
@@ -30,11 +30,11 @@ Report includes: Errors, Warnings, Exclusions
 [four_way_junction]: Four items connected at 1905000, 1003300
     ; warning
     @(7500 mils, 3900 mils): Vertical Wire, length 50 mils
-    @(7500 mils, 3950 mils): Horizontal Wire, length 250 mils
+    @(7250 mils, 3950 mils): Horizontal Wire, length 250 mils
 [four_way_junction]: Four items connected at 1917700, 1358900
     ; warning
-    @(7550 mils, 5300 mils): Vertical Wire, length 50 mils
     @(7550 mils, 5350 mils): Horizontal Wire, length 250 mils
+    @(7550 mils, 5350 mils): Vertical Wire, length 150 mils
 [lib_symbol_mismatch]: Symbol 'NCU18XH103F60RB' doesn't match copy in library 'FanController'
     ; warning
     @(8150 mils, 3950 mils): Symbol TH1 [NCU18XH103F60RB]
