@@ -1,48 +1,20 @@
-ERC report (2026-11-05T16:05:28, Encoding UTF8)
+ERC report (2026-11-06T08:27:04, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+[footprint_filter]: Assigned footprint (phoenix_5442206) doesn't match footprint filters (TerminalBlock*:*)
     ; warning
     @(1150 mils, 1600 mils): Symbol J2 [Screw_Terminal_01x02]
-[lib_symbol_mismatch]: Symbol '54-00286' doesn't match copy in library 'FanController'
-    ; warning
-    @(1250 mils, 950 mils): Symbol J1 [54-00286]
-[multiple_net_names]: Both +5V and SWITCH_EN are attached to the same items; +5V will be used in the netlist
-    ; warning
-    @(4600 mils, 2800 mils): Symbol #PWR010 Pin 1 [Power input, Line]
-    @(2450 mils, 1250 mils): Label 'SWITCH_EN'
-[lib_symbol_mismatch]: Symbol '22053041' doesn't match copy in library 'FanController'
-    ; warning
-    @(2600 mils, 5550 mils): Symbol J3 [22053041]
-[lib_symbol_mismatch]: Symbol 'XIAO-RP2350-no-underside' doesn't match copy in library 'FanController'
-    ; warning
-    @(3500 mils, 3700 mils): Symbol U1 [XIAO-RP2350-no-underside]
-[lib_symbol_mismatch]: Symbol 'TPS22810DBVR' doesn't match copy in library 'FanController'
-    ; warning
-    @(3600 mils, 1350 mils): Symbol U3 [TPS22810DBVR]
-[lib_symbol_mismatch]: Symbol '22053041' doesn't match copy in library 'FanController'
-    ; warning
-    @(4600 mils, 5600 mils): Symbol J4 [22053041]
-[lib_symbol_mismatch]: Symbol 'CRF2512-FZ-R001ELF' doesn't match copy in library 'FanController'
-    ; warning
-    @(5750 mils, 1950 mils): Symbol RSH1 [CRF2512-FZ-R001ELF]
 [four_way_junction]: Four items connected at 1905000, 1003300
     ; warning
-    @(7500 mils, 3900 mils): Vertical Wire, length 50 mils
-    @(7250 mils, 3950 mils): Horizontal Wire, length 250 mils
+    @(7500 mils, 3950 mils): Horizontal Wire, length 250 mils
+    @(7500 mils, 3950 mils): Vertical Wire, length 150 mils
 [four_way_junction]: Four items connected at 1917700, 1358900
     ; warning
-    @(7550 mils, 5350 mils): Horizontal Wire, length 250 mils
     @(7550 mils, 5350 mils): Vertical Wire, length 150 mils
-[lib_symbol_mismatch]: Symbol 'NCU18XH103F60RB' doesn't match copy in library 'FanController'
-    ; warning
-    @(8150 mils, 3950 mils): Symbol TH1 [NCU18XH103F60RB]
-[lib_symbol_mismatch]: Symbol 'NCU18XH103F60RB' doesn't match copy in library 'FanController'
-    ; warning
-    @(8200 mils, 5350 mils): Symbol TH2 [NCU18XH103F60RB]
+    @(7300 mils, 5350 mils): Horizontal Wire, length 250 mils
 
- ** ERC messages: 12  Errors 0  Warnings 12
+ ** ERC messages: 3  Errors 0  Warnings 3
 
  ** Ignored checks:
     - SPICE model issue

@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:* phoenix_5442206"
+			(property "ki_fp_filters" "TerminalBlock*:*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -547,7 +547,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/22053041?display=pdf"
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/022053041_sd.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -559,7 +559,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Molex 0022053041 four-position fan header connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0022053041"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "WM4302-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -913,7 +946,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.tensility.com/pdffiles/54-00286.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -924,7 +957,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tensility 54-00286 right-angle DC barrel jack, 12 V enclosure power input"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Tensility International"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "839-54-00286-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "54-00286"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1276,7 +1342,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1287,7 +1353,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CRF2512-FZ-R001ELF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1410,7 +1509,7 @@
 				(pin passive line
 					(at -10.16 0 0)
 					(length 5.08)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1428,7 +1527,7 @@
 				(pin passive line
 					(at 10.16 0 180)
 					(length 5.08)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1489,7 +1588,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1500,7 +1599,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "NCU18XH103F60RB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "490-16279-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1647,7 +1779,7 @@
 				(pin passive line
 					(at -10.16 0 0)
 					(length 5.08)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1665,7 +1797,7 @@
 				(pin passive line
 					(at 10.16 0 180)
 					(length 5.08)
-					(name ""
+					(name "~"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1736,7 +1868,40 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Texas Instruments TPS22810 12 V-capable single-channel load switch, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPS22810DBVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "296-45297-1-ND"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1978,7 +2143,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8932/102010550.pdf"
 				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1989,8 +2154,41 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Seeed Studio XIAO RP2350 microcontroller module; symbol omits underside pads"
 				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Seeed Technology Co., Ltd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "102010550"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey_PN" "1597-102010550-ND"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3714,10 +3912,16 @@
 		(uuid "4fa6870c-0397-42e0-90c2-90ca75c5f092")
 	)
 	(junction
-		(at 121.92 71.12)
+		(at 187.96 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fd7b055-c675-4ab5-9328-0841da67153f")
+		(uuid "833b3aa1-216f-4528-9975-d5be8dd5b88a")
+	)
+	(junction
+		(at 189.23 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7bfca8-441c-40b2-8b5d-800c41855d4b")
 	)
 	(junction
 		(at 229.87 54.61)
@@ -3873,6 +4077,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016b7249-7357-42fa-b1f0-76930ea90b37")
+	)
+	(wire
+		(pts
 			(xy 110.49 93.98) (xy 116.84 93.98)
 		)
 		(stroke
@@ -3890,6 +4104,16 @@
 			(type default)
 		)
 		(uuid "078af0f2-d4a6-4b6d-8be5-05c09c305aa0")
+	)
+	(wire
+		(pts
+			(xy 189.23 135.89) (xy 191.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0abff4-28c6-471c-880c-1ad58019e7b1")
 	)
 	(wire
 		(pts
@@ -3933,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 190.5 100.33)
+			(xy 187.96 99.06) (xy 187.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4003,7 +4227,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 134.62) (xy 191.77 135.89)
+			(xy 189.23 134.62) (xy 189.23 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4040,16 +4264,6 @@
 			(type default)
 		)
 		(uuid "39ad6bcb-f896-4821-b61f-86704c58110f")
-	)
-	(wire
-		(pts
-			(xy 121.92 71.12) (xy 135.89 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c14766c-f154-42d0-9b30-cca89a919414")
 	)
 	(wire
 		(pts
@@ -4363,16 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2217ad5-b66f-4145-8851-cb6d25709ab0")
-	)
-	(wire
-		(pts
 			(xy 58.42 71.12) (xy 64.77 71.12)
 		)
 		(stroke
@@ -4483,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 190.5 100.33)
+			(xy 180.34 100.33) (xy 187.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 191.77 127)
+			(xy 189.23 124.46) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -4733,7 +4937,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 191.77 135.89)
+			(xy 182.88 135.89) (xy 189.23 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4781,6 +4985,16 @@
 		)
 		(uuid "fa58937f-4aa5-46b6-91c8-f4d014eeb6da")
 	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc312125-e410-4907-82f8-92b0711a3303")
+	)
 	(label "12V_HDD"
 		(at 146.05 59.69 0)
 		(effects
@@ -4790,16 +5004,6 @@
 			(justify left top)
 		)
 		(uuid "1ab208b3-a5c3-4c4f-9233-f12270f9d0fa")
-	)
-	(label "SWITCH_EN"
-		(at 135.89 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "1ac1ccc9-fd29-412b-bec0-8efecacea2a7")
 	)
 	(label "I2C_SCL"
 		(at 58.42 90.17 180)
@@ -4902,7 +5106,7 @@
 		(uuid "4372fdd0-5800-4f8f-b811-03d1ac816dbb")
 	)
 	(label "TH1_ADC"
-		(at 184.15 100.33 180)
+		(at 180.34 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4941,16 +5145,6 @@
 		)
 		(uuid "5d104fba-01d4-4472-ab86-52877b2dd7d3")
 	)
-	(label "SWITCH_EN"
-		(at 62.23 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "67d3f93a-caaf-47d9-803f-dc2ba6df486e")
-	)
 	(label "I2C_SDA"
 		(at 210.82 54.61 0)
 		(effects
@@ -4982,7 +5176,7 @@
 		(uuid "78ebeaf9-72e7-4759-92ff-f7d84a41bedf")
 	)
 	(label "TH2_ADC"
-		(at 185.42 135.89 180)
+		(at 182.88 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5533,7 +5727,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Molex 0022053041 four-position fan header connector"
 			(at 66.04 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5652,7 +5846,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount"
 			(at 208.28 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5823,7 +6017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FanController:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 68.58 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -5836,7 +6030,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3904-D.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 63.5 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6372,7 +6566,7 @@
 				)
 			)
 		)
-		(property "Description" "PWM transistor base resistor"
+		(property "Description" "Resistor"
 			(at 58.42 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6859,7 +7053,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 190.5 88.9 0)
+		(at 187.96 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6869,7 +7063,7 @@
 		(dnp no)
 		(uuid "6796b68e-57db-4df5-91ef-70a0cb4b5baf")
 		(property "Reference" "#PWR019"
-			(at 190.5 92.71 0)
+			(at 187.96 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +7074,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 190.5 83.312 0)
+			(at 187.96 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6890,7 +7084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 88.9 0)
+			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6901,7 +7095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 88.9 0)
+			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +7106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 190.5 88.9 0)
+			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Texas Instruments TPS22810 12 V-capable single-channel load switch, SOT-23-6"
 			(at 91.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7118,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor base pulldown"
+		(property "Description" "Resistor"
 			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7310,7 +7504,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Seeed Studio XIAO RP2350 microcontroller module; symbol omits underside pads"
 			(at 88.9 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7662,7 +7856,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tensility 54-00286 right-angle DC barrel jack, 12 V enclosure power input"
 			(at 31.75 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7841,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor base pulldown"
+		(property "Description" "Resistor"
 			(at 58.42 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Murata NCU18XH103F60RB 10 kOhm NTC thermistor, 0603 surface mount"
 			(at 207.01 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8303,7 +8497,7 @@
 				)
 			)
 		)
-		(property "Description" "Fan tachometer pull-up"
+		(property "Description" "Resistor"
 			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8685,7 +8879,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package"
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8739,6 +8933,83 @@
 			(project "fan-controller"
 				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
 					(reference "RSH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 62.23 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9879dba-1ecb-4b5d-ab7e-ee6610258489")
+		(property "Reference" "#PWR023"
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.944 28.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 62.23 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f771e94a-3304-4604-9ec0-b8ee37be8f08")
+		)
+		(instances
+			(project "fan-controller"
+				(path "/2efa048c-d6c1-446c-ae8e-880d974401eb"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8867,7 +9138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina228"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
 			(at 207.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9094,7 +9365,7 @@
 				)
 			)
 		)
-		(property "Description" "PWM transistor base resistor"
+		(property "Description" "Resistor"
 			(at 109.22 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9233,7 +9504,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 95.25 0)
+		(at 187.96 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9244,7 +9515,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9624ea4-fae5-4942-9102-1f2506b2c76c")
 		(property "Reference" "R5"
-			(at 193.04 93.9799 0)
+			(at 190.5 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9255,7 +9526,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 193.04 96.5199 0)
+			(at 190.5 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9266,7 +9537,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 188.722 95.25 90)
+			(at 186.182 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9548,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 190.5 95.25 0)
+			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,8 +9558,8 @@
 				)
 			)
 		)
-		(property "Description" "Thermistor ADC pull up resistor"
-			(at 190.5 95.25 0)
+		(property "Description" "Resistor"
+			(at 187.96 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,7 +9570,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9310,7 +9581,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0733KL"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9321,7 +9592,7 @@
 			)
 		)
 		(property "DigiKey_PN" "311-33.0KCRCT-ND"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9348,7 +9619,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 130.81 0)
+		(at 189.23 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9359,7 +9630,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbc3e06b-d7c1-40b3-a3f4-951a6c7c732d")
 		(property "Reference" "R6"
-			(at 194.31 129.5399 0)
+			(at 191.77 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9370,7 +9641,7 @@
 			)
 		)
 		(property "Value" "33K"
-			(at 194.31 132.0799 0)
+			(at 191.77 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9381,7 +9652,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 189.992 130.81 90)
+			(at 187.452 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,7 +9663,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 191.77 130.81 0)
+			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,8 +9673,8 @@
 				)
 			)
 		)
-		(property "Description" "Thermistor ADC pull up resistor"
-			(at 191.77 130.81 0)
+		(property "Description" "Resistor"
+			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,7 +9685,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9696,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-0733KL"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9707,7 @@
 			)
 		)
 		(property "DigiKey_PN" "311-33.0KCRCT-ND"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9788,7 @@
 				)
 			)
 		)
-		(property "Description" "Transistor base pulldown"
+		(property "Description" "Resistor"
 			(at 109.22 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9964,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 191.77 124.46 0)
+		(at 189.23 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9703,7 +9974,7 @@
 		(dnp no)
 		(uuid "bfeecaa3-0107-4963-a44d-9a06fda09b46")
 		(property "Reference" "#PWR022"
-			(at 191.77 128.27 0)
+			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9714,7 +9985,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 191.77 118.872 0)
+			(at 189.23 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9724,7 +9995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 124.46 0)
+			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +10006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 124.46 0)
+			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,7 +10017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 191.77 124.46 0)
+			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,7 +10097,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Molex 0022053041 four-position fan header connector"
 			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10139,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Description" "Fan tachometer pull-up"
+		(property "Description" "Resistor"
 			(at 111.76 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10423,7 +10694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FanController:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 119.38 175.895 0)
 			(hide yes)
 			(show_name no)
@@ -10436,7 +10707,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3904-D.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 114.3 173.99 0)
 			(hide yes)
 			(show_name no)
