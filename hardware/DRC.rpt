@@ -1,5 +1,5 @@
 ** Drc report for fan-controller.kicad_pcb **
-** Created on 2026-11-06T09:33:02 **
+** Created on 2026-11-06T10:21:21 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 0 DRC violations **
@@ -8,7 +8,7 @@
 [unconnected_items]: Missing connection between items
     Local override; error
     @(58.2000 mm, 94.5500 mm): Pad 2 [GND] of U3 on F.Cu
-    @(59.3175 mm, 87.9875 mm): Track [GND] on F.Cu, length 5.1513 mm
+    @(62.9600 mm, 91.6300 mm): PTH pad 2 [GND] of J2
 
 ** Found 0 Footprint errors **
 
