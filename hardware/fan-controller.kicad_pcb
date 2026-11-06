@@ -8548,7 +8548,7 @@
 		(uuid "8f484b44-27b0-4595-abe8-6494f9faf0f8")
 	)
 	(gr_line
-		(start 50.5 109.27)
+		(start 50.5 108.210913)
 		(end 50.5 51)
 		(stroke
 			(width 0.05)
@@ -8559,39 +8559,20 @@
 		(uuid "967bd0c9-b966-42a5-931a-c05d6f6c4c0f")
 	)
 	(gr_arc
-		(start 50.5 109.27)
-		(mid 53.33 112.1)
-		(end 50.5 114.93)
+		(start 50.5 115.989087)
+		(mid 50.683503 115.411737)
+		(end 51.166666 115.046278)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
-		(uuid "0c800cb6-ff45-4db6-87b9-0e689f3757e6")
-	)
-	(gr_line
-		(start 50.5 109.27)
-		(end 51.5 109.27)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "84cf95d3-66ee-4ee8-a94c-a20a0ce88fec")
-	)
-	(gr_line
-		(start 50.5 114.93)
-		(end 51.5 114.93)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7a285d43-57ff-4c78-a451-a5234dcaae0e")
+		(uuid "0f3ea877-673a-4492-829b-1e3e7e66b28c")
 	)
 	(gr_line
 		(start 50.5 127)
-		(end 50.5 114.93)
+		(end 50.5 115.989087)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8599,6 +8580,52 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "855e2919-ebc7-48df-88a5-03a2488df45b")
+	)
+	(gr_arc
+		(start 51.166666 109.153722)
+		(mid 50.683498 108.788264)
+		(end 50.5 108.210913)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "1ed89027-ae0d-4b98-a26c-e9d536b9252f")
+	)
+	(gr_line
+		(start 51.166666 109.153722)
+		(end 51.5 109.271573)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "84cf95d3-66ee-4ee8-a94c-a20a0ce88fec")
+	)
+	(gr_line
+		(start 51.166666 115.046278)
+		(end 51.5 114.928427)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "7a285d43-57ff-4c78-a451-a5234dcaae0e")
+	)
+	(gr_arc
+		(start 51.5 109.271573)
+		(mid 53.5 112.1)
+		(end 51.5 114.928427)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(locked yes)
+		(layer "Edge.Cuts")
+		(uuid "0c800cb6-ff45-4db6-87b9-0e689f3757e6")
 	)
 	(gr_line
 		(start 52.5 49)
@@ -8706,7 +8733,7 @@
 	(point
 		(at 50.5 112.1)
 		(size 1)
-		(layer "B.Cu")
+		(layer "Edge.Cuts")
 		(uuid "0b76015f-6f32-4df0-888c-4cfb1c047aee")
 	)
 	(segment
