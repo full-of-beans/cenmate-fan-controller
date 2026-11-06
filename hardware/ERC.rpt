@@ -1,20 +1,12 @@
-ERC report (2026-11-06T08:27:04, Encoding UTF8)
+ERC report (2026-11-06T09:33:32, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
 [footprint_filter]: Assigned footprint (phoenix_5442206) doesn't match footprint filters (TerminalBlock*:*)
     ; warning
     @(1150 mils, 1600 mils): Symbol J2 [Screw_Terminal_01x02]
-[four_way_junction]: Four items connected at 1905000, 1003300
-    ; warning
-    @(7500 mils, 3950 mils): Horizontal Wire, length 250 mils
-    @(7500 mils, 3950 mils): Vertical Wire, length 150 mils
-[four_way_junction]: Four items connected at 1917700, 1358900
-    ; warning
-    @(7550 mils, 5350 mils): Vertical Wire, length 150 mils
-    @(7300 mils, 5350 mils): Horizontal Wire, length 250 mils
 
- ** ERC messages: 3  Errors 0  Warnings 3
+ ** ERC messages: 1  Errors 0  Warnings 1
 
  ** Ignored checks:
     - SPICE model issue
