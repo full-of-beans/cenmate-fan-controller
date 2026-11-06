@@ -1,12 +1,9 @@
-ERC report (2026-11-06T14:29:04, Encoding UTF8)
+ERC report (2026-11-06T15:14:53, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[footprint_filter]: Assigned footprint (phoenix_5442206) doesn't match footprint filters (TerminalBlock*:*)
-    ; warning
-    @(1150 mils, 1600 mils): Symbol J2 [Screw_Terminal_01x02]
 
- ** ERC messages: 1  Errors 0  Warnings 1
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - SPICE model issue
