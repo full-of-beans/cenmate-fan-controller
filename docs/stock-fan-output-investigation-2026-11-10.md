@@ -25,20 +25,11 @@ The JWT7015 manufacturer catalog lists 12 V versions at approximately 0.11 A (L)
 
 Manufacturer reference: https://www.szjwfan.com/161.html
 
-## Proposed replacement and load-test plan
+## Proposed replacement and power-capacity validation
 
 The proposed **ARCTIC P8 Max 80 mm PWM** fan has a nominal/rated current of approximately **0.19 A at 12 V**, or **2.28 W**. This is approximately **3.8× the observed running current** of the stock fan. Actual steady-state and startup current may differ.
 
-A resistive load can probe whether **each individual enclosure fan output** sustains a comparable steady-state load:
-
-- At measured 12.1 V, ideal target resistance: 12.1 V / 0.19 A ≈ **63.7 Ω**.
-- Using the owner's assortment of **¼ W metal-film resistors**, **16 × 1 kΩ in parallel** gives **62.5 Ω**, approximately **194 mA**, **2.34 W total**, and **0.146 W per resistor** at 12.1 V. Provide physical spacing and heat-safe mounting. A dedicated ~62–68 Ω resistor rated at least 5 W, preferably 10 W, is simpler.
-- Start with a smaller load, such as **8 × 1 kΩ in parallel** (~117 mA at 12.1 V), and verify voltage before increasing load. **Power off before changing wiring.**
-- Measure loaded voltage across the network; watch for voltage droop, instability, shutdown, regulator heating, odor, or other distress. Stop immediately on anomalies. Keep the hot resistors away from plastics and do not leave unattended.
-- Test **both fan outputs independently**; do **not parallel the outputs**.
-- A successful resistive test **does not validate fan startup/inrush, PWM behavior, regulator transient response, or long-term thermal reliability**. Test the actual replacement fan and verify supply stability before approving the redesign.
-
-**No load-test result has yet been recorded.**
+**Each existing enclosure fan output must be validated at the replacement fan's expected load, including startup demands, before the outputs can be relied on for the redesigned controller.** The output current capacity is currently unknown; no higher-load validation has been completed.
 
 ## Architecture implications — proposal, not an implemented change
 
