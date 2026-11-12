@@ -5074,7 +5074,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 171.4499 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 Ohm 1% 0.125W 0805 thick-film resistor"
 			(at 170.18 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5129,7 +5129,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-07100RL"
+		(property "MPN" "RC0805FR-0710RL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-100CRCT-ND"
+		(property "DigiKey_PN" "311-10.0CRCT-ND"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6032,7 +6032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 170.688 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "10 Ohm 1% 0.125W 0805 thick-film resistor"
 			(at 170.18 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6087,7 +6087,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-07100RL"
+		(property "MPN" "RC0805FR-0710RL"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6098,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-100CRCT-ND"
+		(property "DigiKey_PN" "311-10.0CRCT-ND"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
