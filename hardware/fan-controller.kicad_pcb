@@ -3443,7 +3443,7 @@
 		(uuid "43dc0da8-3e12-4816-9c07-215f9a1a4e32")
 		(at 65.481256 61.756756 90)
 		(property "Reference" "U1"
-			(at 11.406756 -6.831256 0)
+			(at 11.5 0.05 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d5bc778a-3106-4c0c-b794-8828f431146f")
@@ -3466,7 +3466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8932/102010550.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3479,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Description" "Seeed Studio XIAO RP2350 microcontroller module; symbol omits underside pads"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3492,61 +3492,16 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Seeed Technology Co., Ltd"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fff0f467-ff8c-4e34-9152-c97a679ab441")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "102010550"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c64c430a-9289-4776-81ce-44927a00d7b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey_PN" "1597-102010550-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc94da50-a95c-49ec-9abf-f24be4ec15e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/6f551a7f-6960-454c-b555-c189921ca6ae")
 		(sheetname "/")
 		(sheetfile "fan-controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -10.414 -6.985)
 			(end -10.414 6.985)
 			(stroke
-				(width 0.1)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -3556,7 +3511,7 @@
 			(start 10.553 -4.498)
 			(end 12.094284 -4.497284)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -3566,7 +3521,7 @@
 			(start 12.594012 -3.997284)
 			(end 12.594012 3.997988)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -3576,7 +3531,7 @@
 			(start 12.094012 4.497988)
 			(end 10.55 4.499)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -3586,7 +3541,7 @@
 			(start 10.541 6.985)
 			(end 10.541 -6.985)
 			(stroke
-				(width 0.1)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "F.SilkS")
@@ -3597,7 +3552,7 @@
 			(mid 12.447619 -4.350707)
 			(end 12.594012 -3.997284)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -3608,7 +3563,7 @@
 			(mid 12.44757 4.351553)
 			(end 12.094012 4.497988)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type default)
 			)
 			(layer "F.SilkS")
@@ -8128,7 +8083,7 @@
 		(uuid "708ae581-1215-4795-9fb9-51dd3a468399")
 		(at 65.5 76.6475 90)
 		(property "Reference" "J1"
-			(at 0.0975 -6.8 90)
+			(at 0.5475 -6.6 90)
 			(layer "B.SilkS")
 			(uuid "db3fd47b-5355-42ea-b08b-9b66e00f1a2d")
 			(effects
@@ -8151,7 +8106,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://www.tensility.com/pdffiles/54-00286.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8163,7 +8118,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Tensility 54-00286 right-angle DC barrel jack, 12 V enclosure power input"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8175,134 +8130,16 @@
 				(justify mirror)
 			)
 		)
-		(property "PARTREV" "A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a3a3af8c-683e-4af0-9f66-2d07b0dc7f22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "71d4dcfb-7bde-4ee0-b8d1-990c3ae7b0d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "SNAPEDA_PN" "54-00286"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "42c35817-fecd-4b36-8dee-19aa18ea81b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "14.2mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8bea9f0a-1f8d-4bdc-a197-5d6bb9e297d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MANUFACTURER" "Tensility"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a0d3913e-5a5d-4c1f-8b00-df2f99731427")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "Tensility International"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b4846e8f-4a43-43e5-b71f-f4886bd2a54a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "DigiKey_PN" "839-54-00286-ND"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ad82a23e-cf0a-4e30-af54-6949a44fc6d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MPN" "54-00286"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "da1f34ec-7657-4871-b2e8-519fa4f6eaf5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/772b8c27-201a-44a5-ae27-ac6118ddebc5")
 		(sheetname "/")
 		(sheetfile "fan-controller.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.5 -5.5)
 			(end -4.5 -5.5)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
@@ -8312,7 +8149,7 @@
 			(start -4.5 -5.5)
 			(end -4.5 -1.25)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
@@ -8322,7 +8159,7 @@
 			(start -4.5 3.25)
 			(end -4.5 5.5)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
@@ -8332,7 +8169,7 @@
 			(start 4.5 5.5)
 			(end 4.5 -5.5)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
@@ -8342,7 +8179,7 @@
 			(start -4.5 5.5)
 			(end 4.5 5.5)
 			(stroke
-				(width 0.127)
+				(width 0.15)
 				(type solid)
 			)
 			(layer "B.SilkS")
@@ -8459,7 +8296,6 @@
 			(net "/12V_IN")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(zone_connect 2)
 			(uuid "7856a5bd-8e4f-4c2c-b9b5-b8f6afd66a11")
 		)
 		(pad "B" thru_hole rect
@@ -8482,7 +8318,6 @@
 			(net "GND")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(zone_connect 2)
 			(uuid "cc0331c9-58c4-46e5-879d-16177812159a")
 		)
 		(embedded_fonts no)
@@ -9141,14 +8976,6 @@
 		(uuid "017442b4-7270-43ca-be59-f1e4dfb040a8")
 	)
 	(segment
-		(start 71.6 85.95)
-		(end 71.55 85.9)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "127f91d0-765f-4eb7-8995-29ba802032e3")
-	)
-	(segment
 		(start 79.335 122.05)
 		(end 79.425 122.14)
 		(width 0.5)
@@ -9195,14 +9022,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "2daafb6e-adcd-4533-a26d-dde75f573045")
-	)
-	(segment
-		(start 71.6 85.95)
-		(end 68.05 85.95)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "2e0a8c0d-e32a-45f9-9315-a901c3ac35b8")
 	)
 	(segment
 		(start 70.5 106.1325)
@@ -9261,6 +9080,14 @@
 		(uuid "77bddcb4-f830-4f7a-9971-43317ab4caf1")
 	)
 	(segment
+		(start 72 86)
+		(end 72 84.05)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "7810d338-dc41-4f62-b525-efb99afaecd5")
+	)
+	(segment
 		(start 79.425 124.675)
 		(end 77.8 126.3)
 		(width 0.5)
@@ -9291,6 +9118,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "8fc07b9f-065e-4bcd-ba43-48f42113bb2e")
+	)
+	(segment
+		(start 72 86)
+		(end 71.95 85.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "91644546-8bfe-4bf2-98b4-8a42216455ad")
 	)
 	(segment
 		(start 79.4 118.95)
@@ -9333,6 +9168,14 @@
 		(uuid "a83862a4-ff1d-45c8-969b-6a3fb7c8dc6d")
 	)
 	(segment
+		(start 71.95 85.95)
+		(end 68.05 85.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "a9e6c873-783c-4cfa-ad8d-8928f67ee2b5")
+	)
+	(segment
 		(start 73.500512 56.74)
 		(end 73.563756 56.676756)
 		(width 1)
@@ -9373,28 +9216,12 @@
 		(uuid "d788dc07-3639-4ba0-92bc-fb80ec494e57")
 	)
 	(segment
-		(start 71.55 85.9)
-		(end 71.55 84.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "dce02a6a-2cd9-4da7-a635-89db5d0e8688")
-	)
-	(segment
 		(start 79.45 60)
 		(end 79.45 59.6)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "df4b66a5-00d2-4f16-868e-8932b85f3fc2")
-	)
-	(segment
-		(start 71.55 84.5)
-		(end 72 84.05)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e0e696c9-dd9f-47f8-923f-1f1b60258b5f")
 	)
 	(segment
 		(start 63.01 95.3)
@@ -9437,7 +9264,7 @@
 		(uuid "ff83c7a4-78bd-43a4-add4-54c40237fa6d")
 	)
 	(via
-		(at 71.6 85.95)
+		(at 72 86)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9918,20 +9745,20 @@
 		(uuid "051e6173-a850-4d69-a053-f20895fd174e")
 	)
 	(segment
-		(start 66.6 86.8)
-		(end 66.2 86.4)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "0739c301-c126-48bd-a73c-84259b0377b0")
-	)
-	(segment
 		(start 73.380512 59.4)
 		(end 73.563756 59.216756)
 		(width 1)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "091ad621-5bbe-457f-a74b-5ca3b7dc6542")
+	)
+	(segment
+		(start 66.2 84.95)
+		(end 65.2 83.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "0a3b5a9e-f1fb-4084-8d8e-70e8193e75a3")
 	)
 	(segment
 		(start 65.875 64.975)
@@ -9942,12 +9769,20 @@
 		(uuid "1fb3e2b9-5957-49e2-8d35-047917d87aec")
 	)
 	(segment
-		(start 72.5 82.15)
-		(end 73.45 83.1)
+		(start 66.2 86.4)
+		(end 66.2 84.95)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "2dbbcf66-237a-41d8-a5a1-6f130a269d81")
+		(uuid "228f4f6e-6d90-470c-88b7-cfd363baa77c")
+	)
+	(segment
+		(start 66.6 86.8)
+		(end 66.2 86.4)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "3adcf1a9-2d9b-4734-bbc5-cc0ae0f8907c")
 	)
 	(segment
 		(start 77.5875 64.55)
@@ -9974,12 +9809,12 @@
 		(uuid "5138582f-694d-4e29-aed6-7d04835867d4")
 	)
 	(segment
-		(start 73.45 85.4)
-		(end 72.05 86.8)
+		(start 73.3 85.9)
+		(end 72.4 86.8)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "570e55a0-24c6-45bd-8020-90b3235d011a")
+		(uuid "517ae26d-f571-42d8-a116-5eade674fa98")
 	)
 	(segment
 		(start 65.875 64.975)
@@ -9990,20 +9825,20 @@
 		(uuid "5ccbc22c-42be-4f4e-a085-a1f79b273562")
 	)
 	(segment
-		(start 73.45 83.1)
-		(end 73.45 85.4)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "5d5720ca-c767-490d-8f66-17f0a935d1bb")
-	)
-	(segment
 		(start 73.95 76.8125)
 		(end 73.9375 76.8)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "5eebc6d4-8ada-4a65-a335-b33424a4ad5c")
+	)
+	(segment
+		(start 73.3 82.95)
+		(end 73.3 85.9)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "6df237a2-f1cf-41b6-acbb-14529491d686")
 	)
 	(segment
 		(start 65.9 65)
@@ -10027,7 +9862,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net "+3.3V")
-		(uuid "7d712714-6e6b-499f-a28c-f14d61562476")
+		(uuid "7b1f126b-3b21-47e9-8a85-ee67eb23ed32")
 	)
 	(segment
 		(start 79.42 67.37)
@@ -10044,22 +9879,6 @@
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "80236e12-c5e3-43ff-807c-d46edb82561e")
-	)
-	(segment
-		(start 66.2 84.95)
-		(end 65.2 83.95)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "842ce1fd-4abf-4582-a9e5-1fc44688907f")
-	)
-	(segment
-		(start 66.2 86.4)
-		(end 66.2 84.95)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "8b927df7-0073-4ee0-bd7c-4e8b9d28877b")
 	)
 	(segment
 		(start 73.9375 76.8)
@@ -10094,20 +9913,20 @@
 		(uuid "b1faa74a-49d7-4394-8eb5-9b1f8c63e151")
 	)
 	(segment
+		(start 65.2 83.95)
+		(end 63.75 83.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "c5ecb0f7-b07f-45bd-8bf3-c01a6c8dc25b")
+	)
+	(segment
 		(start 77.5875 64.55)
 		(end 77.5875 65.5375)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "c8ea90e1-9930-45a9-a997-13231f43ef2d")
-	)
-	(segment
-		(start 72.05 86.8)
-		(end 66.6 86.8)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "cea58968-3409-4001-8a2f-5b1bf4e8b369")
 	)
 	(segment
 		(start 74.816756 59.216756)
@@ -10126,6 +9945,14 @@
 		(uuid "df184ff6-b0c7-4d92-9f90-f6ee52f9490e")
 	)
 	(segment
+		(start 72.5 82.15)
+		(end 73.3 82.95)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "df95c25c-942a-46c0-b993-848676f82de3")
+	)
+	(segment
 		(start 56.15 78.6875)
 		(end 56.2125 78.75)
 		(width 0.5)
@@ -10142,20 +9969,20 @@
 		(uuid "e474a268-b1ba-497b-a6c6-120e760c627f")
 	)
 	(segment
-		(start 65.2 83.95)
-		(end 63.75 83.95)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "+3.3V")
-		(uuid "e4fcb96a-1821-4327-9566-0aaca3331d24")
-	)
-	(segment
 		(start 72 82.15)
 		(end 72 76.8)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+3.3V")
 		(uuid "e9a83685-2af2-467d-bf98-46b2ccc9c256")
+	)
+	(segment
+		(start 72.4 86.8)
+		(end 66.6 86.8)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "f35263b8-3b32-4689-93d2-97b4c1b6f3a9")
 	)
 	(segment
 		(start 65.9 74.3)
