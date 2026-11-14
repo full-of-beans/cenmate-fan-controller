@@ -3316,4 +3316,537 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "DMP3056L-7"
+		(pin_names (offset 0.254))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "DMP3056L-7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "FanController:DIODE3_DESD1CAN2SOQ-7_DIO"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP3056L-7/5126843"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "P-channel MOSFET, SOT-23, Diodes Incorporated"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "DMP3056L-7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey_PN" "DMP3056L-7DICT-ND"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_keywords" "DMP3056L-7"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_fp_filters" "DIODE3_DESD1CAN2SOQ-7_DIO"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "DMP3056L-7_0_1"
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy 7.62 -7.62)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -7.62)
+          (xy 33.02 -7.62)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 33.02 -7.62)
+          (xy 33.02 5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 33.02 5.08)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 -1.27)
+          (xy 17.78 -1.27)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -1.905)
+          (xy 17.78 -0.635)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 0)
+          (xy 17.78 1.27)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -2.54)
+          (xy 17.78 -3.81)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 -3.175)
+          (xy 20.32 -3.175)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.78 0.635)
+          (xy 20.32 0.635)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 0.635)
+          (xy 20.32 3.81)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 -1.27)
+          (xy 20.32 -6.35)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 -4.445)
+          (xy 22.86 -4.445)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -4.445)
+          (xy 22.86 1.905)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 1.905)
+          (xy 20.32 1.905)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.225 -0.635)
+          (xy 23.495 -0.635)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 23.495 -0.635)
+          (xy 22.86 -1.905)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.86 -1.905)
+          (xy 22.225 -0.635)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 22.225 -1.905)
+          (xy 23.495 -1.905)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 -1.27)
+          (xy 19.05 -0.635)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 19.05 -0.635)
+          (xy 19.05 -1.905)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 19.05 -1.905)
+          (xy 20.32 -1.27)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.145 0.635)
+          (xy 17.145 -3.175)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 17.145 -3.175)
+          (xy 11.43 -3.175)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 -3.175)
+          (xy 11.43 0)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 0)
+          (xy 7.62 0)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 33.02 2.54)
+          (xy 29.21 2.54)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 33.02 -5.08)
+          (xy 29.21 -5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 -6.35)
+          (xy 29.21 -6.35)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 29.21 -6.35)
+          (xy 29.21 -5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 20.32 3.81)
+          (xy 29.21 3.81)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 29.21 3.81)
+          (xy 29.21 2.54)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 19.05 -0.635)
+          (xy 20.32 -1.27)
+          (xy 19.05 -1.905)
+        )
+        (stroke (width 0) (type default) )
+        (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 22.225 -0.635)
+          (xy 23.495 -0.635)
+          (xy 22.86 -1.905)
+        )
+        (stroke (width 0) (type default) )
+        (fill (type outline))
+      )
+      (circle (center 20.32 -1.27) (radius 4.445)
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 0 0) (length 7.62)
+        (name "G" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 40.64 -5.08 180) (length 7.62)
+        (name "S" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 40.64 2.54 180) (length 7.62)
+        (name "D" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+		(embedded_fonts no)
+	)
+	(symbol "S2B-XH-A-1LFSN"
+		(pin_names (offset 0.254))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "S2B-XH-A-1LFSN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "FanController:CONN_S2B-XH-A-1LFSN_JST"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A-1/9961922"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "JST XH series, 2-position, 2.50 mm pitch, right-angle through-hole header"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Manufacturer" "JST Sales America"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "S2B-XH-A-1(LF)(SN)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_keywords" "S2B-XH-A-1LFSN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_fp_filters" "CONN_S2B-XH-A-1LFSN_JST"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "S2B-XH-A-1LFSN_1_1"
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -2.54)
+          (xy 5.08 -2.54)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 0.846666)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -2.54)
+          (xy 8.89 -1.693334)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 -0.846666)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -2.54)
+          (xy 8.89 -3.386666)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 2.54)
+          (xy 5.08 -5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -5.08)
+          (xy 12.7 -5.08)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -5.08)
+          (xy 12.7 2.54)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 2.54)
+          (xy 5.08 2.54)
+        )
+        (stroke (width 0.127) (type default) )
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 0 0) (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -2.54 0) (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+		(embedded_fonts no)
+	)
 )
