@@ -1,9 +1,29 @@
-ERC report (2026-11-12T10:35:41, Encoding UTF8)
+ERC report (2026-11-14T10:04:25, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(2500 mils, 3900 mils): Symbol J5 Pin 1 [1, Unspecified, Line]
+    @(2650 mils, 3900 mils): Symbol Q3 Pin 1 [G, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(2500 mils, 4000 mils): Symbol J5 Pin 2 [2, Unspecified, Line]
+    @(2500 mils, 4100 mils): Symbol #PWR09 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(2650 mils, 3900 mils): Symbol Q3 Pin 1 [G, Unspecified, Line]
+    @(3350 mils, 4350 mils): Symbol R7 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4250 mils, 3800 mils): Symbol Q3 Pin 3 [D, Unspecified, Line]
+    @(4600 mils, 5700 mils): Symbol J4 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4250 mils, 4100 mils): Symbol Q3 Pin 2 [S, Unspecified, Line]
+    @(3650 mils, 4350 mils): Symbol R7 Pin 2 [Passive, Line]
 
- ** ERC messages: 0  Errors 0  Warnings 0
+ ** ERC messages: 5  Errors 0  Warnings 5
 
  ** Ignored checks:
     - SPICE model issue
