@@ -9737,7 +9737,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-0733KL"
+		(property "MPN" "RC0805FR-0710KL"
 			(at 2.54 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -9748,7 +9748,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-33.0KCRCT-ND"
+		(property "DigiKey_PN" "311-10.0KCRCT-ND"
 			(at 2.54 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -9852,7 +9852,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0805FR-0733KL"
+		(property "MPN" "RC0805FR-0710KL"
 			(at 2.54 -3.81 0)
 			(hide yes)
 			(show_name no)
@@ -9863,7 +9863,7 @@
 				)
 			)
 		)
-		(property "DigiKey_PN" "311-33.0KCRCT-ND"
+		(property "DigiKey_PN" "311-10.0KCRCT-ND"
 			(at 2.54 -3.81 0)
 			(hide yes)
 			(show_name no)
