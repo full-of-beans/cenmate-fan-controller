@@ -9,38 +9,40 @@ The CENMATE six-bay enclosure fan controller uses a Seeed XIAO RP2350 (U1), two 
 
 ## 1. Thermistor channels — TH1/TH2, R5/R6, C3/C4
 
+**Planned schematic change:** R5 and R6 will be changed from 33 kΩ to **10 kΩ**, reusing the existing 10 kΩ resistor type already present elsewhere in the BOM. The calculations and component values below describe this selected design; the KiCad schematic may still show 33 kΩ until that edit is made.
+
 | Channel | Thermistor | Bias resistor | Filter capacitor |
 | --- | --- | --- | --- |
-| 1 | TH1: Murata NCU18XH103F60RB, 10 kΩ NTC | R5: 33 kΩ | C3: 100 nF |
-| 2 | TH2: same part | R6: 33 kΩ | C4: 100 nF |
+| 1 | TH1: Murata NCU18XH103F60RB, 10 kΩ NTC | R5: **10 kΩ (selected)** | C3: 100 nF |
+| 2 | TH2: same part | R6: **10 kΩ (selected)** | C4: 100 nF |
 
-The 33 kΩ bias and NTC form a 3.3 V resistive divider. For the modeled orientation (33 kΩ to 3.3 V, NTC to GND), the ADC node **falls** as temperature rises. C3/C4 bypass the ADC nodes to ground, suppressing fan/PWM and supply noise. At 25 °C the divider's Thevenin resistance is approximately 7.67 kΩ, giving an approximately **0.77 ms** RC time constant with 100 nF (the capacitor and ADC input loading affect real settling). Temperature varies slowly, so this filtering is appropriate.
+The 10 kΩ pull-up and NTC form a 3.3 V resistive divider (10 kΩ to 3.3 V, NTC to GND). The ADC node **falls** as temperature rises. C3/C4 bypass the ADC nodes to ground to suppress fan/PWM and supply noise. At 25 °C the divider's Thevenin resistance is **5 kΩ**, giving an approximately **0.50 ms** RC time constant with 100 nF, ignoring ADC loading. The chosen 10 kΩ resistor reuses an existing BOM value while utilizing almost as much of the 12-bit ADC span over 15–60 °C as the mathematically optimal ~6.7 kΩ divider resistor.
 
-**Thermistor datasheet:** [Murata NCU18XH103F60RB](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf). Murata specifies **10 kΩ at 25 °C (±1%)**, **B(25/50) = 3380 K (±1%)**, with reference B(25/80) = 3428 K; operating range −55 to +125 °C. The NTC response is nonlinear; the beta equation below is a useful engineering approximation, **not a substitute for the manufacturer's full R–T curve**:
+**Thermistor datasheet:** [Murata NCU18XH103F60RB](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf). Murata specifies **10 kΩ at 25 °C (±1%)**, **B(25/50) = 3380 K (±1%)**, with reference B(25/80) = 3428 K; operating range −55 to +125 °C. The NTC response is nonlinear; the beta equation is an engineering approximation, **not a substitute for the manufacturer's full R–T curve**:
 
 `R(T) = 10,000 × exp[3380 × (1/(T+273.15) − 1/298.15)] Ω`
 
-`V_ADC = 3.3 × R(T)/(33,000 + R(T))`
+`V_ADC = 3.3 × R(T)/(10,000 + R(T))`
 
-The table uses that **constant-3380 K beta approximation**, 3.300 V supply/reference, ideal 12-bit ADC (0–4095), and nominal parts. “mV/°C” is the voltage change over the next 1 °C; “°C/count” is quantization-only, **not absolute temperature accuracy**.
+The table uses a **constant-3380 K beta approximation**, 3.300 V supply/reference, an ideal 12-bit ADC (0–4095), and nominal parts. “mV/°C” is the voltage change over the next 1 °C; “°C/count” is quantization-only, **not absolute temperature accuracy**.
 
 | °C | NTC resistance | ADC voltage | ADC code | Sensitivity | °C per count |
 | ---: | ---: | ---: | ---: | ---: | ---: |
-| 10 | 18.23 kΩ | 1.174 V | 1457 | 31.6 mV/°C | 0.026 |
-| 15 | 14.82 kΩ | 1.023 V | 1269 | 28.4 mV/°C | 0.028 |
-| 20 | 12.13 kΩ | 0.887 V | 1101 | 25.2 mV/°C | 0.032 |
-| 25 | 10.00 kΩ | 0.767 V | 952 | 22.1 mV/°C | 0.036 |
-| 30 | 8.30 kΩ | 0.663 V | 823 | 19.2 mV/°C | 0.042 |
-| 35 | 6.92 kΩ | 0.572 V | 710 | 16.6 mV/°C | 0.049 |
-| 40 | 5.81 kΩ | 0.494 V | 613 | 14.3 mV/°C | 0.057 |
-| 45 | 4.90 kΩ | 0.427 V | 530 | 12.2 mV/°C | 0.066 |
-| 50 | 4.16 kΩ | 0.369 V | 458 | 10.5 mV/°C | 0.077 |
-| 55 | 3.55 kΩ | 0.320 V | 397 | 8.9 mV/°C | 0.090 |
-| 60 | 3.04 kΩ | 0.278 V | 345 | 7.6 mV/°C | 0.105 |
+| 10 | 18.23 kΩ | 2.131 V | 2644 | 31.9 mV/°C | 0.025 |
+| 15 | 14.82 kΩ | 1.970 V | 2445 | 32.3 mV/°C | 0.025 |
+| 20 | 12.13 kΩ | 1.809 V | 2245 | 32.1 mV/°C | 0.025 |
+| 25 | 10.00 kΩ | 1.650 V | 2048 | 31.3 mV/°C | 0.026 |
+| 30 | 8.29 kΩ | 1.496 V | 1857 | 29.9 mV/°C | 0.027 |
+| 35 | 6.92 kΩ | 1.350 V | 1675 | 28.2 mV/°C | 0.029 |
+| 40 | 5.81 kΩ | 1.213 V | 1505 | 26.2 mV/°C | 0.031 |
+| 45 | 4.90 kΩ | 1.086 V | 1347 | 24.1 mV/°C | 0.033 |
+| 50 | 4.16 kΩ | 0.970 V | 1203 | 21.9 mV/°C | 0.037 |
+| 55 | 3.55 kΩ | 0.864 V | 1072 | 19.8 mV/°C | 0.041 |
+| 60 | 3.04 kΩ | 0.769 V | 954 | 17.8 mV/°C | 0.045 |
 
-The intended **15–60 °C** measurement range corresponds to about **1.02–0.28 V**, or **1269–345 ADC counts**. Near the intended 35 °C control setpoint, the nominal signal changes about **16–17 mV/°C**, equivalent to about **20 ADC counts/°C**. Thus 12-bit quantization is adequate for control; practical accuracy is limited more by thermistor/bias tolerances, RP2350 ADC noise and reference error, placement/thermal coupling, and beta-curve approximation. Use averaging and calibration/lookup tables where appropriate. The thermistor dissipation at 25 °C is about **0.059 mW** (3.3 V / 43 kΩ ≈ 77 µA); with Murata's typical 1 mW/°C dissipation constant this suggests approximately **0.06 °C self-heating**, highly dependent on board airflow and mounting.
+The intended **15–60 °C** range corresponds to approximately **1.97–0.77 V**, or **2445–954 ADC counts** (**1491 codes** of span). Near the **35 °C** control setpoint, the nominal voltage changes approximately **28.2 mV/°C**, or **35.0 ADC counts/°C**. Twelve-bit quantization is sufficient for fan control; real accuracy is more strongly affected by thermistor/bias tolerance, ADC noise/reference behavior, thermal placement and beta-model approximation. At 25 °C the divider draws **165 µA**, and the NTC dissipates **0.272 mW**. If the dissipation constant is ~1 mW/°C, this corresponds to approximately **0.27 °C** of self-heating; actual heating depends on airflow and PCB mounting.
 
-**Firmware:** Use a measured/calibrated ADC reference, reject open/shorted sensors, and consider a manufacturer's tabulated R–T curve for better accuracy than the single-beta approximation.
+**Firmware:** Use the selected 10 kΩ pull-up value in the temperature conversion, reject open/shorted sensors, and consider the manufacturer's R–T table or calibration for accuracy.
 
 ## 2. Fan PWM / tachometer interfaces — R8–R13, Q1/Q2, J3/J4
 
