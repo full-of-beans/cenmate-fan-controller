@@ -50,8 +50,8 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start -0.64 -1.7)
-		(end 0.64 -1.7)
+		(start -0.5 -2.2)
+		(end 0.5 -2.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -60,8 +60,8 @@
 		(uuid "9283d3eb-f13d-4174-9ab0-cff9f595dc47")
 	)
 	(fp_line
-		(start -0.64 1.7)
-		(end 0.64 1.7)
+		(start -0.5 2.2)
+		(end 0.5 2.2)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -70,8 +70,8 @@
 		(uuid "45ee44e8-40e5-4484-a192-ada69c4583fc")
 	)
 	(fp_line
-		(start -3.908 -1.958)
-		(end 3.908 -1.958)
+		(start -3.908 -2.35)
+		(end 3.908 -2.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -80,8 +80,8 @@
 		(uuid "bd53382c-0307-46e0-b5c6-9681eccd43dc")
 	)
 	(fp_line
-		(start -3.908 1.958)
-		(end -3.908 -1.958)
+		(start -3.908 2.35)
+		(end -3.908 -2.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -90,8 +90,8 @@
 		(uuid "a58a60cb-fd69-42c0-ba40-79eee92a83a6")
 	)
 	(fp_line
-		(start -3.908 1.958)
-		(end 3.908 1.958)
+		(start -3.908 2.35)
+		(end 3.908 2.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -100,8 +100,8 @@
 		(uuid "2da0053d-3116-4c5a-8164-53731e3e6b56")
 	)
 	(fp_line
-		(start 3.908 1.958)
-		(end 3.908 -1.958)
+		(start 3.908 2.35)
+		(end 3.908 -2.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -150,15 +150,15 @@
 		(uuid "b2cec68c-fa47-481f-aa52-b88e63063022")
 	)
 	(pad "1" smd rect
-		(at -2.31 0)
-		(size 2.7 3.42)
+		(at -2.2 0)
+		(size 3.1 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "d82ca5ba-f514-4a52-b90f-2e8ee348bebc")
 	)
 	(pad "2" smd rect
-		(at 2.31 0)
-		(size 2.7 3.42)
+		(at 2.2 0)
+		(size 3.1 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "8b9ce174-a5a0-4dd3-a8fa-bcdbb0dbea6d")
