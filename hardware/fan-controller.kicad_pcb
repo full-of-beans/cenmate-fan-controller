@@ -8048,7 +8048,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CRF.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8060,11 +8060,44 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bourns CRF2512 1 mOhm surface-mount current-sense shunt resistor, 2512 package"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9534e9c6-83ab-48d4-ac1b-97f46db3f6b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CRF2512-FZ-R001ELF"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DigiKey_PN" "CRF2512-FZ-R001ELFCT-ND"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
