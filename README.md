@@ -46,4 +46,4 @@ Before connecting drives, perform continuity and polarity checks, current-limite
 
 ## Documentation provenance
 
-[Controller schematic verification](docs/controller-schematic-verification.md) and earlier PR reviews are retained for engineering history; some sections describe **superseded architectures, parts and pin mappings**. For the ordered CMFC001 hardware, the immutable source commit in the hardware revision register takes precedence. Later branch or merge commits may contain documentation-only updates. Fan-control firmware strategy (fan curve versus PI) remains undecided pending modeling and comparison.
+Older schematic verification and intermediate audits have been removed from the current tree; they remain available in Git history and may describe **superseded architectures, parts and pin mappings**. For the ordered CMFC001 hardware, the immutable source commit in the hardware revision register takes precedence. Later branch or merge commits may contain documentation-only updates. Fan-control firmware strategy (fan curve versus PI) remains undecided pending modeling and comparison.
