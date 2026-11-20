@@ -1,0 +1,27 @@
+### Footprint positions - created on 2026-11-20T13:18:33 ###
+### Printed by KiCad version 10.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val              Package                         PosX       PosY       Rot  Side
+C1        100nF            C_0805_2012Metric            60.4000   -82.8000  -90.0000  top
+C2        100nF            C_0805_2012Metric            60.4000   -87.7000   90.0000  top
+C3        100nF            C_0805_2012Metric            78.5000   -60.0000    0.0000  top
+C4        100nF            C_0805_2012Metric            78.4500  -117.8500    0.0000  top
+Q3        DMP3056L-7       DIODE3_DESD1CAN2SOQ-7_DIO    66.2850  -110.6706  180.0000  top
+R1        4.7K             R_0805_2012Metric            55.2500   -74.5500    0.0000  top
+R2        4.7K             R_0805_2012Metric            55.3000   -78.7500    0.0000  top
+R3        10               R_0805_2012Metric            61.5000   -93.1000   90.0000  top
+R4        10               R_0805_2012Metric            56.8000   -85.9000  -90.0000  top
+R5        10K              R_0805_2012Metric            78.5000   -64.5500    0.0000  top
+R6        10K              R_0805_2012Metric            78.4500  -113.9000  180.0000  top
+R7        100K             R_0805_2012Metric            61.5000   -98.3000  -90.0000  top
+R8        1K               R_0805_2012Metric            63.6500  -105.0500  -90.0000  top
+R9        100K             R_0805_2012Metric            58.8500  -104.9500  -90.0000  top
+R10       10K              R_0805_2012Metric            73.9500   -75.8625  -90.0000  top
+R11       1K               R_0805_2012Metric            76.0500  -104.8500  -90.0000  top
+R12       100K             R_0805_2012Metric            70.5000  -104.7500  -90.0000  top
+R13       10K              R_0805_2012Metric            69.7500   -75.8500  -90.0000  top
+TH1       NCU18XH103F60RB  THRMC1608X95N                78.7000   -56.0000    0.0000  top
+TH2       NCU18XH103F60RB  THRMC1608X95N                78.6000  -122.0500    0.0000  top
+U2        INA228           TSSOP-10_3x3mm_P0.5mm        65.9000   -84.9500  180.0000  top
+## End

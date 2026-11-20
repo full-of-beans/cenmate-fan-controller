@@ -1,0 +1,11 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2, C3, C4";"C_0805_2012Metric";4;"100nF";;;
+2;"Q1, Q2";"TO-92_Inline";2;"2N3904";;;
+3;"Q3";"DIODE3_DESD1CAN2SOQ-7_DIO";1;"DMP3056L-7";;;
+4;"R1, R2";"R_0805_2012Metric";2;"4.7K";;;
+5;"R3, R4";"R_0805_2012Metric";2;"10";;;
+6;"R5, R6, R10, R13";"R_0805_2012Metric";4;"10K";;;
+7;"R7, R9, R12";"R_0805_2012Metric";3;"100K";;;
+8;"R8, R11";"R_0805_2012Metric";2;"1K";;;
+9;"TH1, TH2";"THRMC1608X95N";2;"NCU18XH103F60RB";;;
+10;"U2";"TSSOP-10_3x3mm_P0.5mm";1;"INA228";;;
