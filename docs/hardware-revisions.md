@@ -20,10 +20,10 @@ This table binds the serial prefix printed or assigned to a physical controller 
 - A documentation-only cleanup, PR merge or firmware update **does not** increment CMFC001.
 - If the KiCad schematic, PCB, libraries affecting fabrication, or manufacturing ZIP changes for a future board order, create a **new prefix** (for example CMFC002) and a new row with an immutable commit and archive hash.
 - After merging to `main`, optionally add the merge commit as a *documentation reference* in a separate column; retain the original CMFC001 source SHA as the authoritative build identity. A merge commit can include documentation changes not present when the order was submitted.
-- Never rewrite historical audit reports to make them appear to describe a later design. Record supersession in current release notes.
+- Historical intermediate audits were removed from the current tree; Git history preserves their original content. Do not rewrite historical evidence.
 
 ## Verification / audit pointers
 
-- `docs/audits/final-preorder-audit-2026-11-19.md` is a historical earlier-baseline engineering audit.
+- `docs/audits/final-preorder-audit-2026-11-19.md` is retained as the final pre-order engineering audit; its design baseline predates the ordered CMFC001 source commit.
 - The final JLCPCB archive verification established that the production ZIP matches the ordered KiCad export; retain its exact commit, checksums and CAM evidence as separate release evidence.
 - Outstanding prototype qualifications (connector ratings, actual wiring and mechanical fit, staged power-on, fan PWM/tach behavior, current measurement, temperature calibration, and loaded enclosure testing) are **post-fabrication validation**, not reasons to relabel the ordered artwork.
