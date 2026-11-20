@@ -8175,6 +8175,18 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 76.65 84)
+		(end 78.65 94)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(locked yes)
+		(layer "F.SilkS")
+		(uuid "66f705a5-c077-40cb-918a-40c537ac3b26")
+	)
 	(gr_arc
 		(start 50.5 51)
 		(mid 51.085786 49.585786)
@@ -8335,6 +8347,17 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "cf36e4a4-007e-4337-a12b-6a310415e77c")
+	)
+	(gr_line
+		(start 50.5 89)
+		(end 80.5 89)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(locked yes)
+		(layer "F.Fab")
+		(uuid "89d59293-7c74-4abb-9be0-fece29dd0344")
 	)
 	(gr_line
 		(start 65.5 49)
