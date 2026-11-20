@@ -155,7 +155,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-XH-A-1/9961922"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -166,7 +166,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "JST XH series, 2-position, 2.50 mm pitch, right-angle through-hole header"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -177,11 +177,43 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JST Sales America"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8071ede9-510e-4a48-829a-5fd78647813f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "S2B-XH-A-1(LF)(SN)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54b358fd-04be-49f5-b56d-b82e1e3b4130")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CONN_S2B-XH-A-1LFSN_JST")
 		(path "/3e2b488a-0f40-49a7-8c18-aba4f4fc7e54")
 		(sheetname "/")
 		(sheetfile "fan-controller.kicad_sch")
-		(attr through_hole)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.1231 7.734)
@@ -2227,7 +2259,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 1.85)
@@ -2418,7 +2450,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8932/102010550.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2431,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Seeed Studio XIAO RP2350 microcontroller module; symbol omits underside pads"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2444,10 +2476,55 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Seeed Technology Co., Ltd"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2bdc93-a0c0-4e2f-a3d7-b0a491b5242d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "102010550"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca5680df-e9d7-4964-aaa0-f9105e8dca9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey_PN" "1597-102010550-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a665366c-4656-4f64-941d-99075d67e346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/6f551a7f-6960-454c-b555-c189921ca6ae")
 		(sheetname "/")
 		(sheetfile "fan-controller.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "14" "13" "12" "11" "10" "9" "8")
+			)
+		)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -10.414 -6.985)
@@ -3699,7 +3776,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.397 2.921)
@@ -4011,7 +4088,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 5.08 4.05)
@@ -5667,7 +5744,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.53 1.85)
@@ -6326,7 +6403,7 @@
 				(pins "1" "2" "3" "4")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.397 2.921)
@@ -7744,7 +7821,7 @@
 				(pins "A" "C" "B")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.5 -5.5)
@@ -8040,7 +8117,13 @@
 		(path "/a1aa5d5e-2cca-4367-8745-d86692f24011")
 		(sheetname "/")
 		(sheetfile "fan-controller.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.5 -2.2)
