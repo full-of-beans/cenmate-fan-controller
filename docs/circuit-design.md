@@ -52,15 +52,15 @@ The intended **15–60 °C** range corresponds to approximately **1.97–0.77 V*
 | R8, R11 | 1 kΩ each | Base drive/current limiting for the 2N3904 PWM interface transistors |
 | R9, R12 | 100 kΩ each | Base pull-downs; define an inactive state when MCU outputs float |
 | Q1, Q2 | onsemi 2N3904BU NPN | Low-side, open-collector-style PWM signal sinks |
-| J3, J4 | Amphenol 861400041LO1705LF, four positions | Individual four-wire fan connections |
+| J3, J4 | MODDIY 2.54 mm right-angle 4-pin male fan header, four positions | Individual four-wire fan connections |
 
-**Datasheets:** [onsemi 2N3904](https://www.onsemi.com/pub/Collateral/2N3903-D.PDF); Amphenol 861400041LO1705LF.
+**Datasheets:** [onsemi 2N3904](https://www.onsemi.com/pub/Collateral/2N3903-D.PDF); MODDIY 2.54 mm right-angle 4-pin male fan header.
 
 Each fan has a 12 V supply and ground, a PWM control line, and a tachometer feedback line. The transistor stages allow the 3.3 V RP2350 GPIO to pull the fan PWM control signal low without directly driving a potentially fan-supplied logic-high level. The 100 kΩ base pull-down prevents a floating base when the MCU is unpowered or resetting. With 3.3 V GPIO and approximately 0.7 V base-emitter drop, a 1 kΩ base resistor implies about **2.6 mA** base current when driven high; the 100 kΩ pull-down adds only a small load.
 
 **Logic inversion:** An NPN low-side PWM sink inverts the MCU output: GPIO high turns Q1/Q2 on and pulls the fan PWM input low. Firmware must account for this. The selected **ARCTIC P8 Max (ACFAN00286A)** manufacturer specification confirms a **four-pin PWM fan**, **12 V**, **0.19 A rated current per fan**, and **500–5000 rpm**, with fan stop below 5% PWM. Its documented fan-plug pin order is **1 GND, 2 +12 V, 3 tach output, 4 PWM input**. The standard four-wire fan control convention uses approximately **25 kHz** open-collector PWM; ARCTIC confirms PWM regulation but does **not** explicitly publish a PWM-frequency tolerance or tach pulses-per-revolution figure in its P8 Max specification. [ARCTIC P8 Max specification](https://www.arctic.de/media/3f/04/7e/1689685872/Spec_Sheet_P8_Max_EN.pdf). Do **not** pull the PWM line to 12 V. Tach outputs are normally open-collector/open-drain pulse trains and need logic-voltage pull-ups; 10 kΩ to 3.3 V implies at most **0.33 mA** sink current per tach channel. Interpret tach frequency using the fan's pulses-per-revolution specification (often two, but confirm).
 
-**Connector implementation:** J3/J4 use **Amphenol 861400041LO1705LF right-angle four-pin headers**. Confirm physical mating and pin mapping before power-on. A mating harness must deliberately map the ARCTIC fan's 1/2/3/4 signals to the schematic nets; do not assume connector numbering is interchangeable. The KiCad schematic defines the intended signal mapping; a custom mating harness must preserve it. Q1/Q2 are 2N3904BU devices; check their E/B/C physical orientation against the assigned footprint when assembling. Fan tach pulses-per-revolution and fan behavior with PWM disconnected are not explicitly documented by the ARCTIC spec; characterize if needed. Check for signal-line back-power when the fan 12 V rail or controller is off. The 12 V fan supply is switched separately in Section 3.
+**Connector implementation:** J3/J4 use **MODDIY 2.54 mm right-angle 4-pin male fan header right-angle four-pin headers**. Confirm physical mating and pin mapping before power-on. A mating harness must deliberately map the ARCTIC fan's 1/2/3/4 signals to the schematic nets; do not assume connector numbering is interchangeable. The KiCad schematic defines the intended signal mapping; a custom mating harness must preserve it. Q1/Q2 are 2N3904BU devices; check their E/B/C physical orientation against the assigned footprint when assembling. Fan tach pulses-per-revolution and fan behavior with PWM disconnected are not explicitly documented by the ARCTIC spec; characterize if needed. Check for signal-line back-power when the fan 12 V rail or controller is off. The 12 V fan supply is switched separately in Section 3.
 
 ## 3. Fan high-side load switch — R7, Q3, J5
 
@@ -119,7 +119,7 @@ U1's power wiring and common ground are defined by the current KiCad schematic. 
 
 - **Schematic values above are authoritative for this snapshot.** This document explains circuit intent, component selection and expected electrical behavior; it does not assess PCB implementation.
 - **Thermistor estimates are model calculations**, not measured voltages. Verify actual divider orientation, ADC pin assignment and reference voltage before implementing the conversion formula. If the divider is reversed, the voltage table must be inverted (`3.3 V − V_ADC`).
-- **PWM/tach**: The ARCTIC fan's pin functions and 0.19 A rating are documented. Verify the custom Molex-to-fan harness continuity and tach pulses/revolution on hardware; ARCTIC does not publish every timing detail.
+- **PWM/tach**: The ARCTIC fan's pin functions and 0.19 A rating are documented. Verify the custom MODDIY-to-fan harness continuity and tach pulses/revolution on hardware; ARCTIC does not publish every timing detail.
 - **Fan power switch**: Datasheet voltage/current ratings and nominal steady-state dissipation have been checked. Fan spin-up/stall current and 12 V transients are not specified by the available design inputs.
 - **Current sensing**: The schematic's C1 supply bypass, C2 differential filter, R3/R4, U2 VBUS load-side connection and U2 package are identified. The **two-terminal 1 mΩ** shunt value is used for calibration.
 - **Documentation maintenance**: Update this file whenever component values, U1 power source or fan topology change. Schematic ERC does not validate analog performance.
@@ -128,7 +128,7 @@ U1's power wiring and common ground are defined by the current KiCad schematic. 
 
 - [Murata NCU18XH103F60RB](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/NCU18XH103F60RB.pdf)
 - [onsemi 2N3904](https://www.onsemi.com/pub/Collateral/2N3903-D.PDF)
-- [Molex 0022053041](https://www.molex.com/pdm_docs/sd/022053041_sd.pdf)
+- [MODDIY right-angle fan header](https://www.moddiy.com/products/5408/4-Pin-3-Pin-2.54mm-Pitch-2510-Fan-Male-Angled-Connector-Black.html)
 - [Diodes DMP3056L-7 manufacturer datasheet](https://www.tme.eu/pl/Document/250d260377fe1e01ee709e3eafa0c268/DMP3056L.pdf)
 - [ARCTIC P8 Max specification and connector diagram](https://www.arctic.de/media/3f/04/7e/1689685872/Spec_Sheet_P8_Max_EN.pdf)
 - [JST XH series](https://www.jst-mfg.com/product/pdf/eng/eXH.pdf)
