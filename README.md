@@ -18,7 +18,7 @@ The enclosure's power brick is labeled **12 V / 9 A**. The selected **Tensility 
 
 ## Hardware and mechanical status
 
-The board and custom backplate have been checked for fit by the owner in Onshape. This does not independently verify fabricated edge reliefs, actual mated MODDIY connector geometry, cable bends, or as-built tolerances. Check physical fit before connecting the HDD enclosure.
+The board and custom backplate have been checked for fit by the owner in Onshape. This does not independently verify fabricated edge reliefs, actual mated Amphenol header geometry, cable bends, or as-built tolerances. Check physical fit before connecting the HDD enclosure.
 
 The CMFC001 prototype PCB was ordered from JLCPCB as **15 bare 30 × 80 mm, two-layer, 1.6 mm FR-4, 1 oz copper, green-mask, lead-free HASL boards**, plus one top-side paste stencil. Actual manufactured fit, CAM interpretation, and assembly remain to be checked when boards arrive.
 
