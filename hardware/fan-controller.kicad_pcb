@@ -132,7 +132,7 @@
 		(at 56.1 97.4 180)
 		(tags "S2B-XH-A-1LFSN ")
 		(property "Reference" "J5"
-			(at 1.4 8.7 0)
+			(at 0.975 8.55 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "77cd6d93-def3-44f4-9210-563702e8402c")
@@ -8346,6 +8346,30 @@
 		(locked yes)
 		(layer "F.Fab")
 		(uuid "1f7837a9-0583-464b-8457-0a75041d7259")
+	)
+	(gr_text "GND"
+		(at 50.6 89.4 0)
+		(layer "F.SilkS")
+		(uuid "bec9e277-0f10-45b2-8d25-0ace42ecf122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "EN"
+		(at 56.85 89.45 0)
+		(layer "F.SilkS")
+		(uuid "9baa7051-9915-4611-8aa1-d68dc88c15f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "GND"
 		(at 63.77 90.82 0)
