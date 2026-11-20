@@ -6,7 +6,7 @@ Custom cooling and power-monitoring controller for a **CENMATE six-bay USB HDD e
 
 ## Current design
 
-- **Controller:** Seeed Studio XIAO RP2350, powered from the enclosure's USB-A 5 V supply through its USB-C connector. There is **no onboard TRACO 12 V-to-5 V converter** and no external 5 V connection to the module's VBUS pin. USB availability also provides the fan-switch enable signal.
+- **Controller:** Seeed Studio XIAO RP2350, powered from the enclosure's USB-A 5 V supply through its USB-C connector. There is **no onboard TRACO 12 V-to-5 V converter** and no external 5 V connection to the module's VBUS pin. Fan 12 V switching is controlled separately by the enclosure rocker via J5 and Q3, not by USB availability.
 - **Fans:** Two independently controlled 12 V, four-wire PWM fans, with separate PWM drive and tachometer inputs. The intended physical fan headers are [MODDIY 2.54 mm right-angle 4-pin male fan connectors](https://www.moddiy.com/products/5408/4-Pin-3-Pin-2.54mm-Pitch-2510-Fan-Male-Angled-Connector-Black.html). **The PCB still uses Molex right-angle header footprints/3D models as placeholders; the MODDIY parts have not been physically verified against those holes or pin orientation.** Do not purchase/install the Molex parts based on the current CAD representation.
 - **Fan power:** DMP3056L-7 P-channel MOSFET switches the 12 V fan branch; its gate is controlled by the enclosure rocker via J5 and defaults off if the switch lead opens. PWM duty mapping and safe startup/reset behavior require firmware and bench verification.
 - **Temperature sensing:** Two on-board 10 kΩ NTC thermistors, each read on its own XIAO ADC input through a 10 kΩ pull-up. There is **no remote thermistor strip or analog multiplexer**.
