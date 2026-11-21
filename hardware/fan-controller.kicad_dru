@@ -1,0 +1,10 @@
+(version 1)
+(rule "INA228 U2 fine-pitch routing"
+    (constraint clearance (min 0.20mm))
+    (constraint track_width (min 0.20mm) (max 0.25mm))
+    (condition "A.Reference == 'U2' || B.Reference == 'U2'"))
+
+(rule "TO92 Q1 Q2 pad clearance"
+  (constraint clearance (min 0.10mm))
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && ((A.Reference == 'Q1' && B.Reference == 'Q1') || (A.Reference == 'Q2' && B.Reference == 'Q2'))"))
+
