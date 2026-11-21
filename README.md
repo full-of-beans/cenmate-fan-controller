@@ -1,56 +1,49 @@
 # CENMATE 6-Bay HDD Enclosure Fan Controller
 
-Custom cooling controller and temperature-sensor strip for a **CENMATE 6-bay USB HDD enclosure / DAS (JBOD)**.
+Custom cooling and power-monitoring controller for a **CENMATE six-bay USB HDD enclosure (JBOD/DAS)**.
 
-## Purpose
+> **CMFC001 prototype boards ordered (2026-11-20).** This is an engineering prototype, not a qualified assembled product. See [hardware revision register](docs/hardware-revisions.md) for the immutable KiCad/manufacturing source and order status.
 
-Replace or supplement the enclosure's cooling arrangement with two independently controlled **ARCTIC P8 Max 80 mm 4-pin PWM fans**. Monitor temperatures near all six drive bays, read fan tachometers, and measure the HDD backplane's **12 V input current** separately from the fans and controller power.
+## Current design
 
-This repository is an **initial project scaffold**. Schematics, PCB layouts, pin assignments, mechanical dimensions, and protection details are not yet finalized or electrically validated.
+- **Controller:** Seeed Studio XIAO RP2350, powered from the enclosure's USB-A 5 V supply through its USB-C connector. Fan 12 V switching is controlled separately by the enclosure rocker via J5 and Q3, not by USB availability.
+- **Fans:** Two independently controlled 12 V, four-wire PWM fans, with separate PWM drive and tachometer inputs. The intended physical fan headers are [MODDIY 2.54 mm right-angle 4-pin male fan connectors](https://www.moddiy.com/products/5408/4-Pin-3-Pin-2.54mm-Pitch-2510-Fan-Male-Angled-Connector-Black.html). **The PCB still uses Molex right-angle header footprints/3D models as placeholders; the MODDIY parts have not been physically verified against those holes or pin orientation.** Do not purchase/install the Molex parts based on the current CAD representation.
+- **Fan power:** DMP3056L-7 P-channel MOSFET switches the 12 V fan branch; its gate is controlled by the enclosure rocker via J5 and defaults off if the switch lead opens. PWM duty mapping and safe startup/reset behavior require firmware and bench verification.
+- **Temperature sensing:** Two on-board 10 kΩ NTC thermistors, each read on its own XIAO ADC input through a 10 kΩ pull-up.
+- **Current monitor:** TI INA228 on I²C, sensing the HDD backplane's positive 12 V feed through a **1 mΩ Bourns shunt**. The fan supply branches before the shunt, so the shunt measures the HDD branch rather than fan current. Accuracy and Kelvin/landing resistance must be checked by calibration.
+- **HDD power path:** Center-positive 12 V barrel input **J1** → shunt **RSH1** → Phoenix Contact two-position screw terminal **J2** → HDD enclosure. **J2 pin 1 = +12 V, pin 2 = GND.** The PCB has explicit `12V` and `GND` silkscreen markings beside J2; verify wiring polarity before connection.
+- **Grounding:** Common system ground, with a two-layer PCB and ground copper fill.
 
-## Planned hardware
+The enclosure's power brick is labeled **12 V / 9 A**. The selected **Tensility 54-00286 barrel jack is rated 7 A**; the owner has explicitly accepted the prototype risk rather than replacing it. This does **not** establish that six-drive startup and operating loads meet the connector rating. Measure the actual current, contact voltage drop, and connector heating during controlled bring-up.
 
-- **Controller:** Seeed Studio XIAO RP2350
-- **Fans:** 2 × ARCTIC P8 Max, independent PWM and tachometer
-- **Temperature sensing:** 6 × Murata NCU18XH103F60RB NTC thermistors on a separate narrow PCB strip (manufacturer-recommended replacement for original sensor)
-- **Analog selection:** 8:1 HC4051 multiplexer, e.g. onsemi MC74HC4051ADR2G
-- **Current/power monitor:** TI INA228AIDGSR, I²C, measuring a 0.2 mΩ Bourns CSS2H-3920R-L200F shunt
-- **Controller supply:** TRACO TSR 0.5-2450, 12 V to 5 V
-- **PWM outputs:** Two open-collector NPN transistor drivers
-- **Power architecture:** A 12 V supply feeds separate branches for (1) the HDD backplane through the shunt, (2) the fans, and (3) the TRACO converter. Common ground. The INA228 excludes fan and controller consumption.
+## Hardware and mechanical status
 
-**Critical:** The shunt must be installed *in series* with the HDD backplane's positive 12 V supply; a parallel voltage tap alone cannot measure current. Confirm the enclosure's actual wiring before modifying it.
+The board and custom backplate have been checked for fit by the owner in Onshape. This does not independently verify fabricated edge reliefs, actual mated MODDIY header geometry, cable bends, or as-built tolerances. Check physical fit before connecting the HDD enclosure.
+
+The CMFC001 prototype PCB was ordered from JLCPCB as **25 bare 30 × 80 mm, two-layer, 1.6 mm FR-4, 1 oz copper, green-mask, lead-free HASL boards**, plus one top-side paste stencil (JLCPCB order `W2026112104450984`). Actual manufactured fit, CAM interpretation, and assembly remain to be checked when boards arrive.
 
 ## Repository layout
 
 ```text
 hardware/
-  controller/         Main controller KiCad project (create here)
-  thermistor-strip/   Six-sensor strip KiCad project (create here)
-  libraries/          Project-specific KiCad symbols/footprints if needed
-firmware/             RP2350 firmware (future)
-docs/                 BOM, design notes, pin map, validation (future)
-mechanical/           Mechanical references and STEP exports (future)
+  fan-controller.kicad_pro   KiCad 10 project
+  fan-controller.kicad_sch   Current controller schematic
+  fan-controller.kicad_pcb   Current PCB layout
+  fan-controller.kicad_dru   Custom DRC rules
+  libraries/                 Project-local symbols, footprints, and models
+firmware/                   Controller firmware (as developed)
+docs/                       Circuit design and hardware revision records
+mechanical/                 Mechanical files (as available)
 ```
 
-## Getting started in KiCad
+Open `hardware/fan-controller.kicad_pro` with **KiCad 10**. The project-local `FanController` libraries must resolve before editing or plotting.
 
-1. Clone the repository locally.
-2. Open KiCad → **File → New Project**.
-3. Create the project named `controller` in `hardware/controller/`. KiCad should generate `controller.kicad_pro`, `controller.kicad_sch`, and `controller.kicad_pcb` there. Avoid an extra nested `controller/controller/` folder.
-4. Repeat with project name `thermistor-strip` in `hardware/thermistor-strip/`.
-5. Save, commit, and push the project files. Later open either `.kicad_pro` directly in KiCad.
+## Ordered prototype and validation
 
-KiCad is a **local desktop editor**; GitHub stores and versions the files, rather than opening them as an editable online project.
+CMFC001 manufacturing identity, source commit and archive path are recorded in [hardware revisions](docs/hardware-revisions.md). Do not regenerate the ordered ZIP as part of documentation cleanup.
 
-## Design checks before PCB fabrication
+Before connecting drives, perform continuity and polarity checks, current-limited initial power-up, USB/12 V power sequencing, fan enable/PWM/tach tests, INA228 communication and calibration, and thermistor checks. Only then test with the enclosure under controlled startup/full-load conditions while monitoring the accepted 7 A connector risk.
 
-- Verify XIAO RP2350 pin assignment, power input, and simultaneous USB/external 5 V behavior.
-- Confirm the 12 V backplane wiring, 10 A current-path copper and connectors, branch protection, and Kelvin shunt routing.
-- Confirm actual fan-header mating and pinout, reset-safe PWM behavior, and tachometer voltage.
-- Verify exact HC4051 pinout, on-resistance effects, and NTC resistance-temperature curve.
-- Validate footprints and mechanical clearance against the custom rear panel.
+## Firmware design status
 
-## Status
-
-**Scaffold only — no fabrication-ready schematic or PCB yet.**
+Fan-control firmware strategy (fan curve versus PI) remains undecided pending modeling and comparison.

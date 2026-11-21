@@ -17,3 +17,8 @@ __pycache__/
 .pio/
 build/
 dist/
+
+**/.history/
+
+# KiCad restore backups
+**/_restore_backup_*/
