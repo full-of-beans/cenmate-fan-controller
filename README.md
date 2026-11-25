@@ -31,7 +31,7 @@ hardware/
   fan-controller.kicad_pcb   Current PCB layout
   fan-controller.kicad_dru   Custom DRC rules
   libraries/                 Project-local symbols, footprints, and models
-firmware/                   Controller firmware (as developed)
+firmware/                   Pico SDK firmware and native tests
 docs/                       Circuit design and hardware revision records
 mechanical/                 Mechanical files (as available)
 ```
@@ -46,4 +46,9 @@ Before connecting drives, perform continuity and polarity checks, current-limite
 
 ## Firmware design status
 
-Fan-control firmware strategy (fan curve versus PI) remains undecided pending modeling and comparison.
+Phase 1 adds USB configuration and telemetry, persistent independent FIXED PWM, electrical and rear-plenum sensing, and AUTO diagnostics and protective cooling. Factory AUTO uses 100% duty while the cooling model is uncalibrated. FIXED has no automatic cooling overrides and remains active at the selected duty if the host disconnects. Assembled hardware and autonomous thermal behavior await bench validation.
+
+- [Firmware architecture and verified CAD pin mapping](docs/software-architecture.md)
+- [Build, flash, bring-up and characterization](docs/hardware-bringup.md)
+- [USB CDC protocol](docs/usb-protocol.md)
+- [Configuration schema and persistence](docs/firmware-configuration.md)
