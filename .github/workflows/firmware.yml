@@ -1,0 +1,65 @@
+name: Firmware
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  native:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Check C and C++ formatting
+        run: |
+          python3 -m venv /tmp/cmfc-format
+          /tmp/cmfc-format/bin/pip install clang-format==19.1.7
+          git ls-files -z 'firmware/src/*.cpp' 'firmware/src/*.hpp' 'firmware/src/*.h' 'firmware/tests/*.cpp' |
+            xargs -0 /tmp/cmfc-format/bin/clang-format --dry-run --Werror
+      - name: Build and test with address and undefined behavior sanitizers
+        run: |
+          cmake -S firmware -B build/native -DCMAKE_BUILD_TYPE=Debug \
+            -DCMAKE_C_FLAGS="-fsanitize=address,undefined -fno-omit-frame-pointer -fno-pie" \
+            -DCMAKE_CXX_FLAGS="-fsanitize=address,undefined -fno-omit-frame-pointer -fno-pie" \
+            -DCMAKE_EXE_LINKER_FLAGS="-fsanitize=address,undefined -no-pie"
+          cmake --build build/native --parallel
+          UBSAN_OPTIONS=halt_on_error=1 ctest --test-dir build/native --output-on-failure
+
+  rp2350:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: raspberrypi/pico-sdk
+          ref: 98a542c1a62fb549ffb5d66a3e5892b06276b670
+          path: pico-sdk
+          persist-credentials: false
+      - name: Install ARM toolchain and initialize USB dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+          git -C pico-sdk submodule update --init lib/tinyusb
+      - name: Build and measure firmware
+        run: |
+          cmake -S firmware -B build/rp2350 -DCMFC_PICO=ON -DCMAKE_BUILD_TYPE=Release \
+            -DPICO_SDK_PATH="$GITHUB_WORKSPACE/pico-sdk"
+          cmake --build build/rp2350 --parallel
+          arm-none-eabi-size build/rp2350/cenmate.elf | tee build/rp2350/memory.txt
+          test -s build/rp2350/cenmate.uf2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cenmate-cmfc001
+          if-no-files-found: error
+          path: |
+            build/rp2350/cenmate.uf2
+            build/rp2350/cenmate.elf
+            build/rp2350/build-metadata.txt
+            build/rp2350/memory.txt
